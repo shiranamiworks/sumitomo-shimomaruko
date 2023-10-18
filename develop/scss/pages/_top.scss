@@ -1,0 +1,235 @@
+#top {
+
+  .main-visual {
+    position: relative;
+    //margin-bottom: 20rem;
+    .catch {
+      position: absolute;
+      top: 14%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10%;
+    }
+    .mv-caption {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 5rem 9rem;
+      font-size: 12rem;
+      color:  #fff;
+      text-shadow: 0px 0px 4px #000,0px 0px 4px #000,0px 0px 4px #000,0px 0px 4px #000;
+    }
+  }//.main-visual
+
+  .apeals {
+    padding: 35rem 0;
+    margin-bottom: 90rem;
+    background: #dedede;
+    li {
+      float: left;
+      width: 31.333%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 75rem;
+      padding: 10rem 5rem;
+      box-sizing: border-box;
+      border-right: 2px solid #000;
+      &.list01 {
+        width: 27.333%;
+      }
+      &.list02 {
+        width: 34.333%;
+      }
+      &.list03 {
+        width: 38.333%;
+      }
+      &:last-child{
+        margin-right: auto;
+        border-right: none;
+      }
+    }
+    .text {
+      font-size: 21rem;
+      text-align: center;
+      width: 100%;
+      line-height: 1.9;
+    }
+  }//.apeals
+
+  .sections.information {
+    padding-bottom: 240rem;
+  }
+
+  .sections {
+    .title {
+      padding-bottom: 85rem;
+      font-size: 40rem;
+      letter-spacing: .4em;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+  .sections.contents {
+    li {
+      float: left;
+      width: 49%;
+      margin-bottom: 30rem;
+      &:nth-child(2n){
+        float: right;
+      }
+      &:nth-child(2n+1){
+        clear: both;
+      }
+      a {
+        display: block;
+        position: relative;
+        color: #111;
+        //transition: color .5s;
+      }
+      .image {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(255,255,255,.4);
+          //transition: background .5s;
+        }
+      }
+      .disable {
+        .image {
+          &::after {
+            display: none;
+          }
+        }
+      }
+      .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        transform: translate(-50%,-50%);
+        z-index: 2;
+        &::after {
+          content: "";
+          position: absolute;
+          display: block;
+          bottom: -10px;
+          left: 50%;
+          width: 15%;
+          height: 1px;
+          background: #111;
+          transform: translateX(-50%);
+          //transition: background .5s;
+        }
+        span {
+          display: block;
+          text-align: center;
+          line-height: 1.4;
+          letter-spacing: .1em;
+        }
+        .en {
+          font-size: 40rem;
+        }
+        .ja {
+          font-size: 25rem;
+        }
+      }
+    }
+    a:hover {
+      /*opacity: 1  !important;
+      color: #333;
+      .image {
+        &::after {
+          background: rgba(255,255,255,.5);
+        }
+      }*/
+    }
+    a.disable {
+      opacity: 1  !important;
+      color: #333;
+    }
+  }
+
+  @media (max-width:$breakpoint_tb) {
+  }
+
+  @media (max-width:$breakpoint_sp) {
+
+    .main-visual {
+      position: relative;
+//      margin-bottom: 50rem;
+      height: 100vh;
+      img {
+        object-fit: cover;
+        height: 100%;
+      }
+      .catch {
+        position: absolute;
+        top: 14%;
+        width: 23%;
+      }
+      .mv-caption {
+        padding: 10rem 18rem;
+        font-size: 22rem;
+      }
+    }//.main-visual
+  
+    .apeals {
+      padding-bottom: 0;
+      li.list01,li.list02, li.list03 {
+        float: none;
+        width: auto;
+        margin: 0 auto 30rem;
+        margin-right: auto;
+        border-right: none;
+        border-bottom: 1px solid #000;
+        display: block;
+        height: auto;
+        padding: 30rem 15rem;
+        &:last-child{
+          margin-right: auto;
+          border-bottom: none;
+        }
+      }
+      .text {
+        font-size: 32rem;
+      }
+    }//.apeals
+  
+    .sections {
+      .title {
+        padding-bottom: 65rem;
+        font-size: 64rem;
+      }
+    }
+
+
+    .sections.contents {
+      li {
+        float: none;
+        width: 84%;
+        margin: 0 auto 100rem;
+        &:nth-child(2n){
+          float: none;
+        }
+        .text {
+          .en {
+            font-size: 52rem;
+          }
+          .ja {
+            font-size: 38rem;
+          }
+        }
+      }
+    }
+
+
+  }
+
+}
