@@ -1,0 +1,8 @@
+
+RewriteEngine On
+
+RewriteRule ^(.*)\.html(\?.*)?$ $1.php$2
+
+RewriteCond %{REQUEST_FILENAME} \.php$
+RewriteRule . __NoDeploy__include/include.php [L]
+
