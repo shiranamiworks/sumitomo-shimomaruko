@@ -1,0 +1,43 @@
+<script>
+//w3c.org様より拝借したものを改変しました。テヘペロ
+     $(function(){
+       // easy way to get current pages HTML
+       $.get('#', function(html) {
+
+         // emulate form post
+         var formData = new FormData();
+         formData.append('out', 'json');
+         formData.append('content', html);
+
+         // make ajax call
+         $.ajax({
+           url: "http://html5.validator.nu/",
+           data: formData,
+           dataType: "json",
+           type: "POST",
+           processData: false,
+           contentType: false,
+           success: function(data) {
+             console.log(data.messages); // data.messages is an array
+             if(data.messages.length > 0){
+               var tpl = '<div id="developer_plugin_auto_validator_wrap" style="font-weight: bold;line-height: 1.7;z-index: 99999;font-family: sans-serif;font-size: 14px;padding: 20px;position:fixed;width:300px;top:0;right:0;background:#f00;color:#fff;">'+data.messages.length+'件のエラーがw3c validatorにより検出されましたわwww<br>はよ直せよ雑魚www'+'<a href="javascript:void(0)" style="font-size: 14px;display: block;padding: 5px;margin: 8px auto;border: #fff;background: #fefefe;color: #f00;text-align: center;text-decoration: none;font-weight: bold;" onclick="$('+"'"+"#developer_plugin_auto_validator_result"+"'"+').slideToggle();">ここで詳細を開閉</a><div style="overflow-y:scroll;max-height: 50vh;"><ul id="developer_plugin_auto_validator_result" style="padding-bottom: 500px;margin: 0;padding: 0;font-size: 14px;display:none;">%result%</ul></div><a href="javascript:void(0)" style="font-size: 14px;display: block;padding: 5px;margin: 8px auto;border: #fff 1px solid;;color: #fff;text-align: center;text-decoration: none;font-weight: bold;" onclick="$('+"'"+"#developer_plugin_auto_validator_wrap"+"'"+').hide();">このボックスを非表示</a></div>';
+               var recode_tpl = '<li style="box-sizing: border-box;padding: 5px 5px 20px;background:#fff;width: 100%;margin: 0 0 10px;color: #f00;font-size: 12px;"><p style="font-size: 125%;padding-top: 12px;padding-bottom: 12px;">エラーno%number%</p><table style="border-top:1px solid #e00;border-collapse:collapse;width: 240px;;table-layout: fixed;"><tr><th style="padding: 4px;width: 120px;border-bottom:1px solid #e00;">エラーメッセージ</th><td style="width: 120px;padding: 4px;border-bottom:1px solid #e00;word-break: break-all;">%error%</td></tr><tr><th style="padding: 4px;width: 120px;border-bottom:1px solid #e00;">ライン</th><td style="word-break: break-all;width: 120px;padding: 4px;border-bottom:1px solid #e00;word-break: break-all;">%line%</td></tr><tr><th style="padding: 4px;width: 120px;border-bottom:1px solid #e00;">コード</th><td style="word-break: break-all;width: 120px;padding: 4px;border-bottom:1px solid #e00;">%code%</td></tr></table></li>';
+               var the_length = data.messages.length;
+               var result = "";
+               for(i=0;i<the_length;i++){
+                 console.log(typeof data.messages[i].extract);
+                 var escape_str = data.messages[i].extract.replace(/&/g,"&amp;").replace(/</g,'&lt;').replace(/>/g,"&gt;");
+                 var str = recode_tpl.replace("%number%",i+1).replace("%error%",data.messages[i].message).replace("%line%",data.messages[i].lastLine).replace("%code%",escape_str);
+                 result = result+str
+               }
+               tpl = tpl.replace("%result%",result);
+               $("body").append(tpl);
+             }
+           },
+           error: function() {
+             console.warn(arguments);
+           }
+         });
+       });
+     });
+</script>
