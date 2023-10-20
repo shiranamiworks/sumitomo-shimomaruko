@@ -106,7 +106,7 @@
 #access .sections .inner {
   margin: 0 auto;
   width: 84%;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 #access .sections .image {
   position: relative;
@@ -164,7 +164,7 @@
 }
 #access .network {
   text-align: left;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto 120px;
 }
 #access .network .bg {
