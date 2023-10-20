@@ -1,0 +1,424 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+
+.breadcrumb ul li a {
+  color: #000;
+}
+
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+#access main img {
+  max-width: 100%;
+}
+#access .image {
+  position: relative;
+}
+#access .image .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+#access .image .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+#access main {
+  color: #000;
+  font-family: "RyuminPro", serif;
+  line-height: 1;
+}
+#access sp {
+  display: none;
+}
+#access pc {
+  display: block;
+}
+#access .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#access .main-visual {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 300px;
+  border: none;
+}
+#access .main-visual .image {
+  position: relative;
+  display: inline-block;
+}
+#access .main-visual .image::after {
+  content: "";
+  position: absolute;
+  bottom: -217px;
+  left: 0;
+  right: 0;
+  width: 1px;
+  height: 220px;
+  margin: auto;
+  background-color: #000;
+}
+#access .sections .inner {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1000px;
+}
+#access .sections .image {
+  position: relative;
+}
+#access .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+#access .sections .column02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+#access .sections .column02 li:nth-child(2n),
+#access .sections .column02 li:last-child {
+  margin-right: auto;
+}
+#access .sections .column03 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 1%;
+}
+#access .sections .column03 li:nth-child(3n),
+#access .sections .column03 li:last-child {
+  margin-right: auto;
+}
+#access .intro {
+  text-align: center;
+  padding: 0 0 0;
+}
+#access .intro .tit {
+  font-size: 30px;
+  line-height: 2;
+  margin-bottom: 80px;
+}
+#access .intro .lead {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+#access .intro .img01 {
+  margin-bottom: 80px;
+}
+#access .intro .column02 {
+  margin-bottom: 20px;
+}
+#access .intro .column03 li {
+  margin-bottom: 40px;
+}
+#access .intro .column03 .txt {
+  margin-top: 20px;
+}
+#access .network {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto 120px;
+}
+#access .network .bg {
+  background: #dceff2;
+  padding: 50px 50px 0;
+  box-sizing: border-box;
+}
+#access .network .text {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid #231815;
+}
+#access .network .lead {
+  font-size: 18px;
+  line-height: 1.8;
+}
+#access .network .map {
+  padding-bottom: 20px;
+}
+#access .network li {
+  float: left;
+  width: 20%;
+}
+#access .airport .text {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#access .airport .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+#access .airport .column02 li {
+  width: 15%;
+  margin-right: 1%;
+}
+#access .airport .column02 li:last-child {
+  width: 83%;
+  margin-right: auto;
+}
+#access .airport .column02.bottom {
+  margin-bottom: 20px;
+}
+#access .airport .check {
+  background: #dceff2;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  margin: 40px auto 120px;
+}
+#access .airport .check .column02 li {
+  vertical-align: middle;
+  width: 79%;
+  margin-right: 2%;
+}
+#access .airport .check .column02 li:last-child {
+  width: 18%;
+  margin-right: auto;
+}
+#access .car {
+  margin-bottom: 120px;
+}
+#access .car .text {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#access .car .lead {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+#access .car .column02 {
+  margin-bottom: 60px;
+}
+#access .car .column02 li {
+  width: 71%;
+  margin-right: 4%;
+}
+#access .car .column02 li:last-child {
+  width: 24%;
+  margin-right: auto;
+}
+#access .car .column02 .annotation {
+  bottom: -10px;
+}
+#access .car .column02 .mini {
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+#access .car .column03 .txt {
+  margin-top: 20px;
+}
+#access .car .tit01 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 0.5px solid #000;
+}
+#access .car .tit01 span {
+  font-size: 40px;
+}
+@media screen and (max-width: 768px) {
+  #access sp {
+    display: block;
+  }
+  #access pc {
+    display: none;
+  }
+  #access .main-visual {
+    padding-bottom: 100px;
+  }
+  #access .main-visual .image::after {
+    bottom: -60px;
+    height: 60px;
+  }
+  #access .sections .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #access .sections .column02 li:last-child {
+    margin-bottom: auto;
+  }
+  #access .sections .column03 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #access .sections .column03 li:last-child {
+    margin-bottom: auto;
+  }
+  #access .intro {
+    text-align: left;
+  }
+  #access .intro .tit {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #access .intro .lead {
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 0;
+  }
+  #access .intro .img01 {
+    margin-bottom: 40px;
+  }
+  #access .intro .column02 {
+    margin-bottom: 40px;
+  }
+  #access .intro .column03 {
+    margin-bottom: 40px;
+  }
+  #access .intro .column03 li {
+    margin-bottom: 20px;
+  }
+  #access .intro .column03 .txt {
+    margin-top: 10px;
+  }
+  #access .network {
+    margin: 0 auto 60px;
+  }
+  #access .network .bg {
+    padding: 20px 20px 0;
+  }
+  #access .network .text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  #access .network .lead {
+    font-size: 16px;
+    line-height: 2;
+  }
+  #access .network li {
+    float: none;
+    width: 100%;
+  }
+  #access .airport .text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #access .airport .lead {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+  #access .airport .column02 li {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  #access .airport .column02 li:last-child {
+    width: 100%;
+    margin: auto;
+  }
+  #access .airport .column02.bottom {
+    margin-bottom: 20px;
+  }
+  #access .airport .check {
+    padding: 20px;
+    margin: 20px auto 60px;
+  }
+  #access .airport .check .column02 li {
+    width: 100%;
+  }
+  #access .airport .check .column02 li:last-child {
+    width: 50%;
+    margin: auto;
+  }
+  #access .car {
+    margin-bottom: 60px;
+  }
+  #access .car .text {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #access .car .lead {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 40px;
+  }
+  #access .car .column02 {
+    margin-bottom: 40px;
+  }
+  #access .car .column02 li {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #access .car .column02 li:last-child {
+    width: 100%;
+  }
+  #access .car .column02 .mini {
+    font-size: 10px;
+    margin-top: 30px;
+  }
+  #access .car .tit01 {
+    font-size: 20px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+  }
+  #access .car .tit01 span {
+    font-size: 32px;
+  }
+}/*# sourceMappingURL=access.css.map */
