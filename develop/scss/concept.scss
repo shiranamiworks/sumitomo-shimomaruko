@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+#adtag {
+  opacity: 0;
+}
+#concept {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+
+  main {
+    background: #000;
+    color: #fff;
+    font-family: "RyuminPro", serif;
+    line-height: 1;
+  }
+  sp {
+    display: none;
+  }
+  pc {
+    display: block;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .main-visual {
+    position: relative;
+    border: none;
+    .annotation {
+      bottom: 50px;
+    }
+  }
+  .sections {
+    .inner {
+      margin: 0 auto;
+      width: 80%;
+      max-width: 1200px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+    }
+  } //sections
+  .intro {
+    padding: 140px 0 0;
+    .text {
+      font-size: 22px;
+      line-height: 2.2;
+      margin-bottom: 180px;
+    }
+  } //intro
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+    sp {
+      display: block;
+    }
+    pc {
+      display: none;
+    }
+
+    .main-visual {
+      .annotation {
+        bottom: 40px;
+      }
+    }
+    .intro {
+      padding: 60px 0 0;
+      .text {
+        font-size: 16px;
+        margin-bottom: 60px;
+      }
+    } //intro
+  } //sp
+}

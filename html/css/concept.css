@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+#concept main img {
+  max-width: 100%;
+}
+#concept .img {
+  position: relative;
+}
+#concept main {
+  background: #000;
+  color: #fff;
+  font-family: "RyuminPro", serif;
+  line-height: 1;
+}
+#concept sp {
+  display: none;
+}
+#concept pc {
+  display: block;
+}
+#concept .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#concept .main-visual {
+  position: relative;
+  border: none;
+}
+#concept .main-visual .annotation {
+  bottom: 50px;
+}
+#concept .sections .inner {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+}
+#concept .sections .image {
+  position: relative;
+}
+#concept .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+#concept .intro {
+  padding: 140px 0 0;
+}
+#concept .intro .text {
+  font-size: 22px;
+  line-height: 2.2;
+  margin-bottom: 180px;
+}
+@media screen and (max-width: 768px) {
+  #concept sp {
+    display: block;
+  }
+  #concept pc {
+    display: none;
+  }
+  #concept .main-visual .annotation {
+    bottom: 40px;
+  }
+  #concept .intro {
+    padding: 60px 0 0;
+  }
+  #concept .intro .text {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+}/*# sourceMappingURL=concept.css.map */
