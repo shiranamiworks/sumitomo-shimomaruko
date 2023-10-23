@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+.breadcrumb ul li a {
+  color: #000;
+}
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+.location03 {
+  main img {
+    max-width: 100%;
+  }
+  .image {
+    position: relative;
+    .annotation {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      text-align: right;
+      font-size: 10px;
+      &.white {
+        color: #fff;
+        text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000,
+          0px 0px 4px #000;
+      }
+    }
+  }
+  .location-link {
+    color: #000;
+  }
+  main {
+    color: #000;
+    font-family: "RyuminPro", serif;
+    line-height: 1;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  .main-visual {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 300px;
+    border: none;
+    .image {
+      position: relative;
+      display: inline-block;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -217px;
+        left: 0;
+        right: 0;
+        width: 1px;
+        height: 220px;
+        margin: auto;
+        background-color: #000;
+      }
+    }
+  }
+  .sections {
+    .inner {
+      margin: 0 auto;
+      width: 84%;
+      max-width: 1200px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+    }
+    .column02 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 48.5%;
+        margin-right: 2%;
+      }
+      li:nth-child(2n),
+      li:last-child {
+        margin-right: auto;
+      }
+    } //column02
+    .column03 {
+      li {
+        vertical-align: top;
+        display: inline-block;
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:nth-child(3n),
+      li:last-child {
+        margin-right: auto;
+      }
+    } //column03
+  } //sections
+  .intro {
+    text-align: center;
+    margin-bottom: 100px;
+    .tit {
+      font-size: 30px;
+      line-height: 2;
+    }
+  } //intro
+  .areas {
+    margin-bottom: 120px;
+    .caps {
+      text-align: right;
+      margin-top: 10px;
+      font-size: 10px;
+      line-height: 1.6;
+    }
+    .img00 {
+      margin-bottom: 80px;
+    }
+    .text {
+      font-size: 24px;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 40px;
+    }
+    .box {
+      background: #cddfe1;
+      padding: 20px;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+  } //areas
+  .area01 {
+    .column02.bottom {
+      margin-bottom: 40px;
+      .txt {
+        margin-top: 20px;
+        display: inline-flex;
+        height: 60px;
+      }
+    }
+    .column02 {
+      .txt.info {
+        margin-top: 20px;
+        display: inline-flex;
+        height: 60px;
+      }
+    }
+  } //area01
+  .area02 {
+    .box {
+      padding: 20px 20px 40px;
+    }
+    .column02 {
+      margin-bottom: 20px;
+      .txt {
+        margin-top: 10px;
+        display: inline-flex;
+        height: 60px;
+      }
+    }
+    .event {
+      position: relative;
+      .lead {
+        width: 68%;
+      }
+      .mini {
+        font-size: 10px;
+      }
+      .image {
+        position: absolute;
+        right: 0;
+        bottom: -20px;
+        width: 50%;
+      }
+    }
+  } //area02
+  .area03 {
+  } //area03
+  .area04 {
+  } //area04
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  } //tb
+  @media screen and (max-width: 768px) {
+    sp {
+      display: block;
+    }
+    pc {
+      display: none;
+    }
+
+    .main-visual {
+      padding-bottom: 100px;
+      .image {
+        &::after {
+          bottom: -60px;
+          height: 60px;
+        }
+      }
+    }
+    .sections {
+      .column02 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column02
+      .column03 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column03
+    } //sections
+    .intro {
+      text-align: left;
+      margin-bottom: 40px;
+      .tit {
+        font-size: 22px;
+      }
+    } //intro
+    .areas {
+      margin-bottom: 60px;
+      .img00 {
+        margin-bottom: 30px;
+      }
+      .text {
+        font-size: 20px;
+        line-height: 1.8;
+        margin-bottom: 20px;
+      }
+      .lead {
+        font-size: 16px;
+        line-height: 2;
+        margin-bottom: 20px;
+      }
+    } //areas
+    .area01 {
+      .column02 .bottom {
+        margin-bottom: 20px;
+      }
+      .txt01 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    } //area01
+    .area02 {
+      .txt01 {
+        font-size: 20px;
+        margin: 10px 0 20px;
+        span {
+          font-size: 14px;
+        }
+      }
+      .txt02 {
+        font-size: 16px;
+        line-height: 2;
+      }
+    } //area02
+    .area03 {
+      .line {
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+        span {
+          font-size: 30px;
+        }
+      }
+      .line02 {
+        padding: 10px;
+      }
+      .column03 {
+        margin-bottom: 40px;
+        .txt {
+          margin-top: 10px;
+        }
+      }
+      .name {
+        font-size: 16px;
+      }
+    } //area03
+    .area04 {
+      padding-bottom: 60px;
+      margin-bottom: 0;
+      .point {
+        font-size: 30px;
+        padding-top: 60px;
+        margin-bottom: 20px;
+        &:before {
+          height: 50px;
+        }
+      }
+      .tit {
+        font-size: 20px;
+      }
+      .list02 {
+        li:last-child {
+          margin-top: 50px;
+        }
+        .annotation {
+          line-height: 1.2;
+          bottom: -30px;
+        }
+      }
+      .list03 {
+        .annotation {
+          line-height: 1.2;
+          bottom: -30px;
+        }
+      }
+    } //area04
+  } //sp
+  @media screen and (max-width: 450px) {
+  }
+}
