@@ -306,7 +306,7 @@ h1,
 	height:13.5vw;
 }
 
-
+}
 
 /*-------------------------------------------------------------------
 html, body{
@@ -502,7 +502,7 @@ html, body{
 }
 #btnArea img{
     margin-top: 40px;
-    //margin-left: calc((100vw - 560px) / 2);
+    /* margin-left: calc((100vw - 560px) / 2); */
 }
 #GoogleMap{
 	width:100vw;
