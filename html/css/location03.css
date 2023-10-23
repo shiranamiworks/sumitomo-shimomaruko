@@ -180,6 +180,9 @@
   display: inline-flex;
   height: 60px;
 }
+.location03 .area02 {
+  margin-bottom: 0;
+}
 .location03 .area02 .box {
   padding: 20px 20px 40px;
 }
@@ -206,67 +209,31 @@
   bottom: -20px;
   width: 50%;
 }
-.location03 .area03 .line {
-  font-size: 24px;
-  line-height: 1.4;
-  color: #fff;
-  padding-left: 20px;
-  box-sizing: border-box;
-  background: #1c2c5a;
-  margin-bottom: 20px;
+.location03 .area03 .column02.bg {
+  background: #eeebe4;
+  margin-bottom: 40px;
 }
-.location03 .area03 .line span {
-  font-size: 40px;
+.location03 .area03 .column02.bg .info {
+  padding: 20px 10px 10px 0;
 }
-.location03 .area03 .line02 {
-  padding: 6px 0 6px 20px;
+.location03 .area03 .column02.bg .info.right {
+  padding: 20px 0 10px 20px;
 }
-.location03 .area03 .column03 {
-  margin-bottom: 60px;
-}
-.location03 .area03 .column03 .txt {
-  margin-top: 30px;
-}
-.location03 .area03 .name {
-  font-size: 18px;
-  margin-top: 6px;
-}
-.location03 .area04 {
-  background: #ddf0f3;
-  padding-bottom: 100px;
-  margin-bottom: 0;
-}
-.location03 .area04 .point {
-  position: relative;
+.location03 .area03 .column02.bg .imgs .image {
   display: inline-block;
-  font-size: 40px;
-  padding-top: 120px;
-  margin-bottom: 80px;
+  width: 49%;
 }
-.location03 .area04 .point:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 1px;
-  height: 104px;
-  margin: auto;
-  background-color: #000;
+.location03 .area03 .column02.bg .lead {
+  margin: 5px 0;
 }
-.location03 .area04 .tit {
-  font-size: 24px;
-  line-height: 1.8;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  border-bottom: 0.5px solid #000;
+.location03 .area03 .column02.bg .txt {
+  display: inline-flex;
+  height: 70px;
 }
-.location03 .area04 .annotation {
-  bottom: -15px;
-}
-.location03 .area04 .tit-img {
-  margin-top: 40px;
-  margin-bottom: 20px;
+.location03 .area03 .bg01 {
+  background: #eeebe4;
+  padding: 20px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
   .location03 sp {

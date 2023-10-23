@@ -180,6 +180,9 @@
   display: inline-flex;
   height: 60px;
 }
+.location03 .area02 {
+  margin-bottom: 0;
+}
 .location03 .area02 .box {
   padding: 20px 20px 40px;
 }
@@ -205,6 +208,32 @@
   right: 0;
   bottom: -20px;
   width: 50%;
+}
+.location03 .area03 .column02.bg {
+  background: #eeebe4;
+  margin-bottom: 40px;
+}
+.location03 .area03 .column02.bg .info {
+  padding: 20px 10px 10px 0;
+}
+.location03 .area03 .column02.bg .info.right {
+  padding: 20px 0 10px 20px;
+}
+.location03 .area03 .column02.bg .imgs .image {
+  display: inline-block;
+  width: 49%;
+}
+.location03 .area03 .column02.bg .lead {
+  margin: 5px 0;
+}
+.location03 .area03 .column02.bg .txt {
+  display: inline-flex;
+  height: 70px;
+}
+.location03 .area03 .bg01 {
+  background: #eeebe4;
+  padding: 20px;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
   .location03 sp {

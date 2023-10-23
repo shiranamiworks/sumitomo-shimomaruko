@@ -192,6 +192,7 @@
     }
   } //area01
   .area02 {
+    margin-bottom: 0;
     .box {
       padding: 20px 20px 40px;
     }
@@ -220,6 +221,34 @@
     }
   } //area02
   .area03 {
+    .column02.bg {
+      background: #eeebe4;
+      margin-bottom: 40px;
+      .info {
+        padding: 20px 10px 10px 0;
+        &.right {
+          padding: 20px 0 10px 20px;
+        }
+      }
+      .imgs {
+        .image {
+          display: inline-block;
+          width: 49%;
+        }
+      }
+      .lead {
+        margin: 5px 0;
+      }
+      .txt {
+        display: inline-flex;
+        height: 70px;
+      }
+    }
+    .bg01 {
+      background: #eeebe4;
+      padding: 20px;
+      box-sizing: border-box;
+    }
   } //area03
   .area04 {
   } //area04
