@@ -20,7 +20,11 @@ body {
 .entry h2,
 .entry .entry-btn,
 .entry .entry-corona,
-.footer,
+.footer .footer-menu,
+.footer .footer-recommend,
+.footer .footer-logo,
+.footer .footer-wrapper,
+.footer .footer-btn,
 #btnArea,
 .container .txt
  {
@@ -302,7 +306,7 @@ h1,
 	height:13.5vw;
 }
 
-
+}
 
 /*-------------------------------------------------------------------
 html, body{
@@ -498,7 +502,7 @@ html, body{
 }
 #btnArea img{
     margin-top: 40px;
-    //margin-left: calc((100vw - 560px) / 2);
+    /* margin-left: calc((100vw - 560px) / 2); */
 }
 #GoogleMap{
 	width:100vw;

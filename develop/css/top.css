@@ -68,6 +68,7 @@
   .top-mv__slide .slick-dots li {
     width: 10px;
     height: 10px;
+    display: none;
   }
   .top-mv__slide .slick-dots li button {
     width: 100%;
