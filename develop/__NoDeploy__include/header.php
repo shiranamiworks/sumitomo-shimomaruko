@@ -93,7 +93,6 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
           <li>
             <p><span class="f-en">COMMON SPACE</span><br>‹¤—p‹óŠÔ</p>
           </li>
-          </li>
           <li>
             <p><span class="f-en">PRIVATE SPACE</span><br>Žº“à‹óŠÔ</p>
           </li>

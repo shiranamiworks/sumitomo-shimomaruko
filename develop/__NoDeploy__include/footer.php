@@ -11,7 +11,6 @@
       <p class="entry-info">営業時間／平日11:00～19:00　土・日・祝10:00～18:00<br class="sp">（水曜定休、年末年始は休業）</p>
     </div>
   </div><!-- / entry -->
-</main>
 
   <nav class="footer-menu">
     <div class="container">

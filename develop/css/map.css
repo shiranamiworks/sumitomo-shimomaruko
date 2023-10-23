@@ -20,7 +20,11 @@ body {
 .entry h2,
 .entry .entry-btn,
 .entry .entry-corona,
-.footer,
+.footer .footer-menu,
+.footer .footer-recommend,
+.footer .footer-logo,
+.footer .footer-wrapper,
+.footer .footer-btn,
 #btnArea,
 .container .txt
  {
