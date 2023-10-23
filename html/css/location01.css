@@ -154,7 +154,7 @@
 }
 .location01 .intro .mini {
   text-align: left;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.4;
 }
 .location01 .areas {
@@ -163,7 +163,7 @@
 .location01 .areas .caps {
   text-align: right;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.6;
 }
 .location01 .areas .caps.bottom {
@@ -246,7 +246,7 @@
   margin-bottom: 140px;
 }
 .location01 .area03 .box .column02 .mini {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.4;
 }
 .location01 .area04 .other .tit01 {
@@ -265,7 +265,7 @@
   word-break: break-all;
 }
 .location01 .area04 .mini {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.6;
   margin-top: 10px;
 }
@@ -276,237 +276,101 @@
   .location01 pc {
     display: none;
   }
-  .location01 .main-visual .annotation {
-    bottom: 40px;
+  .location01 .main-visual {
+    padding-bottom: 100px;
+  }
+  .location01 .main-visual .image::after {
+    bottom: -60px;
+    height: 60px;
+  }
+  .location01 .sections .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .location01 .sections .column02 li:last-child {
+    margin-bottom: auto;
+  }
+  .location01 .sections .column03 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .location01 .sections .column03 li:last-child {
+    margin-bottom: auto;
   }
   .location01 .intro {
-    padding: 60px 0 0;
-    margin-bottom: 60px;
+    text-align: left;
   }
-  .location01 .intro .lead {
+  .location01 .intro .tit {
     font-size: 22px;
     margin-bottom: 20px;
   }
-  .location01 .intro .text {
+  .location01 .intro .lead {
+    text-align: left;
     font-size: 16px;
-    margin-bottom: 60px;
-  }
-  .location01 .intro .img01 {
-    margin-bottom: 60px;
-  }
-  .location01 .intro .annotation.wh {
-    color: #fff;
+    line-height: 2;
+    margin-bottom: 0;
   }
   .location01 .areas {
     margin-bottom: 60px;
   }
+  .location01 .areas .caps.bottom {
+    margin-bottom: 40px;
+  }
   .location01 .areas .text {
-    font-size: 22px;
-    line-height: 1.6;
-    margin: 20px 0;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
   }
   .location01 .areas .lead {
-    margin-bottom: 40px;
     font-size: 16px;
-  }
-  .location01 .areas .lead.sp {
-    margin-top: 40px;
-  }
-  .location01 .areas .list01 {
-    margin: 30px auto 60px;
-  }
-  .location01 .areas .list01 li {
-    display: block;
-    width: 100%;
+    line-height: 2;
     margin-bottom: 20px;
   }
-  .location01 .areas .list01 li:last-child {
-    margin-bottom: auto;
+  .location01 .areas .name {
+    text-align: left;
+    font-size: 22px;
   }
-  .location01 .areas .img-tit {
+  .location01 .areas .name span {
     font-size: 16px;
   }
-  .location01 .areas #wrap {
-    min-width: inherit;
-    position: relative;
-    width: 96%;
-    height: 40vw;
-    max-width: 1280px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  .location01 .areas #wrap .box {
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-  .location01 .areas #wrap .box img {
-    max-width: 480px;
-    display: block;
-    margin: auto;
-  }
-  .location01 .areas #wrap .scrollimage_leftbox,
-  .location01 .areas #wrap .scrollimage_rightbox {
-    position: absolute;
-    opacity: 0.2;
-    top: 50%;
-    width: 7vw;
-    cursor: pointer;
-    z-index: 6;
-    transform: translateY(-50%);
-  }
-  .location01 .areas #wrap .scrollimage_leftbox {
-    left: -1vw;
-  }
-  .location01 .areas #wrap .scrollimage_rightbox {
-    right: -1vw;
-  }
-  .location01 .areas #scrollimagebox .scrollimage_caption {
-    width: 15%;
-    max-width: 75px;
-    height: auto;
-    margin: 10px auto 20px;
-    pointer-events: none;
-  }
-  .location01 .areas .images {
-    position: relative;
-  }
-  .location01 .areas .images .leaflet-overlay-pane,
-  .location01 .areas .images .leaflet-popup-pane {
-    position: absolute;
-    top: 0;
-  }
-  .location01 .areas .images .leaflet-container img.leaflet-image-layer {
-    transform: translate3d(0px, 0px, 0px) !important;
-  }
-  .location01 .areas .images .leaflet-left {
-    top: 0;
-  }
-  .location01 .areas .images .viewport {
-    height: 140% !important;
-  }
-  .location01 .areas .list02 {
-    margin: 0 0 40px;
-  }
-  .location01 .areas .list02 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .location01 .areas .list02 li:nth-child(2),
-  .location01 .areas .list02 li:last-child {
-    width: 100%;
-    margin-right: auto;
-  }
-  .location01 .areas .list02 .lead {
-    margin-bottom: 0;
-  }
-  .location01 .areas .list03 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  .location01 .areas .list03 li:last-child {
-    margin-bottom: auto;
-  }
-  .location01 .area02 .back-tit {
-    font-size: 20px;
-    line-height: 1.4;
-    margin: 60px 0 20px;
-  }
-  .location01 .area02 .list03 .name {
+  .location01 .areas .info {
     font-size: 16px;
-    margin-top: 10px;
+    line-height: 2;
   }
-  .location01 .area02 .list03 .mini {
-    margin-top: 20px;
-  }
-  .location01 .area03 .image.top {
-    margin: 40px auto;
-  }
-  .location01 .area03 .list04 {
-    margin-bottom: 40px;
-  }
-  .location01 .area03 .list04 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .location01 .area03 .list04 li:last-child {
-    margin-bottom: auto;
-  }
-  .location01 .area03 .mini.bottom {
-    margin-bottom: 80px;
-  }
-  .location01 .area03 .list03 .name {
+  .location01 .area01 .txt01 {
+    font-size: 16px;
     margin: 10px 0;
   }
-  .location01 .area03 .bg {
-    margin: 40px auto 10px;
-    padding-bottom: 20px;
-  }
-  .location01 .area03 .bg .list05 li {
-    display: block;
-    width: 100%;
-  }
-  .location01 .area03 .bg .shops {
-    padding: 10px 10px 0;
-    box-sizing: border-box;
-  }
-  .location01 .area03 .bg .shops .shop {
+  .location01 .area01 .txt02 {
     font-size: 12px;
-    padding-left: 5px;
+    line-height: 1.6;
   }
-  .location01 .area03 .bg li:last-child .shops {
-    padding: 0 10px;
+  .location01 .area02 .column02 .name {
+    text-align: left;
   }
-  .location01 .area04 {
-    padding-top: 60px;
-    margin-bottom: 0;
+  .location01 .area02 .column02 li {
+    width: 100%;
   }
-  .location01 .area04 .lead {
-    margin-top: 40px;
+  .location01 .area02 .column02 li:last-child {
+    width: 100%;
   }
-  .location01 .area04 .list06 {
-    margin: 40px auto;
+  .location01 .area02 .column02.imgs li {
+    width: 100%;
   }
-  .location01 .area04 .list06 li {
+  .location01 .area02 .column02.imgs li:last-child {
+    width: 100%;
+  }
+  .location01 .area03 .column02 .txt {
+    height: inherit;
+    margin-top: 10px;
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
   }
-  .location01 .area04 .list06 li:last-child {
-    width: 100%;
-    margin-bottom: 20px;
+  .location01 .area03 .box {
+    margin-top: 20px;
   }
-  .location01 .area04 .list06 li:last-child .lead {
-    margin-bottom: 20px;
-  }
-  .location01 .area04 .list07 {
-    border: 1px solid #bba579;
-    padding: 20px 10px;
-  }
-  .location01 .area04 .list07 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .location01 .area04 .list07 li:last-child {
-    margin-bottom: auto;
-  }
-  .location01 .area04 .list07 .text {
-    font-size: 16px;
-    margin: 0 auto 20px;
-  }
-  .location01 .area04 .list07 s .lead {
-    margin-bottom: 20px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .location01 .areas #wrap {
-    height: 55vw;
-  }
-  .location01 .areas #scrollimagebox .scrollimage_caption {
-    width: 15%;
-    margin: 20px auto;
+  .location01 .area03 .box .column02 .info {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=location01.css.map */
