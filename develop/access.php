@@ -38,7 +38,10 @@
       <p class="tit">品川や渋谷など、都心主要エリアへ軽快なアクセス。</p>
       <p class="lead">東急線各線を利用して、自由が丘などの人気のショッピングエリアや渋谷などの都心主要駅へスピーディーにアクセス。また、交通拠点である品川や国内外の主要都市をつなぐ羽田空港へも快適な移動が可能です。</p>
       <div class="image img01">
-      <img src="./images/access/intro01.png" alt="">
+      <figure>
+          <img src="./images/access/intro01.png" alt="" class="sp-hide">
+          <img src="./images/access/intro01.png" alt="" class="zoomImg sp">
+        </figure>
       <p class="annotation">路線図</p>
       </div>
       <ul class="column02">
@@ -119,7 +122,10 @@
     <h3 class="text">1度の乗り換えで都内の人気エリアへ。<br>行動範囲が大きく広がる東急線ネットワーク。</h3>
     <p class="lead">東急多摩川線は「多摩川」駅で東急東横線に乗り換えが可能。自由が丘や代官山、中目黒などの人気のショッピングエリアへスムーズにアクセスできます。さらに「渋谷」駅で東京メトロ副都心線に乗り入れて、新宿三丁目や池袋など多彩な都心主要駅をつないでいます。</p>
     <div class="image map">
-    <img src="./images/access/network00.png" alt="">
+    <figure>
+          <img src="./images/access/network00.png" alt="" class="sp-hide">
+          <img src="./images/access/network00.png" alt="" class="zoomImg sp">
+        </figure>
     <p class="annotation">路線図</p>
     </div>
     </div>
@@ -223,7 +229,10 @@
       <ul class="column02">
         <li>
           <div class="image">
-          <img src="./images/access/car02.png" alt="">
+          <figure>
+          <img src="./images/access/car02.png" alt="" class="sp-hide">
+          <img src="./images/access/car02.png" alt="" class="zoomImg sp">
+        </figure>
           <p class="annotation">カーアクセス図</p>
           </div>
           <p class="mini">※1.東京外環自動車道（東京区間）についての情報は「国土交通省関東地方整備局」ホームページを基にしています。（2023年7月現在）</p>
