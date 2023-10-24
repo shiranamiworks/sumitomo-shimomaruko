@@ -143,18 +143,8 @@
 </div>
 
 
-<script src="<?= $page_settings["directory_pos"]  ?>js/jquery-3.6.3.min.js"></script>
-<script src="<?= $page_settings["directory_pos"]  ?>js/slick.min.js"></script>
-<script src="<?= $page_settings["directory_pos"]  ?>js/pop.js"></script>
-<script src="<?= $page_settings["directory_pos"]  ?>js/common.js"></script>
-<script type="text/javascript" src="/proptopics/js/topics.js" charset="EUC-JP"></script>
-<script type="text/javascript" src="<?= $page_settings["directory_pos"]  ?>js/jquery-ui.min.js"></script>
-<script type="text/javascript" src="<?= $page_settings["directory_pos"]  ?>js/leaflet.js"></script>
-<script type="text/javascript" src="<?= $page_settings["directory_pos"]  ?>js/imgViewer2.js"></script>
-<script type="text/javascript" src="<?= $page_settings["directory_pos"]  ?>js/script.js"></script>
-<?php foreach($page_settings["add_script"] as $key => $value) { ?>
-<script src="<?= $page_settings["directory_pos"]  ?><?= $value ?>"></script>
-<?php }; ?>
+
+
 
 
 <!-- アクセス履歴タグ挿入 begin -->
