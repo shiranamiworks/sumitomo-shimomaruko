@@ -274,12 +274,12 @@
         <li><span href="#" data-target="cond02" class="button button02">ŽÊ^2</span></li>
       </ul>
       <div class="tab-inner cond01 current clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-04.jpg" alt="">
         </div>
       </div>
       <div class="tab-inner cond02 clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-05.jpg" alt="">
         </div>
       </div>
@@ -297,6 +297,8 @@
     <a href="location02.html"><p>–L‚©‚ÈŽ©‘R‚Ì‚¢‚ðg‹ß‚É</p></a>
     <a href="location03.html" class="current"><p>–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ý</p></a>
   </div>
+
+
 
 <?php require(INCLUDES."footer.php"); ?>
 </body>

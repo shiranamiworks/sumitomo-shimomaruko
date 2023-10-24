@@ -436,6 +436,22 @@
     <a href="location03.html" class="current"><p>–ˆ“ú‚ğx‚¦‚é[À‚Ì—˜•Ö{İ</p></a>
   </div>
 
+
+  <script>
+    $(function () {
+  if ($("#location").length) {
+    $(".change-buttons .button").on("click", function (e) {
+      e.preventDefault();
+      var _target = $(this).data("target");
+      $(".change-buttons .button").removeClass("current");
+      $(this).addClass("current");
+      $(".tab-inner").removeClass("current");
+      $(".tab-inner." + _target).addClass("current");
+    });
+  }
+});
+</script>
+
 <footer class="footer">
   <div class="entry">
     <div class="container">
