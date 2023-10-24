@@ -9,7 +9,7 @@
   "keywords" => "毎日を支える充実の利便施設,",
   "description" => "毎日を支える充実の利便施設ページ。",
   "add_stylesheet" => ["css/location.css","css/location03.css"],
-  "add_script" =>  ["js/location.js","js/script.js"],
+  "add_script" =>  ["js/location.js"],
   "canonical_page_id" => "location", 
   "logo_text" => "毎日を支える充実の利便施設｜"
 );
@@ -177,7 +177,11 @@
       </ul>
       <ul class="column02 bg">
         <li class="info right">
-          <div class="imgs">
+          <div class="image sp">
+          <img src="./images/location03/area03-02.jpg">
+          <p class="annotation white">提供写真</p>
+          </div>
+          <div class="imgs top">
           <div class="image">
           <img src="./images/location03/area03-02-a.jpg">
           <p class="annotation white">提供写真</p>
@@ -193,7 +197,7 @@
           </div>
         </li>
         <li>
-          <div class="image">
+          <div class="image pc">
           <img src="./images/location03/area03-02.jpg">
           <p class="annotation white">提供写真</p>
           </div>
@@ -237,9 +241,9 @@
             <div class="image">
             <img src="./images/location03/area03-04.jpg">
             <p class="annotation white">提供写真</p>
-            </div>
             <div class="point point01">
             <img src="./images/location03/area03-04-a.png">
+            </div>
             </div>
             <p class="lead">セレクト食品とフルーツサンドのお店。産直の農産物やスイーツなど旬の生鮮食品もおすすめです。</p>
             <div class="txt">
@@ -250,9 +254,9 @@
             <div class="image">
             <img src="./images/location03/area03-05.jpg">
             <p class="annotation white">提供写真</p>
-            </div>
             <div class="point point02">
             <img src="./images/location03/area03-05-a.png">
+            </div>
             </div>
             <p class="lead">オムレツやポテトサラダなどつまみの豆皿料理がある角打酒屋。土日祝は朝7時のオープンです。</p>
             <div class="txt">
@@ -266,27 +270,144 @@
 
 
 
+
   <section class="life-info clearfix">
     <div class="inner">
-    <ul class="change-buttons clearfix">
-        <li><span href="#" data-target="cond01" class="button button01 current">写真1
-        </span></li>
-        <li><span href="#" data-target="cond02" class="button button02">写真2</span></li>
+      <div class="title">LIFE INFORMATION</div>
+      <div class="tab-inner cond01 current clearfix">
+        <div class="image map">
+          <figure class="pc"><img src="./images/location03/info01.png" class="sp-hide" alt="航空写真1"></figure>
+          <figure class="tb"><img src="./images/location03/info01.png" class="zoomImg sp" alt=""/></figure>
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond02 clearfix">
+        <div class="image map">
+          <figure class="pc"><img src="./images/location03/info02.png" class="sp-hide" alt="航空写真1"></figure>
+          <figure class="tb"><img src="./images/location03/info02.png" class="zoomImg2 sp" alt=""/></figure>
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond03 clearfix">
+        <div class="image map">
+          <figure class="pc"><img src="./images/location03/info03.png" class="sp-hide" alt="航空写真1"></figure>
+          <figure class="tb"><img src="./images/location03/info03.png" class="zoomImg3 sp" alt=""/></figure>
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond04 clearfix">
+        <div class="image map">
+          <figure class="pc"><img src="./images/location03/info04.png" class="sp-hide" alt="航空写真1"></figure>
+          <figure class="tb"><img src="./images/location03/info04.png" class="zoomImg4 sp" alt=""/></figure>
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond05 clearfix">
+        <div class="image map">
+          <figure class="pc"><img src="./images/location03/info05.png" class="sp-hide" alt="航空写真1"></figure>
+          <figure class="tb"><img src="./images/location03/info05.png" class="zoomImg5 sp" alt=""/></figure>
+        </div>
+      </div><!-- tab-inner  -->
+
+      <p class="text">下記の項目をクリックすると施設情報がご覧いただけます。</p>
+
+      <ul class="change-buttons clearfix">
+        <li><span href="#" data-target="cond01" class="button button01 current">SHOPPING</span></li>
+        <li><span href="#" data-target="cond02" class="button button02">PARK&<br>SPORTS</span></li>
+        <li><span href="#" data-target="cond03" class="button button03">EDUCATION</span></li>
+        <li><span href="#" data-target="cond04" class="button button04">HOSPITAL</span></li>
+        <li><span href="#" data-target="cond05" class="button button05">PUBLIC&<br>FINANCIAL</span></li>
       </ul>
+
       <div class="tab-inner cond01 current clearfix">
         <div class="image">
-        <img src="./images/location03/area03-04.jpg" alt="">
+          <img src="./images/location03/info01.svg" alt="" class="pc">
+          <img src="./images/location03/info01-sp.svg" alt="" class="sp">
         </div>
-      </div>
+      </div><!-- tab-inner  -->
       <div class="tab-inner cond02 clearfix">
         <div class="image">
-        <img src="./images/location03/area03-05.jpg" alt="">
+          <img src="./images/location03/info02.svg" alt="" class="pc">
+          <img src="./images/location03/info02-sp.svg" alt="" class="sp">
         </div>
-      </div>
-
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond03 clearfix">
+        <div class="image">
+          <img src="./images/location03/info03.svg" alt="" class="pc">
+          <img src="./images/location03/info03-sp.svg" alt="" class="sp">
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond04 clearfix">
+        <div class="image">
+          <img src="./images/location03/info04.svg" alt="" class="pc">
+          <img src="./images/location03/info04-sp.svg" alt="" class="sp">
+        </div>
+      </div><!-- tab-inner  -->
+      <div class="tab-inner cond05 clearfix">
+        <div class="image">
+          <img src="./images/location03/info05.svg" alt="" class="pc">
+          <img src="./images/location03/info05-sp.svg" alt="" class="sp">
+        </div>
+      </div><!-- tab-inner  -->
     </div><!-- inner -->
   </section><!-- life-info -->
 
+
+  <script>
+;(function($) {
+if($(window).width() < 641){
+ $(window).on("load", function() {
+ var $img = $(".zoomImg").imgViewer2({
+ onReady: function() {
+ this.setZoom(2);
+ this.setZoom(1);
+}
+}
+);
+});
+$(document).on("click", ".button02", function(){
+ var $img = $(".zoomImg2").imgViewer2({
+ onReady: function() {
+ this.setZoom(2);
+ this.setZoom(1);
+}
+}
+);   
+});
+$(document).on("click", ".button03", function(){
+ var $img = $(".zoomImg3").imgViewer2({
+ onReady: function() {
+ this.setZoom(2);
+ this.setZoom(1);
+}
+}
+);   
+});
+$(document).on("click", ".button04", function(){
+ var $img = $(".zoomImg4").imgViewer2({
+ onReady: function() {
+ this.setZoom(2);
+ this.setZoom(1);
+}
+}
+);   
+});
+$(document).on("click", ".button05", function(){
+ var $img = $(".zoomImg5").imgViewer2({
+ onReady: function() {
+ this.setZoom(2);
+ this.setZoom(1);
+}
+}
+);   
+});    
+}
+})(jQuery);
+</script>
+<style>
+.item03 {
+  /*height: 500px;*/
+  margin: 0;
+  overflow: hidden;
+  width: 100%;
+}
+</style>  
 
 
 <div class="annotation-area">

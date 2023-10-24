@@ -41,6 +41,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 <link rel="stylesheet" href="<?= $page_settings["directory_pos"]  ?>css/reset.css">
 <link rel="stylesheet" href="<?= $page_settings["directory_pos"]  ?>css/common.css">
 <link rel="stylesheet" href="<?= $page_settings["directory_pos"]  ?>css/top.css">
+<link rel="stylesheet" href="<?= $page_settings["directory_pos"]  ?>css/leaflet.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <link href="/proptopics/css/topics.css" rel="stylesheet" type="text/css" />
 <!-- <link rel="stylesheet" href="./css/leaflet.css"> -->
@@ -48,7 +49,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 <link href="<?= $page_settings["directory_pos"]  ?><?= $value ?>" rel="stylesheet">
 <?php }; ?>
 <?php foreach($page_settings["add_script"] as $key => $value) { ?>
-<script src="<?= $page_settings["directory_pos"]  ?><?= $value ?>"></script>
+<script type="text/javascript" src="<?= $page_settings["directory_pos"]  ?><?= $value ?>"></script>
 <?php }; ?>
 <!-- init -->
 <!-- ▲ ここから上にフリーエリアのCSS、JSを指定してください ▲ -->

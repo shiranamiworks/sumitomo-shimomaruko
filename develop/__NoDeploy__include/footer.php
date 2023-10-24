@@ -147,6 +147,9 @@
 <script src="./js/common.js"></script>
 <script src="./js/pop.js"></script>
 <script src="./js/top.js"></script>
+<script type="text/javascript" src="./js/imgViewer2.js"></script>
+<script type="text/javascript" src="./js/leaflet.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
 <script type="text/javascript" src="/proptopics/js/topics.js" charset="EUC-JP"></script>
 
 <!-- アクセス履歴タグ挿入 begin -->
