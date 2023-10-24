@@ -283,6 +283,7 @@
         <img src="./images/location03/area03-05.jpg" alt="">
         </div>
       </div>
+
     </div><!-- inner -->
   </section><!-- life-info -->
 
@@ -297,6 +298,7 @@
     <a href="location02.html"><p>–L‚©‚ÈŽ©‘R‚Ì‚¢‚ðg‹ß‚É</p></a>
     <a href="location03.html" class="current"><p>–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ý</p></a>
   </div>
+
 
 
 

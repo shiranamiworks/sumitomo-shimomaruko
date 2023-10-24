@@ -37,7 +37,6 @@
 <!-- <link rel="stylesheet" href="./css/leaflet.css"> -->
 <link href="./css/location.css" rel="stylesheet">
 <link href="./css/location03.css" rel="stylesheet">
-<script src="./js/location.js"></script>
 <script src="./js/script.js"></script>
 <!-- init -->
 <!-- ▲ ここから上にフリーエリアのCSS、JSを指定してください ▲ -->
@@ -412,15 +411,16 @@
         <li><span href="#" data-target="cond02" class="button button02">写真2</span></li>
       </ul>
       <div class="tab-inner cond01 current clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-04.jpg" alt="">
         </div>
       </div>
       <div class="tab-inner cond02 clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-05.jpg" alt="">
         </div>
       </div>
+
     </div><!-- inner -->
   </section><!-- life-info -->
 
@@ -436,10 +436,9 @@
     <a href="location03.html" class="current"><p>毎日を支える充実の利便施設</p></a>
   </div>
 
-
   <script>
-    $(function () {
-  if ($("#location").length) {
+    ;(function($) {
+      if ($("document").length) {
     $(".change-buttons .button").on("click", function (e) {
       e.preventDefault();
       var _target = $(this).data("target");
@@ -448,9 +447,12 @@
       $(".tab-inner").removeClass("current");
       $(".tab-inner." + _target).addClass("current");
     });
+ 
   }
 });
-</script>
+  </script>
+
+
 
 <footer class="footer">
   <div class="entry">
