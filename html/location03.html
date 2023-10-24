@@ -412,12 +412,12 @@
         <li><span href="#" data-target="cond02" class="button button02">写真2</span></li>
       </ul>
       <div class="tab-inner cond01 current clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-04.jpg" alt="">
         </div>
       </div>
       <div class="tab-inner cond02 clearfix">
-        <div class="image plan-img">
+        <div class="image">
         <img src="./images/location03/area03-05.jpg" alt="">
         </div>
       </div>
@@ -437,20 +437,6 @@
   </div>
 
 
-  <script>
-    $(function () {
-  if ($("#location").length) {
-    $(".change-buttons .button").on("click", function (e) {
-      e.preventDefault();
-      var _target = $(this).data("target");
-      $(".change-buttons .button").removeClass("current");
-      $(this).addClass("current");
-      $(".tab-inner").removeClass("current");
-      $(".tab-inner." + _target).addClass("current");
-    });
-  }
-});
-</script>
 
 <footer class="footer">
   <div class="entry">
@@ -482,7 +468,7 @@
         <li class="start map"><a href="./map.html" target="_blank">現地案内図</a></li>
         <li class="outline"><a href="javascript:outline()">物件概要</a></li>
         <!-- <li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li> -->
-        <li class="blog">マンション情報ブログ</a></li>
+        <li class="blog">マンション情報ブログ</li>
         <li class="faq"><a href="/shuto/shimomaruko/faq.cgi" target="_blank">FAQ</a></li>
         <li class="sitemap"><a href="./sitemap.html">サイトマップ</a></li>
         <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=footer"></script>
@@ -616,8 +602,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-M7LSST');</script>
 <!-- Google Tag Manager end -->
-
-
 </body>
-</html></body>
 </html>
