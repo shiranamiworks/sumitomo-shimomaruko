@@ -276,32 +276,32 @@
       <div class="title">LIFE INFORMATION</div>
       <div class="tab-inner cond01 current clearfix">
         <div class="image map">
-          <figure class="pc"><img src="./images/location03/info01.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info01.png" class="zoomImg tb" alt=""/></figure>
+          <figure class="pc"><img src="./images/location03/info01.png" class="sp-hide" alt="SHOPPING"></figure>
+          <figure class="tb"><img src="./images/location03/info01.png" class="zoomImg tb" alt="SHOPPING"/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond02 clearfix">
         <div class="image map">
-          <figure class="pc"><img src="./images/location03/info02.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info02.png" class="zoomImg2 tb" alt=""/></figure>
+          <figure class="pc"><img src="./images/location03/info02.png" class="sp-hide" alt="PARK&SPORTS"></figure>
+          <figure class="tb"><img src="./images/location03/info02.png" class="zoomImg2 tb" alt="PARK&SPORTS"/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond03 clearfix">
         <div class="image map">
-          <figure class="pc"><img src="./images/location03/info03.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info03.png" class="zoomImg3 tb" alt=""/></figure>
+          <figure class="pc"><img src="./images/location03/info03.png" class="sp-hide" alt="EDUCATION"></figure>
+          <figure class="tb"><img src="./images/location03/info03.png" class="zoomImg3 tb" alt="EDUCATION"/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond04 clearfix">
         <div class="image map">
-          <figure class="pc"><img src="./images/location03/info04.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info04.png" class="zoomImg4 tb" alt=""/></figure>
+          <figure class="pc"><img src="./images/location03/info04.png" class="sp-hide" alt="HOSPITAL"></figure>
+          <figure class="tb"><img src="./images/location03/info04.png" class="zoomImg4 tb" alt="HOSPITAL"/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond05 clearfix">
         <div class="image map">
-          <figure class="pc"><img src="./images/location03/info05.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info05.png" class="zoomImg5 tb" alt=""/></figure>
+          <figure class="pc"><img src="./images/location03/info05.png" class="sp-hide" alt="PUBLIC&FINANCIAL"></figure>
+          <figure class="tb"><img src="./images/location03/info05.png" class="zoomImg5 tb" alt="PUBLIC&FINANCIAL"/></figure>
         </div>
       </div><!-- tab-inner  -->
 
@@ -318,31 +318,31 @@
       <div class="tab-inner cond01 current clearfix">
         <div class="image">
           <img src="./images/location03/info01.svg" alt="" class="pc">
-          <img src="./images/location03/info01-sp.svg" alt="" class="sp">
+          <img src="./images/location03/info01-sp.svg" alt="" class="tb">
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond02 clearfix">
         <div class="image">
           <img src="./images/location03/info02.svg" alt="" class="pc">
-          <img src="./images/location03/info02-sp.svg" alt="" class="sp">
+          <img src="./images/location03/info02-sp.svg" alt="" class="tb">
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond03 clearfix">
         <div class="image">
           <img src="./images/location03/info03.svg" alt="" class="pc">
-          <img src="./images/location03/info03-sp.svg" alt="" class="sp">
+          <img src="./images/location03/info03-sp.svg" alt="" class="tb">
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond04 clearfix">
         <div class="image">
           <img src="./images/location03/info04.svg" alt="" class="pc">
-          <img src="./images/location03/info04-sp.svg" alt="" class="sp">
+          <img src="./images/location03/info04-sp.svg" alt="" class="tb">
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond05 clearfix">
         <div class="image">
           <img src="./images/location03/info05.svg" alt="" class="pc">
-          <img src="./images/location03/info05-sp.svg" alt="" class="sp">
+          <img src="./images/location03/info05-sp.svg" alt="" class="tb">
         </div>
       </div><!-- tab-inner  -->
     </div><!-- inner -->
