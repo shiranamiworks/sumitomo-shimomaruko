@@ -5,7 +5,7 @@
   "gnav_set" => "location",
   "page_class" => "location02",
   "url" => "location02.html",
-  "title" => "豊かな自然の潤いを身近に",
+  "title" => "豊かな自然の潤いを身近に｜",
   "keywords" => "豊かな自然の潤いを身近に,",
   "description" => "豊かな自然の潤いを身近にページ。",
   "add_stylesheet" => ["css/location.css","css/location02.css"],

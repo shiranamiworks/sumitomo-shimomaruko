@@ -112,7 +112,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
             <div class="sub-menu">
               <a href="<?= $page_settings["directory_pos"]  ?>location01.html">様々な都市機能に近接する「下丸子」</a>
-              <a href="<?= $page_settings["directory_pos"]  ?>location02.html" class="finish">豊かな自然の潤いを身近に</a>
+              <a href="<?= $page_settings["directory_pos"]  ?>location02.html">豊かな自然の潤いを身近に</a>
               <a href="<?= $page_settings["directory_pos"]  ?>location03.html" class="finish">毎日を支える充実の利便施設</a>
             </div>
           </li>

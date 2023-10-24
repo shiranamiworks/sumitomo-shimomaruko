@@ -277,31 +277,31 @@
       <div class="tab-inner cond01 current clearfix">
         <div class="image map">
           <figure class="pc"><img src="./images/location03/info01.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info01.png" class="zoomImg sp" alt=""/></figure>
+          <figure class="tb"><img src="./images/location03/info01.png" class="zoomImg tb" alt=""/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond02 clearfix">
         <div class="image map">
           <figure class="pc"><img src="./images/location03/info02.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info02.png" class="zoomImg2 sp" alt=""/></figure>
+          <figure class="tb"><img src="./images/location03/info02.png" class="zoomImg2 tb" alt=""/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond03 clearfix">
         <div class="image map">
           <figure class="pc"><img src="./images/location03/info03.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info03.png" class="zoomImg3 sp" alt=""/></figure>
+          <figure class="tb"><img src="./images/location03/info03.png" class="zoomImg3 tb" alt=""/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond04 clearfix">
         <div class="image map">
           <figure class="pc"><img src="./images/location03/info04.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info04.png" class="zoomImg4 sp" alt=""/></figure>
+          <figure class="tb"><img src="./images/location03/info04.png" class="zoomImg4 tb" alt=""/></figure>
         </div>
       </div><!-- tab-inner  -->
       <div class="tab-inner cond05 clearfix">
         <div class="image map">
           <figure class="pc"><img src="./images/location03/info05.png" class="sp-hide" alt="q‹óŽÊ^1"></figure>
-          <figure class="tb"><img src="./images/location03/info05.png" class="zoomImg5 sp" alt=""/></figure>
+          <figure class="tb"><img src="./images/location03/info05.png" class="zoomImg5 tb" alt=""/></figure>
         </div>
       </div><!-- tab-inner  -->
 

@@ -5,7 +5,7 @@
   "gnav_set" => "location",
   "page_class" => "location01",
   "url" => "location01.html",
-  "title" => "さまざまな都市機能に近接する「下丸子」",
+  "title" => "さまざまな都市機能に近接する「下丸子」｜",
   "keywords" => "さまざまな都市機能に近接する「下丸子」,",
   "description" => "さまざまな都市機能に近接する「下丸子」ページ。",
   "add_stylesheet" => ["css/location.css","css/location01.css"],
