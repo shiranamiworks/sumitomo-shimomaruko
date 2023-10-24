@@ -235,6 +235,93 @@
   padding: 20px;
   box-sizing: border-box;
 }
+.location03 .area03 .bg01 .column02.list01 {
+  border-bottom: 0.5px solid #000;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.location03 .area03 .bg01 .column02.list01 .name {
+  font-size: 26px;
+  line-height: 1;
+}
+.location03 .area03 .bg01 .column02.list01 .name span {
+  font-size: 16px;
+}
+.location03 .area03 .bg01 .column02.list01 .lead {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.location03 .area03 .bg01 .column02.list02 li {
+  position: relative;
+}
+.location03 .area03 .bg01 .column02.list02 li .annotation {
+  right: auto;
+  left: 10px;
+}
+.location03 .area03 .bg01 .column02.list02 .lead {
+  width: 62%;
+  margin: 10px 0;
+}
+.location03 .area03 .bg01 .column02.list02 .txt {
+  display: inline-flex;
+  height: 84px;
+}
+.location03 .area03 .bg01 .column02.list02 .point {
+  position: absolute;
+}
+.location03 .area03 .bg01 .column02.list02 .point.point01 {
+  max-width: 230px;
+  width: 40%;
+  right: 0;
+  bottom: 2%;
+}
+.location03 .area03 .bg01 .column02.list02 .point.point02 {
+  max-width: 210px;
+  width: 38%;
+  right: -2%;
+  bottom: 12%;
+}
+.location03 .life-info {
+  text-align: center;
+}
+.location03 .life-info .tab-inner {
+  display: none;
+}
+.location03 .life-info .tab-inner.current {
+  display: inherit;
+}
+.location03 .life-info .change-buttons {
+  text-align: center;
+  max-width: 558px;
+  margin: 60px auto;
+}
+.location03 .life-info .change-buttons li {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+}
+.location03 .life-info .change-buttons .button {
+  display: block;
+  color: #212933;
+  font-size: 16px;
+  padding: 16px 0;
+  background: #fff;
+  border: 1px solid #212933;
+}
+.location03 .life-info .change-buttons .button.current {
+  pointer-events: none;
+  color: #fff;
+  background: #212933;
+  border: 1px solid #212933;
+}
+.location03 .life-info .change-buttons .button:hover {
+  opacity: 1;
+  color: #fff;
+  background: #212933;
+  border: 1px solid #212933;
+  transition: 0.3s;
+}
 @media screen and (max-width: 768px) {
   .location03 sp {
     display: block;
@@ -287,69 +374,5 @@
     font-size: 16px;
     line-height: 2;
     margin-bottom: 20px;
-  }
-  .location03 .area01 .column02 .bottom {
-    margin-bottom: 20px;
-  }
-  .location03 .area01 .txt01 {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .location03 .area02 .txt01 {
-    font-size: 20px;
-    margin: 10px 0 20px;
-  }
-  .location03 .area02 .txt01 span {
-    font-size: 14px;
-  }
-  .location03 .area02 .txt02 {
-    font-size: 16px;
-    line-height: 2;
-  }
-  .location03 .area03 .line {
-    font-size: 20px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  .location03 .area03 .line span {
-    font-size: 30px;
-  }
-  .location03 .area03 .line02 {
-    padding: 10px;
-  }
-  .location03 .area03 .column03 {
-    margin-bottom: 40px;
-  }
-  .location03 .area03 .column03 .txt {
-    margin-top: 10px;
-  }
-  .location03 .area03 .name {
-    font-size: 16px;
-  }
-  .location03 .area04 {
-    padding-bottom: 60px;
-    margin-bottom: 0;
-  }
-  .location03 .area04 .point {
-    font-size: 30px;
-    padding-top: 60px;
-    margin-bottom: 20px;
-  }
-  .location03 .area04 .point:before {
-    height: 50px;
-  }
-  .location03 .area04 .tit {
-    font-size: 20px;
-  }
-  .location03 .area04 .list02 li:last-child {
-    margin-top: 50px;
-  }
-  .location03 .area04 .list02 .annotation {
-    line-height: 1.2;
-    bottom: -30px;
-  }
-  .location03 .area04 .list03 .annotation {
-    line-height: 1.2;
-    bottom: -30px;
   }
 }/*# sourceMappingURL=location03.css.map */

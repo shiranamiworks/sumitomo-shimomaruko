@@ -248,10 +248,98 @@
       background: #eeebe4;
       padding: 20px;
       box-sizing: border-box;
+      .column02.list01 {
+        border-bottom: 0.5px solid #000;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        .name {
+          font-size: 26px;
+          line-height: 1;
+          span {
+            font-size: 16px;
+          }
+        }
+        .lead {
+          font-size: 16px;
+          line-height: 1.6;
+          margin-bottom: 0;
+        }
+      }
+      .column02.list02 {
+        li {
+          position: relative;
+          .annotation {
+            right: auto;
+            left: 10px;
+          }
+        }
+        .lead {
+          width: 62%;
+          margin: 10px 0;
+        }
+        .txt {
+          display: inline-flex;
+          height: 84px;
+        }
+        .point {
+          position: absolute;
+          &.point01 {
+            max-width: 230px;
+            width: 40%;
+            right: 0;
+            bottom: 2%;
+          }
+          &.point02 {
+            max-width: 210px;
+            width: 38%;
+            right: -2%;
+            bottom: 12%;
+          }
+        }
+      }
     }
   } //area03
-  .area04 {
-  } //area04
+
+  .life-info {
+    text-align: center;
+    .tab-inner {
+      display: none;
+    }
+    .tab-inner.current {
+      display: inherit;
+    }
+    .change-buttons {
+      text-align: center;
+      max-width: 558px;
+      margin: 60px auto;
+    }
+    .change-buttons li {
+      text-align: center;
+      display: inline-block;
+      width: 49%;
+    }
+    .change-buttons .button {
+      display: block;
+      color: #212933;
+      font-size: 16px;
+      padding: 16px 0;
+      background: #fff;
+      border: 1px solid #212933;
+    }
+    .change-buttons .button.current {
+      pointer-events: none;
+      color: #fff;
+      background: #212933;
+      border: 1px solid #212933;
+    }
+    .change-buttons .button:hover {
+      opacity: 1;
+      color: #fff;
+      background: #212933;
+      border: 1px solid #212933;
+      transition: 0.3s;
+    }
+  }
 
   @media screen and (max-width: 1300px) {
   }
@@ -320,79 +408,11 @@
       }
     } //areas
     .area01 {
-      .column02 .bottom {
-        margin-bottom: 20px;
-      }
-      .txt01 {
-        font-size: 20px;
-        line-height: 1.5;
-      }
     } //area01
     .area02 {
-      .txt01 {
-        font-size: 20px;
-        margin: 10px 0 20px;
-        span {
-          font-size: 14px;
-        }
-      }
-      .txt02 {
-        font-size: 16px;
-        line-height: 2;
-      }
     } //area02
     .area03 {
-      .line {
-        font-size: 20px;
-        padding: 10px;
-        margin-bottom: 10px;
-        span {
-          font-size: 30px;
-        }
-      }
-      .line02 {
-        padding: 10px;
-      }
-      .column03 {
-        margin-bottom: 40px;
-        .txt {
-          margin-top: 10px;
-        }
-      }
-      .name {
-        font-size: 16px;
-      }
     } //area03
-    .area04 {
-      padding-bottom: 60px;
-      margin-bottom: 0;
-      .point {
-        font-size: 30px;
-        padding-top: 60px;
-        margin-bottom: 20px;
-        &:before {
-          height: 50px;
-        }
-      }
-      .tit {
-        font-size: 20px;
-      }
-      .list02 {
-        li:last-child {
-          margin-top: 50px;
-        }
-        .annotation {
-          line-height: 1.2;
-          bottom: -30px;
-        }
-      }
-      .list03 {
-        .annotation {
-          line-height: 1.2;
-          bottom: -30px;
-        }
-      }
-    } //area04
   } //sp
   @media screen and (max-width: 450px) {
   }
