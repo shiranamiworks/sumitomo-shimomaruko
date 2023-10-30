@@ -136,7 +136,7 @@
   margin-bottom: 60px;
 }
 .location01 .intro .tit {
-  font-size: 30px;
+  font-size: 36px;
   line-height: 2;
   margin-bottom: 80px;
 }
@@ -170,14 +170,14 @@
   margin-bottom: 80px;
 }
 .location01 .areas .text {
-  font-size: 24px;
+  font-size: 27px;
   line-height: 1.6;
   margin-bottom: 40px;
 }
 .location01 .areas .lead {
   font-size: 18px;
   line-height: 1.8;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 .location01 .areas .box {
   background: #ddf0f3;
@@ -187,7 +187,7 @@
 }
 .location01 .areas .name {
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.6;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -326,14 +326,14 @@
   .location01 .areas .lead {
     font-size: 16px;
     line-height: 2;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .location01 .areas .name {
     text-align: left;
-    font-size: 22px;
+    font-size: 18px;
   }
   .location01 .areas .name span {
-    font-size: 16px;
+    font-size: 13px;
   }
   .location01 .areas .info {
     font-size: 16px;

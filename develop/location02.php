@@ -29,7 +29,7 @@
 	<!--// パンくずリスト -->
 
   <div class="location-link location-link--3">
-    <a href="location01.html"><p>さまざまな都市機能に近接する「下丸子」</p></a>
+    <a href="location01.html"><p>多彩な都市機能に近接</p></a>
     <a href="location02.html" class="current"><p>豊かな自然の潤いを身近に</p></a>
     <a href="location03.html"><p>毎日を支える充実の利便施設</p></a>
   </div>
@@ -267,7 +267,7 @@
 </main>
 
   <div class="location-link location-link--3">
-    <a href="location01.html"><p>さまざまな都市機能に近接する「下丸子」</p></a>
+    <a href="location01.html"><p>多彩な都市機能に近接</p></a>
     <a href="location02.html" class="current"><p>豊かな自然の潤いを身近に</p></a>
     <a href="location03.html"><p>毎日を支える充実の利便施設</p></a>
   </div>

@@ -5,13 +5,13 @@
   "gnav_set" => "location",
   "page_class" => "location01",
   "url" => "location01.html",
-  "title" => "さまざまな都市機能に近接する「下丸子」｜",
-  "keywords" => "さまざまな都市機能に近接する「下丸子」,",
-  "description" => "さまざまな都市機能に近接する「下丸子」ページ。",
+  "title" => "多彩な都市機能に近接｜",
+  "keywords" => "多彩な都市機能に近接,",
+  "description" => "多彩な都市機能に近接ページ。",
   "add_stylesheet" => ["css/location.css","css/location01.css"],
   "add_script" =>  ["js/location.js"],
   "canonical_page_id" => "location", 
-  "logo_text" => "さまざまな都市機能に近接する「下丸子」｜"
+  "logo_text" => "多彩な都市機能に近接｜"
 );
 ?>
 
@@ -23,13 +23,13 @@
     <ul>
       <li><a href="./index.html">シティテラス下丸子　トップ</a></li>
       <li><a href="./location01.html">ロケーション</a></li>
-      <li><p>さまざまな都市機能に近接する「下丸子」</p></li>
+      <li><p>多彩な都市機能に近接</p></li>
     </ul>
   </div>
 	<!--// パンくずリスト -->
 
   <div class="location-link location-link--3">
-    <a href="location01.html" class="current"><p>さまざまな都市機能に近接する「下丸子」</p></a>
+    <a href="location01.html" class="current"><p>多彩な都市機能に近接</p></a>
     <a href="location02.html"><p>豊かな自然の潤いを身近に</p></a>
     <a href="location03.html"><p>毎日を支える充実の利便施設</p></a>
   </div>
@@ -259,7 +259,7 @@
 </main>
 
   <div class="location-link location-link--3">
-    <a href="location01.html" class="current"><p>さまざまな都市機能に近接する「下丸子」</p></a>
+    <a href="location01.html" class="current"><p>多彩な都市機能に近接</p></a>
     <a href="location02.html"><p>豊かな自然の潤いを身近に</p></a>
     <a href="location03.html"><p>毎日を支える充実の利便施設</p></a>
   </div>
