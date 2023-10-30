@@ -202,11 +202,11 @@
   margin-bottom: 40px;
 }
 #access .airport .column02 li {
-  width: 15.5%;
+  width: 15%;
   margin-right: 1%;
 }
 #access .airport .column02 li:last-child {
-  width: 83%;
+  width: 81%;
   margin-right: auto;
 }
 #access .airport .column02.bottom {
