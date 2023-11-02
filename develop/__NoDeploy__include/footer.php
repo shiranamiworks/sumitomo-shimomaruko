@@ -6,9 +6,9 @@
       <div class="entry-tel">
         <p>お問い合わせは住友不動産<br class="sp">「リモート販売センター品川」</p>
         <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-112-507</span></a><br>
-        <a href="mailto:ct-higashibetsuin@j.sumitomo-rd.co.jp" class="disabled">ct-higashibetsuin@j.sumitomo-rd.co.jp</a>
+        <a href="mailto:ct-shimomaruko@j.sumitomo-rd.co.jp" class="disabled">ct-shimomaruko@j.sumitomo-rd.co.jp</a>
       </div>
-      <p class="entry-info">営業時間／平日11:00～19:00　土・日・祝10:00～18:00<br class="sp">（水曜定休、年末年始は休業）</p>
+      <p class="entry-info">営業時間／10:00～18:00<br class="sp">（火・水曜定休（祝日除く）、年末年始は休業）</p>
     </div>
   </div><!-- / entry -->
 
@@ -40,6 +40,7 @@
     <div class="container">
       <ul class="footer-recommend__menu f-min">
         <li>大田区 マンション</li>
+        <li>大田区 新築マンション</li>
         <li>シティテラス下丸子</li>
         <li>東京都大田区</li>
         <li>東急多摩川線</li>

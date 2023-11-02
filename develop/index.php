@@ -43,7 +43,7 @@
       </div>
       <div class="information-box">
         <div class="information-box-wrapper">
-          <div id="topics" class="informationTopics" data-area-cd="XXX" data-prop-cd="YYY"></div>
+          <div id="topics" class="informationTopics" data-area-cd="shuto" data-prop-cd="shimomaruko"></div>
         </div>
       </div>
     </div>

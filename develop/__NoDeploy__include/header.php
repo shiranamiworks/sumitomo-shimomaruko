@@ -13,14 +13,14 @@ $site_setting = array(
 $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティテラス下丸子,大田区 マンション,下丸子,鵜の木駅,東急多摩川線,大田区,マンション,新築マンション,分譲マンション,住友不動産">
-<meta name="description" content="<?= $page_settings["description"] ?>東急多摩川線「鵜の木駅」まで徒歩7分。住友不動産のマンションが下丸子に誕生。【すみふ下丸子】大田区のマンションなら住友不動産。">
-<title><?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区のマンション｜住友不動産</title>
+<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティテラス下丸子,大田区 マンション,大田区 新築マンション,下丸子,鵜の木駅,東急多摩川線,大田区,マンション,新築マンション,分譲マンション,住友不動産">
+<meta name="description" content="<?= $page_settings["description"] ?>東急多摩川線「鵜の木駅」まで徒歩7分分。住友不動産の新築マンションが下丸子に誕生。【すみふ下丸子】大田区のマンションなら住友不動産。">
+<title><?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区の新築マンション｜住友不動産</title>
 <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
 <meta property="og:type" content="website" />
-<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区のマンション｜住友不動産">
-<meta property="og:description" content="<?= $page_settings["description"] ?>東急多摩川線「鵜の木駅」まで徒歩7分。住友不動産のマンションが下丸子に誕生。【すみふ下丸子】大田区のマンションなら住友不動産。">
-<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区のマンション｜住友不動産">
+<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区の新築マンション｜住友不動産">
+<meta property="og:description" content="<?= $page_settings["description"] ?>東急多摩川線「鵜の木駅」まで徒歩7分分。住友不動産の新築マンションが下丸子に誕生。【すみふ下丸子】大田区のマンションなら住友不動産。">
+<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティテラス下丸子｜大田区の新築マンション｜住友不動産">
 <meta property="og:image" content="<?= $page_settings["directory_pos"] ?>images/top/ogp.jpg" />
 
 <link rel="canonical" href="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
@@ -76,7 +76,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
     <h1 class="header-logo">
       <a href="index.html">
         <figure><img src="<?= $page_settings["directory_pos"]  ?>images/common/logo-pc.png" alt=""></figure>
-        <p>鵜の木駅徒歩7分｜シティテラス下丸子｜大田区 マンション｜<?= $page_settings["logo_text"]  ?>すみふ下丸子｜住友不動産</p>
+        <p>鵜の木駅徒歩7分｜シティテラス下丸子｜大田区 新築マンション｜<?= $page_settings["logo_text"]  ?>すみふ下丸子｜住友不動産</p>
       </a>
     </h1><!-- header-logo -->
     <div class="header-right d-flex">
