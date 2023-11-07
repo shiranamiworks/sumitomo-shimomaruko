@@ -178,7 +178,7 @@
 .location03 .area01 .column02 .txt.info {
   margin-top: 20px;
   display: inline-flex;
-  height: 60px;
+  height: 42px;
 }
 .location03 .area02 {
   margin-bottom: 0;
@@ -262,7 +262,7 @@
 }
 .location03 .area03 .bg01 .column02.list02 .txt {
   display: inline-flex;
-  height: 84px;
+  height: 72px;
 }
 .location03 .area03 .bg01 .column02.list02 .point {
   position: absolute;
