@@ -164,7 +164,7 @@
     <div class="inner">
       <p class="text">子どもの成長をしっかりサポートする<br class="pc">充実した保育・教育環境。</p>
       <p class="lead">身近に数多くの幼稚園・保育園が点在する「シティテラス下丸子」。小学校・中学校も通いやすい距離にあり、良好な子育て環境が整っています。</p>
-      <p class="line">幼稚園・保育園は徒歩10分圏内に<span>16</span>園</p>
+      <p class="line">幼稚園・保育園は徒歩10分圏内に<span>13</span>園</p>
       <ul class="column03">
         <li>
           <div class="image">
