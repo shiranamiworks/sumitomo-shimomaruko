@@ -51,7 +51,7 @@
   <section class="sections areas area01 clearfix">
     <div class="image img00">
       <img src="./images/location02/area01-00.jpg">
-      <p class="annotation white">多摩川ガス橋緑地（約380m／徒歩5分）</p>
+      <p class="annotation white">多摩川ガス橋緑地（A:徒歩5分／B:徒歩6分）</p>
     </div>
     <div class="inner">
       <p class="text">スポーツや散策を楽しむ人で賑わう、<br class="pc">緑豊かな多摩川河川敷。</p>
@@ -71,12 +71,12 @@
           </div>
         </li>
       </ul>
-      <p class="caps">多摩川ガス橋緑地（約380m／徒歩5分）</p>
+      <p class="caps">多摩川ガス橋緑地（A:徒歩5分／B:徒歩6分）</p>
       <p class="txt01">120本を超える桜並木がつくる春の風景。</p>
       <p class="txt02">花見の人気スポットでもある多摩川河川敷の「多摩川ガス橋緑地」は、毎年開花を心待ちにしていた人々で賑わいます。大田区が取り組んだ植樹事業によって植えられた桜の数は約120本。見頃の時期には春色に染まる多摩川沿いを楽しめます。</p>
       <div class="image img04">
         <img src="./images/location02/area01-04.jpg">
-        <p class="annotation">多摩川ガス橋緑地（約380m／徒歩5分）</p>
+        <p class="annotation">多摩川ガス橋緑地（A:徒歩5分／B:徒歩6分）</p>
       </div>
         <ul class="column02">
           <li>
@@ -115,20 +115,20 @@
           </div>
         </li>
       </ul>
-      <p class="txt01">下丸子公園<span>（約230m／徒歩3分）</span></p>
+      <p class="txt01">下丸子公園<span>（A:徒歩3分／B:徒歩5分）</span></p>
       <p class="txt02 bottom">昭和62年に、平和を祈る想いからスタートした「花火の祭典」。多摩川の河川敷から打ち上げられる約4,000発の花火は、大田区の一大イベントです。毎年の夏の思い出に夜空に咲く大輪の華を、家族みんなで観るしあわせが、この場所にあります。</p>
       <ul class="column02">
         <li>
           <div class="image">
           <img src="./images/location02/area02-04.jpg">
           </div>
-          <p class="txt01">くすのき公園<span>（約90m／徒歩2分）</span></p>
+          <p class="txt01">くすのき公園<span>（A:徒歩3分／B:徒歩2分）</span></p>
         </li>
         <li>
           <div class="image">
           <img src="./images/location02/area02-05.jpg">
           </div>
-          <p class="txt01">下丸子余情公園<span>（約210m／徒歩3分）</span></p>
+          <p class="txt01">下丸子余情公園<span>（A:徒歩3分／B:徒歩4分）</span></p>
         </li>
       </ul>
       <ul class="column03">
@@ -136,19 +136,19 @@
           <div class="image">
           <img src="./images/location02/area02-06.jpg">
           </div>
-          <p class="txt01">鵜の木二丁目児童公園<br><span>（約220m／徒歩3分）</span></p>
+          <p class="txt01">鵜の木二丁目児童公園<br><span>（A:徒歩4分／B:徒歩3分）</span></p>
         </li>
         <li>
           <div class="image">
           <img src="./images/location02/area02-07.jpg">
           </div>
-          <p class="txt01">あおぞら児童公園<br><span>（約350m／徒歩5分）</span></p>
+          <p class="txt01">あおぞら児童公園<br><span>（A:徒歩6分／B:徒歩5分）</span></p>
         </li>
         <li>
           <div class="image">
           <img src="./images/location02/area02-08.jpg">
           </div>
-          <p class="txt01">あけぼの児童公園<br><span>（約370m／徒歩5分）</span></p>
+          <p class="txt01">あけぼの児童公園<br><span>（A:徒歩5分／B:徒歩6分）</span></p>
         </li>
       </ul>
       </div><!-- inner -->
@@ -200,13 +200,13 @@
           <div class="image">
             <img src="./images/location02/area03-04.jpg">
           </div>
-          <p class="name">大田区立嶺町小学校（約870m／徒歩11分）</p>
+          <p class="name">大田区立嶺町小学校（A:徒歩12分／B:徒歩11分）</p>
         </li>
         <li>
           <div class="image">
             <img src="./images/location02/area03-05.jpg">
           </div>
-          <p class="name">大田区立矢口中学校（約970m／徒歩13分）</p>
+          <p class="name">大田区立矢口中学校（A:徒歩13分／B:徒歩14分）</p>
         </li>
       </ul>
       </div><!-- inner -->
@@ -263,7 +263,7 @@
 
 
 <div class="annotation-area">
-<p class="page-annotation js-scroll wrap clearfix">※掲載の距離表示については地図上の概測距離を、徒歩分数表示については80mを1分として算出し、端数を切り上げたものです。<br>※掲載の環境写真は2022年4月&#x301c;2023年7月に撮影。<br>※施設の内容等は将来変わる場合があります。<br>※掲載の情報は2023年7月現在のものです。</p></div>
+<p class="page-annotation js-scroll wrap clearfix">凡例）A:エアーズコート（グランドエントランス）、B:ブリーズコート（ノースエントランス）<br>※掲載の距離表示については地図上の概測距離を、徒歩分数表示については80mを1分として算出し、端数を切り上げたものです。<br>※掲載の環境写真は2022年4月&#x301c;2023年7月に撮影。<br>※施設の内容等は将来変わる場合があります。<br>※掲載の情報は2023年7月現在のものです。</p></div>
 </main>
 
   <div class="location-link location-link--3">
