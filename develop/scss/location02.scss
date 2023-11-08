@@ -247,11 +247,14 @@
     .column03 {
       margin-bottom: 60px;
       .txt {
-        margin-top: 30px;
+        margin-top: 20px;
+        &.mt{
+          margin-top: 12.5%;
+        }
       }
     }
     .name {
-      font-size: 18px;
+      font-size: 17px;
       margin-top: 6px;
     }
   } //area03
@@ -397,6 +400,9 @@
         margin-bottom: 40px;
         .txt {
           margin-top: 10px;
+          &.mt{
+            margin-top: 2%;
+          }
         }
       }
       .name {

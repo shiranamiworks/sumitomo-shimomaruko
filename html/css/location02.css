@@ -236,10 +236,13 @@
   margin-bottom: 60px;
 }
 .location02 .area03 .column03 .txt {
-  margin-top: 30px;
+  margin-top: 20px;
+}
+.location02 .area03 .column03 .txt.mt {
+  margin-top: 12.5%;
 }
 .location02 .area03 .name {
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 6px;
 }
 .location02 .area04 {
@@ -366,6 +369,9 @@
   }
   .location02 .area03 .column03 .txt {
     margin-top: 10px;
+  }
+  .location02 .area03 .column03 .txt.mt {
+    margin-top: 2%;
   }
   .location02 .area03 .name {
     font-size: 16px;

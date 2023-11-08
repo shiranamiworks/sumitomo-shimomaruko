@@ -171,7 +171,7 @@
             <img src="./images/location02/area03-01.jpg">
           </div>
           <p class="name">キッズラボ下丸子園</p>
-          <div class="txt">
+          <div class="txt pc">
             <img src="./images/location02/area03-01-txt.svg">
           </div>
         </li>
@@ -180,8 +180,11 @@
             <img src="./images/location02/area03-02.jpg">
           </div>
           <p class="name">グローバルキッズ鵜の木園</p>
-          <div class="txt">
+          <div class="txt mt pc">
             <img src="./images/location02/area03-02-txt.svg">
+          </div>
+          <div class="txt mt tb">
+            <img src="./images/location02/area03-01-txt-sp.svg">
           </div>
         </li>
         <li>
@@ -189,8 +192,9 @@
             <img src="./images/location02/area03-03.jpg">
           </div>
           <p class="name">嶺町幼稚園</p>
-          <div class="txt">
-            <img src="./images/location02/area03-03-txt.svg">
+          <div class="txt mt">
+            <img src="./images/location02/area03-03-txt.svg" class="pc">
+            <img src="./images/location02/area03-03-txt-sp.svg" class="tb">
           </div>
         </li>
       </ul>
