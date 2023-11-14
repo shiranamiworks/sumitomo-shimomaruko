@@ -5,7 +5,7 @@
   "gnav_set" => "location",
   "page_class" => "location03",
   "url" => "location03.html",
-  "title" => "–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ý",
+  "title" => "–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ýb",
   "keywords" => "–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ý,",
   "description" => "–ˆ“ú‚ðŽx‚¦‚é[ŽÀ‚Ì—˜•ÖŽ{Ýƒy[ƒWB",
   "add_stylesheet" => ["css/location.css","css/location03.css"],
