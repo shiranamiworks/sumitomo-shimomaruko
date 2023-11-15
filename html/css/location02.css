@@ -112,13 +112,32 @@
   text-align: right;
 }
 .location02 .sections .column02 li {
-  vertical-align: top;
+  vertical-align: middle;
   display: inline-block;
-  width: 48.5%;
-  margin-right: 2%;
+  width: 50%;
+  margin-right: 8%;
 }
 .location02 .sections .column02 li:nth-child(2n),
 .location02 .sections .column02 li:last-child {
+  width: 40%;
+  margin-right: auto;
+}
+.location02 .sections .column02.list02 li {
+  width: 50%;
+  margin-right: 3%;
+  vertical-align: top;
+}
+.location02 .sections .column02.list02 li:last-child {
+  width: 45%;
+  margin-right: auto;
+}
+.location02 .sections .column02.list03 li {
+  width: 50%;
+  margin-right: 3%;
+  vertical-align: top;
+}
+.location02 .sections .column02.list03 li:last-child {
+  width: 45%;
   margin-right: auto;
 }
 .location02 .sections .column03 li {
@@ -157,9 +176,8 @@
   margin-bottom: 40px;
 }
 .location02 .areas .lead {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
-  margin-bottom: 40px;
 }
 .location02 .areas .box {
   background: #ddf0f3;
@@ -239,7 +257,7 @@
   margin-top: 20px;
 }
 .location02 .area03 .column03 .txt.mt {
-  margin-top: 12.5%;
+  margin-top: 8%;
 }
 .location02 .area03 .name {
   font-size: 17px;
@@ -278,6 +296,9 @@
 .location02 .area04 .annotation {
   bottom: -15px;
 }
+.location02 .area04 .list02 .annotation, .location02 .area04 .list03 .annotation {
+  bottom: -30px;
+}
 .location02 .area04 .tit-img {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -302,7 +323,14 @@
     margin-bottom: 20px;
   }
   .location02 .sections .column02 li:last-child {
+    width: 100%;
     margin-bottom: auto;
+  }
+  .location02 .sections .column02.list02 li, .location02 .sections .column02.list03 li {
+    width: 100%;
+  }
+  .location02 .sections .column02.list02 li:last-child, .location02 .sections .column02.list03 li:last-child {
+    width: 100%;
   }
   .location02 .sections .column03 li {
     display: block;

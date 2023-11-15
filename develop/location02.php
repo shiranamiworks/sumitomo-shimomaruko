@@ -234,7 +234,8 @@
         </li>
       </ul>
       <div class="image tit-img">
-        <img src="./images/location02/tit01.png">
+        <img src="./images/location02/tit01.png" class="pc">
+        <img src="./images/location02/tit01-sp.png" class="sp">
       </div>
       <ul class="column02 list02">
       <li>
@@ -248,11 +249,12 @@
         </li>
       </ul>
       <div class="image tit-img">
-        <img src="./images/location02/tit02.png">
+        <img src="./images/location02/tit02.png" class="pc">
+        <img src="./images/location02/tit02-sp.png" class="sp">
       </div>
       <ul class="column02 list03">
         <li>
-          <p class="lead">大田区は、私立保育園の開設支援を積極的に行った結果、2021年と2022年で待機児童ゼロを実現しました。さらに区立保育園の民営化による保育サービスの充実や、保育園園長をメンバーとしたプロジェクトチームの発足など、区全体で保育水準の向上にも取り組んでいます。</p>
+          <p class="lead">大田区は、私立保育園の開設支援を積極的に行った結果、2021年から3年連続で待機児童ゼロを実現しました。さらに区立保育園の民営化による保育サービスの充実や、保育園園長をメンバーとしたプロジェクトチームの発足など、区全体で保育水準の向上にも取り組んでいます。</p>
         </li>
         <li>
           <div class="image">
