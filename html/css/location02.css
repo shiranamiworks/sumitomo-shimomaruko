@@ -353,6 +353,9 @@
   .location02 .areas .img00 {
     margin-bottom: 30px;
   }
+  .location02 .areas .img00 .annotation {
+    bottom: -15px;
+  }
   .location02 .areas .text {
     font-size: 20px;
     line-height: 1.8;

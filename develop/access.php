@@ -143,7 +143,7 @@
       </div>
       </li>
       <li>
-      <div class="image">
+      <div class="image pc">
       <img src="./images/access/network03.jpg" alt="">
       <p class="annotation white">image photo</p>
       </div>
@@ -175,7 +175,7 @@
       <p class="lead">「蒲田」駅でスムーズに乗り換えできる京浜急行空港線や、豊富な運行本数が便利なシャトルバスなど、移動手段を選べる自由が、旅行や出張を快適に。蒲田エリア近接だからこそ得られるアドバンテージです。</p>
       <ul class="column02 bottom">
         <li>
-          <div class="image">
+          <div class="image pc">
           <img src="./images/access/air02.jpg" alt="">
           <p class="annotation white">image photo</p>
           </div>
@@ -188,7 +188,7 @@
       </ul>
       <ul class="column02">
         <li>
-          <div class="image">
+          <div class="image pc">
           <img src="./images/access/air03.jpg" alt="">
           <p class="annotation white">image photo</p>
           </div>
@@ -207,7 +207,7 @@
             </div>
           </li>
           <li>
-            <div class="image">
+            <div class="image pc">
             <img src="./images/access/air04.jpg" alt="">
             <p class="annotation white">image photo</p>
             </div>
@@ -239,7 +239,8 @@
         </li>
         <li>
           <div class="txt">
-          <img src="./images/access/car02-txt.svg" alt="">
+          <img src="./images/access/car02-txt.svg" alt="" class="pc">
+          <img src="./images/access/car02-txt-sp.svg" alt="" class="tb">
           </div>
         </li>
       </ul>

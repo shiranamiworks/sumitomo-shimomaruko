@@ -299,6 +299,11 @@
     width: 100%;
     margin-bottom: 20px;
   }
+  #access .sections .column03 li .txt img {
+    display: block;
+    height: 80px;
+    margin: auto;
+  }
   #access .sections .column03 li:last-child {
     margin-bottom: auto;
   }
@@ -347,9 +352,15 @@
     font-size: 16px;
     line-height: 2;
   }
+  #access .network .image.map .annotation {
+    bottom: 5px;
+  }
   #access .network li {
-    float: none;
-    width: 100%;
+    display: inline-block;
+    width: 50%;
+  }
+  #access .network li .image {
+    line-height: 0;
   }
   #access .airport .text {
     text-align: left;
@@ -372,7 +383,7 @@
     margin: auto;
   }
   #access .airport .column02.bottom {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   #access .airport .check {
     padding: 20px;

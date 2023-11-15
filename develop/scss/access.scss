@@ -326,6 +326,11 @@
           display: block;
           width: 100%;
           margin-bottom: 20px;
+          .txt img{
+            display: block;
+            height: 80px;
+            margin: auto;
+          }
         }
         li:last-child {
           margin-bottom: auto;
@@ -377,9 +382,15 @@
         font-size: 16px;
         line-height: 2;
       }
+      .image.map .annotation{
+        bottom: 5px;
+      }
       li {
-        float: none;
-        width: 100%;
+        display: inline-block;
+        width: 50%;
+       .image{
+        line-height: 0;
+       }
       }
     } //network
     .airport {
@@ -405,7 +416,7 @@
           margin: auto;
         }
         &.bottom {
-          margin-bottom: 20px;
+          margin-bottom: 40px;
         }
       }
       .check {

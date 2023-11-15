@@ -335,12 +335,24 @@
       } //column02
       .column03 {
         li {
-          display: block;
-          width: 100%;
+          display: inline-block;
+          width: 48%;
           margin-bottom: 20px;
+          margin-right: 1%;
+          .annotation{
+            bottom: -15px;
+          }
         }
         li:last-child {
           margin-bottom: auto;
+          margin-right: auto;
+        }
+        .txt{
+          margin-top: 25px;
+          .info{
+            font-size: 14px;
+            line-height: 1.6;
+          }
         }
       } //column03
     } //sections
@@ -359,8 +371,12 @@
     } //intro
     .areas {
       margin-bottom: 60px;
+      .img00 .annotation{
+        bottom: -12px;
+      }
       .caps {
         &.bottom {
+          margin-top: 20px;
           margin-bottom: 40px;
         }
       }
@@ -411,6 +427,9 @@
       .column02.imgs {
         li {
           width: 100%;
+          .img01{
+            margin-bottom: 20px;
+          }
         }
         li:last-child {
           width: 100%;

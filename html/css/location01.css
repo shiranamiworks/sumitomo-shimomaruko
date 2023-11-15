@@ -292,12 +292,24 @@
     margin-bottom: auto;
   }
   .location01 .sections .column03 li {
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 48%;
     margin-bottom: 20px;
+    margin-right: 1%;
+  }
+  .location01 .sections .column03 li .annotation {
+    bottom: -15px;
   }
   .location01 .sections .column03 li:last-child {
     margin-bottom: auto;
+    margin-right: auto;
+  }
+  .location01 .sections .column03 .txt {
+    margin-top: 25px;
+  }
+  .location01 .sections .column03 .txt .info {
+    font-size: 14px;
+    line-height: 1.6;
   }
   .location01 .intro {
     text-align: left;
@@ -315,7 +327,11 @@
   .location01 .areas {
     margin-bottom: 60px;
   }
+  .location01 .areas .img00 .annotation {
+    bottom: -12px;
+  }
   .location01 .areas .caps.bottom {
+    margin-top: 20px;
     margin-bottom: 40px;
   }
   .location01 .areas .text {
@@ -358,6 +374,9 @@
   }
   .location01 .area02 .column02.imgs li {
     width: 100%;
+  }
+  .location01 .area02 .column02.imgs li .img01 {
+    margin-bottom: 20px;
   }
   .location01 .area02 .column02.imgs li:last-child {
     width: 100%;
