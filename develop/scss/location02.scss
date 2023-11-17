@@ -115,32 +115,14 @@
     }
     .column02 {
       li {
-        vertical-align: middle;
+        vertical-align: top;
         display: inline-block;
-        width: 50%;
-        margin-right: 8%;
+        width: 48.5%;
+        margin-right: 2%;
       }
       li:nth-child(2n),
       li:last-child {
-        width: 40%;
         margin-right: auto;
-      }
-      &.list02 li{
-        width: 50%;
-        margin-right: 3%;
-        vertical-align: top;
-        &:last-child{
-          width: 45%;
-          margin-right: auto;
-        }
-      }
-      &.list03 li{
-        width: 50%;
-        margin-right: 3%;
-        &:last-child{
-          width: 45%;
-          margin-right: auto;
-        }
       }
     } //column02
     .column03 {
@@ -181,8 +163,9 @@
       margin-bottom: 40px;
     }
     .lead {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 1.8;
+      margin-bottom: 40px;
     }
     .box {
       background: #ddf0f3;
@@ -266,7 +249,7 @@
       .txt {
         margin-top: 20px;
         &.mt{
-          margin-top: 8%;
+          margin-top: 12.5%;
         }
       }
     }
@@ -314,6 +297,39 @@
       margin-top: 40px;
       margin-bottom: 20px;
     }
+    .column02 {
+      li {
+        vertical-align: middle;
+        display: inline-block;
+        width: 50%;
+        margin-right: 8%;
+        .lead{
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+      }
+      li:nth-child(2n),
+      li:last-child {
+        width: 40%;
+        margin-right: auto;
+      }
+      &.list02 li{
+        width: 50%;
+        margin-right: 3%;
+        &:last-child{
+          width: 45%;
+          margin-right: auto;
+        }
+      }
+      &.list03 li{
+        width: 50%;
+        margin-right: 3%;
+        &:last-child{
+          width: 45%;
+          margin-right: auto;
+        }
+      }
+    } //column02
   } //area04
 
   @media screen and (max-width: 1300px) {
@@ -345,14 +361,7 @@
           margin-bottom: 20px;
         }
         li:last-child {
-          width: 100%;
           margin-bottom: auto;
-        }
-        &.list02 li,&.list03 li{
-          width: 100%;
-          &:last-child{
-            width: 100%;
-          }
         }
       } //column02
       .column03 {
@@ -453,6 +462,22 @@
       .tit {
         font-size: 20px;
       }
+      .column02 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        li:last-child {
+          width: 100%;;
+        }
+        &.list02 li,&.list03 li{
+          width: 100%;
+          &:last-child{
+            width: 100%;
+          }
+        }
+      } //column02
       .list02 {
         li:last-child {
           margin-top: 50px;
