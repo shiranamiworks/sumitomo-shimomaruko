@@ -255,10 +255,17 @@
   margin-bottom: 10px;
   border-bottom: 0.5px solid #231815;
 }
+.location01 .area04 .other .others li {
+  width: 100%;
+}
+.location01 .area04 .other .others li.tb {
+  display: none;
+}
 .location01 .area04 .column03 .txt {
   background: #ddf0f3;
   padding: 10px;
   box-sizing: border-box;
+  margin-top: 10px;
 }
 .location01 .area04 .column03 .txt .info {
   margin-bottom: 0;
@@ -328,15 +335,17 @@
     margin-bottom: 60px;
   }
   .location01 .areas .img00 .annotation {
-    bottom: -12px;
+    top: 5px;
   }
   .location01 .areas .caps.bottom {
-    margin-top: 20px;
-    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .location01 .areas .text {
     font-size: 20px;
     line-height: 1.8;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   .location01 .areas .lead {
@@ -345,7 +354,6 @@
     margin-bottom: 40px;
   }
   .location01 .areas .name {
-    text-align: left;
     font-size: 18px;
   }
   .location01 .areas .name span {
@@ -354,6 +362,9 @@
   .location01 .areas .info {
     font-size: 16px;
     line-height: 2;
+  }
+  .location01 .areas .box.box02 {
+    margin-bottom: 20px;
   }
   .location01 .area01 .txt01 {
     font-size: 16px;
@@ -380,6 +391,10 @@
   }
   .location01 .area02 .column02.imgs li:last-child {
     width: 100%;
+    display: flex;
+  }
+  .location01 .area02 .box {
+    margin-bottom: 20px;
   }
   .location01 .area03 .column02 .txt {
     height: 48px;
@@ -387,8 +402,48 @@
   }
   .location01 .area03 .box {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
   .location01 .area03 .box .column02 .info {
     margin-bottom: 10px;
+  }
+  .location01 .area04 .lead {
+    margin-bottom: 20px;
+  }
+  .location01 .area04 .caps.bottom {
+    margin-bottom: 40px;
+  }
+  .location01 .area04 .column03 li {
+    width: 100%;
+  }
+  .location01 .area04 .column03 li .others {
+    margin-bottom: 20px;
+  }
+  .location01 .area04 .column03 li .others li {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  .location01 .area04 .column03 li .image {
+    width: 60%;
+    margin-right: 2%;
+    margin-bottom: 0;
+  }
+  .location01 .area04 .column03 li .txt {
+    clear: both;
+    margin-top: 0;
+  }
+  .location01 .area04 .column03 li .mini {
+    margin-top: 0;
+    width: 36%;
+  }
+  .location01 .area04 .column03 li .mini.tb {
+    display: inline-block;
+  }
+  .location01 .area04 .column03 li:nth-child(2) .mini {
+    margin-right: 2%;
+    margin-bottom: 0;
+  }
+  .location01 .area04 .column03 li:nth-child(2) .image {
+    margin-right: auto;
   }
 }/*# sourceMappingURL=location01.css.map */

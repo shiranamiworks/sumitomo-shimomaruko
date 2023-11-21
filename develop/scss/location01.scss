@@ -282,12 +282,19 @@
         margin-bottom: 10px;
         border-bottom: 0.5px solid #231815;
       }
+      .others li{
+        width: 100%;
+        &.tb{
+          display: none;
+        }
+      }
     }
     .column03 {
       .txt {
         background: #ddf0f3;
         padding: 10px;
         box-sizing: border-box;
+        margin-top: 10px;
         .info {
           margin-bottom: 0;
           word-break: break-all;
@@ -372,17 +379,19 @@
     .areas {
       margin-bottom: 60px;
       .img00 .annotation{
-        bottom: -12px;
+        top:5px;
       }
       .caps {
         &.bottom {
-          margin-top: 20px;
-          margin-bottom: 40px;
+          text-align: left;
+          margin-top: 0;
+          margin-bottom: 0;
         }
       }
       .text {
         font-size: 20px;
         line-height: 1.8;
+        margin-top: 20px;
         margin-bottom: 20px;
       }
       .lead {
@@ -391,7 +400,6 @@
         margin-bottom: 40px;
       }
       .name {
-        text-align: left;
         font-size: 18px;
         span {
           font-size: 13px;
@@ -400,6 +408,9 @@
       .info {
         font-size: 16px;
         line-height: 2;
+      }
+      .box.box02{
+        margin-bottom: 20px;
       }
     } //areas
     .area01 {
@@ -433,7 +444,11 @@
         }
         li:last-child {
           width: 100%;
+          display: flex;
         }
+      }
+      .box{
+        margin-bottom: 20px;
       }
     } //area02
     .area03 {
@@ -445,6 +460,7 @@
       }
       .box {
         margin-top: 20px;
+        margin-bottom: 20px;
         .column02 {
           .info {
             margin-bottom: 10px;
@@ -452,6 +468,50 @@
         }
       }
     } //area03
+    .area04 {
+      .lead {
+        margin-bottom: 20px;
+      }
+      .caps.bottom{
+        margin-bottom: 40px;
+      }
+      .column03 li{
+        width: 100%;
+        .others{
+          margin-bottom: 20px;
+          li{
+            display: inline-block;
+            vertical-align: bottom;
+          }
+        }
+        .image{
+          width: 60%;
+          // float: left;
+          margin-right: 2%;
+          margin-bottom: 0;
+        }
+        .txt{
+          clear: both;
+          margin-top: 0;
+        }
+        .mini{
+          margin-top: 0;
+          width: 36%;
+          &.tb{
+            display: inline-block;
+          }
+        }
+        &:nth-child(2){
+          .mini{
+            margin-right: 2%;
+            margin-bottom: 0;
+          }
+          .image{
+            margin-right: auto;
+          }
+        }
+      }
+    } //area04
   } //sp
   @media screen and (max-width: 450px) {
   }
