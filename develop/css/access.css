@@ -332,7 +332,10 @@
     margin-bottom: 40px;
   }
   #access .intro .img01 figure {
-    width: 150%;
+    width: 100%;
+  }
+  #access .intro .img01 .leaflet-top {
+    bottom: 0;
   }
   #access .intro .img01 .annotation {
     bottom: 5%;

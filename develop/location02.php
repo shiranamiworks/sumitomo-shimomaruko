@@ -105,7 +105,7 @@
       </div>
     </div>
     <div class="image img01 tb">
-        <img src="./images/location02/area02-01.jpg">
+        <img src="./images/location02/area02-01-sp.jpg">
         <p class="annotation white">image photo</p>
       </div>
     <div class="inner">

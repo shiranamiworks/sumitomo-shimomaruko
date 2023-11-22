@@ -361,7 +361,10 @@
       .img01 {
         margin-bottom: 40px;
         figure{
-          width: 150%;
+          width: 100%;
+        }
+        .leaflet-top{
+          bottom: 0;
         }
         .annotation{
           bottom: 5%;
