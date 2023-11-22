@@ -302,10 +302,11 @@
     display: inline-block;
     width: 48%;
     margin-bottom: 20px;
-    margin-right: 1%;
+    margin-right: 0;
   }
   .location01 .sections .column03 li .annotation {
-    bottom: -15px;
+    bottom: 5px;
+    right: 5px;
   }
   .location01 .sections .column03 li:last-child {
     margin-bottom: auto;
@@ -417,7 +418,7 @@
     width: 100%;
   }
   .location01 .area04 .column03 li .others {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .location01 .area04 .column03 li .others li {
     display: inline-block;

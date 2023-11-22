@@ -82,7 +82,7 @@
           <img src="./images/access/sta03.jpg" alt="">
           <p class="annotation white">image photo</p>
           </div>
-          <div class="txt">
+          <div class="txt h15">
           <img src="./images/access/sta03-txt.svg" alt="">
           </div>
         </li>
@@ -109,7 +109,7 @@
           <img src="./images/access/sta06.jpg" alt="">
           <p class="annotation white">image photo</p>
           </div>
-          <div class="txt">
+          <div class="txt h15">
           <img src="./images/access/sta06-txt.svg" alt="">
           </div>
         </li>
@@ -137,12 +137,6 @@
 				<div id="scrollimagebox">
 					<div id="wrap">
 						<div class="box"><img src="images/access/network00.png" alt="路線図" class="scrollimage" /></div>
-						<!-- <div class="scrollimage_leftbox">
-							<img src="images/access/arw-l.png" alt="" />
-						</div>
-						<div class="scrollimage_rightbox">
-							<img src="images/access/arw-r.png" alt="" />
-						</div> -->
 					</div>
 					<div class="scrollimage_caption"><p><img src="images/access/icon_swipe.svg" alt="スライドで全体を表示できます" /></p></div>
 				</div>

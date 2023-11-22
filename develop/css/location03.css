@@ -421,6 +421,9 @@
   .location03 .area01 .column02 li {
     margin-bottom: 40px;
   }
+  .location03 .area01 .column02 li.mb10 {
+    margin-bottom: 10px;
+  }
   .location03 .area01 .column02 .txt.info {
     height: 34px;
     margin-top: 10px;

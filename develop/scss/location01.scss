@@ -345,9 +345,10 @@
           display: inline-block;
           width: 48%;
           margin-bottom: 20px;
-          margin-right: 1%;
+          margin-right: 0;
           .annotation{
-            bottom: -15px;
+            bottom: 5px;
+            right: 5px;
           }
         }
         li:last-child {
@@ -478,7 +479,7 @@
       .column03 li{
         width: 100%;
         .others{
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           li{
             display: inline-block;
             vertical-align: bottom;

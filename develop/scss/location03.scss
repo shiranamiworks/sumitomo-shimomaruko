@@ -455,6 +455,9 @@
       .column02 {
         li{
           margin-bottom: 40px;
+          &.mb10{
+            margin-bottom: 10px;
+          }
         }
         .txt.info {
           height: 34px;

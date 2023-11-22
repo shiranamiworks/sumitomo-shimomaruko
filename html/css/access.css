@@ -307,6 +307,11 @@
     height: 80px;
     margin: auto;
   }
+  #access .sections .column03 li .txt.h15 img {
+    display: block;
+    height: 95px;
+    margin: auto;
+  }
   #access .sections .column03 li:last-child {
     margin-bottom: auto;
   }

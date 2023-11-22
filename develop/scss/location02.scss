@@ -411,6 +411,9 @@
       }
     } //area01
     .area02 {
+      .img01{
+        margin-bottom: 20px;
+      }
       .column02{
         margin-bottom: 0;
         li{
@@ -422,6 +425,9 @@
         margin: 10px 0 40px;
         span {
           font-size: 14px;
+        }
+        &.mb20{
+          margin-bottom: 10px;
         }
       }
       .txt02 {
@@ -446,7 +452,7 @@
         .txt {
           margin-top: 10px;
           &.mt{
-            margin-top: 2%;
+            margin-top: 20px;
           }
         }
       }

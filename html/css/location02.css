@@ -379,6 +379,9 @@
     font-size: 20px;
     line-height: 1.5;
   }
+  .location02 .area02 .img01 {
+    margin-bottom: 20px;
+  }
   .location02 .area02 .column02 {
     margin-bottom: 0;
   }
@@ -391,6 +394,9 @@
   }
   .location02 .area02 .txt01 span {
     font-size: 14px;
+  }
+  .location02 .area02 .txt01.mb20 {
+    margin-bottom: 10px;
   }
   .location02 .area02 .txt02 {
     font-size: 16px;
@@ -414,7 +420,7 @@
     margin-top: 10px;
   }
   .location02 .area03 .column03 .txt.mt {
-    margin-top: 2%;
+    margin-top: 20px;
   }
   .location02 .area03 .name {
     font-size: 16px;
