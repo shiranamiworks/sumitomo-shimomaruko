@@ -29,7 +29,7 @@
 
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/access/mv.jpg" alt="" class="pc"><img src="./images/access/mv-sp.jpg" alt="" class="sp"><p class="annotation white">Image photo</p></div>
+   <div class="image"><img src="./images/access/mv.jpg" alt="" class="pc"><img src="./images/access/mv-sp.jpg" alt="" class="tb"><p class="annotation white">Image photo</p></div>
   </header><!-- main-visual -->
 
   

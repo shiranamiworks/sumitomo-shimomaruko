@@ -36,7 +36,7 @@
 
   <header class="main-visual clearfix">
     <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/location03/mv.jpg" alt="" class="pc"><img src="./images/location03/mv-sp.jpg" alt="" class="sp"><p class="annotation white">image photo</p></div>
+   <div class="image"><img src="./images/location03/mv.jpg" alt="" class="pc"><img src="./images/location03/mv-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
   </header><!-- main-visual -->
 
 
@@ -140,7 +140,7 @@
             <p class="lead">いくつもの商店街が身近にある「シティテラス下丸子」。下丸子駅前の「下丸子商栄会」では、地元の子どもたちも参加するパレードを開催。鵜の木駅前にある「鵜の木商店街」では、秋田名物なまはげが登場する「全国鵜の木まつり」を開催するなど、住民と一体となって地域を盛り上げるイベントも行なっています。</p>
             <p class="mini">※イベントの開催内容は変更・中止になる場合があります。</p>
             <div class="image">
-            <img src="./images/location03/area02-03.png" class="pc"><img src="./images/location03/area02-03-sp.png" class="sp">
+            <img src="./images/location03/area02-03.png" class="pc"><img src="./images/location03/area02-03-sp.png" class="tb">
             </div>
         </div><!-- event -->
       </div><!-- box -->
@@ -151,6 +151,44 @@
 
   <section class="sections areas area03 clearfix">
     <div class="inner">
+    <div class="bg01 tb">
+        <ul class="column02 list01">
+          <li>
+            <p class="name">つなぐテラスUnoUno木<br><span>（A:徒歩6分／B:徒歩5分）</span></p>
+          </li>
+          <li>
+            <p class="lead">2022年にオープンした、新しいスタイルの複合施設。<br>おしゃれな飲食店をはじめ、魅力的なショップが次々に誕生しています。</p>
+          </li>
+        </ul>
+        <ul class="column02 list02">
+          <li>
+            <div class="image">
+            <img src="./images/location03/area03-04.jpg">
+            <p class="annotation white">提供写真</p>
+            <div class="point point01">
+            <img src="./images/location03/area03-04-a.png">
+            </div>
+            </div>
+            <p class="lead">セレクト食品とフルーツサンドのお店。産直の農産物やスイーツなど旬の生鮮食品もおすすめです。</p>
+            <div class="txt">
+              <img src="./images/location03/area03-04-txt.svg">
+            </div>
+          </li>
+          <li>
+            <div class="image">
+            <img src="./images/location03/area03-05.jpg">
+            <p class="annotation white">提供写真</p>
+            <div class="point point02">
+            <img src="./images/location03/area03-05-a.png">
+            </div>
+            </div>
+            <p class="lead">オムレツやポテトサラダなどつまみの豆皿料理がある角打酒屋。土日祝は朝7時のオープンです。</p>
+            <div class="txt">
+              <img src="./images/location03/area03-05-txt.svg">
+            </div>
+          </li>
+        </ul>
+      </div>
       <ul class="column02 bg">
         <li>
           <div class="image">
@@ -227,7 +265,7 @@
           </div>
         </li>
       </ul>
-      <div class="bg01">
+      <div class="bg01 pc">
         <ul class="column02 list01">
           <li>
             <p class="name">つなぐテラスUnoUno木<br><span>（A:徒歩6分／B:徒歩5分）</span></p>
@@ -309,10 +347,10 @@
 
       <ul class="change-buttons clearfix">
         <li><span href="#" data-target="cond01" class="button button01 current">SHOPPING</span></li>
-        <li><span href="#" data-target="cond02" class="button button02">PARK&<br>SPORTS</span></li>
+        <li><span href="#" data-target="cond02" class="button button02">PARK&<br class="pc">SPORTS</span></li>
         <li><span href="#" data-target="cond03" class="button button03">EDUCATION</span></li>
         <li><span href="#" data-target="cond04" class="button button04">HOSPITAL</span></li>
-        <li><span href="#" data-target="cond05" class="button button05">PUBLIC&<br>FINANCIAL</span></li>
+        <li><span href="#" data-target="cond05" class="button button05">PUBLIC&<br class="pc">FINANCIAL</span></li>
       </ul>
 
       <div class="tab-inner cond01 current clearfix">

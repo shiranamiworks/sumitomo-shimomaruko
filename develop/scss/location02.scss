@@ -411,9 +411,15 @@
       }
     } //area01
     .area02 {
+      .column02{
+        margin-bottom: 0;
+        li{
+          margin-bottom: 0;
+        }
+      }
       .txt01 {
         font-size: 20px;
-        margin: 10px 0 20px;
+        margin: 10px 0 40px;
         span {
           font-size: 14px;
         }
@@ -425,11 +431,11 @@
     } //area02
     .area03 {
       .line {
-        font-size: 20px;
+        font-size: 14px;
         padding: 10px;
         margin-bottom: 10px;
         span {
-          font-size: 30px;
+          font-size: 22px;
         }
       }
       .line02 {

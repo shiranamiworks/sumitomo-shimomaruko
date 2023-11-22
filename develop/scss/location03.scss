@@ -446,15 +446,19 @@
     } //areas
     .area01 {
       .column02.bottom {
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         .txt {
           margin-top: 10px;
           height: 34px;
         }
       }
       .column02 {
+        li{
+          margin-bottom: 40px;
+        }
         .txt.info {
           height: 34px;
+          margin-top: 10px;
         }
       }
     } //area01
@@ -473,6 +477,8 @@
         .image {
           position: inherit;
           width: 100%;
+          max-width: 375px;
+          margin: auto;
         }
       }
     } //area02
@@ -552,7 +558,7 @@
         }
         .button {
           font-size: 14px;
-          padding: 14px 0;
+          padding: 10px 0;
         }
       } //change-buttons
     } //life-info

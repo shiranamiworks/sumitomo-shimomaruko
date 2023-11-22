@@ -412,14 +412,18 @@
     margin-bottom: 20px;
   }
   .location03 .area01 .column02.bottom {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .location03 .area01 .column02.bottom .txt {
     margin-top: 10px;
     height: 34px;
   }
+  .location03 .area01 .column02 li {
+    margin-bottom: 40px;
+  }
   .location03 .area01 .column02 .txt.info {
     height: 34px;
+    margin-top: 10px;
   }
   .location03 .area02 {
     margin-bottom: 0;
@@ -436,6 +440,8 @@
   .location03 .area02 .event .image {
     position: inherit;
     width: 100%;
+    max-width: 375px;
+    margin: auto;
   }
   .location03 .area03 .column02.bg {
     margin-bottom: 20px;
@@ -508,6 +514,6 @@
   }
   .location03 .life-info .change-buttons .button {
     font-size: 14px;
-    padding: 14px 0;
+    padding: 10px 0;
   }
 }/*# sourceMappingURL=location03.css.map */
