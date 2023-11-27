@@ -11,8 +11,6 @@ html, body{
 h2.ttl{
 	margin: 90px 0 40px 0;
 	font-size:40px;
-	font-family: 'RyuminPro', "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "HiraMinProN-W3", "ＭＳ Ｐ明朝", "MS PMincho", 'GaramondPro', serif;
-	font-weight: normal;
 }
 
 #submaincontainer{
@@ -39,19 +37,6 @@ h2.ttl{
 
 .sitemap_area{
 	font-size:16px;
-	line-height: 1.8;
-}
-.sitemap_area a {
-	display: inline-block;
-	text-indent: 0;
-}
-.sitemap_area li {
-	text-indent: -2em;
-	padding-left: 2em;
-	padding-bottom: 0.8em;
-}
-.sitemap_area li br {
-    display: none;
 }
 
 /**************************************************************************************/
@@ -66,11 +51,13 @@ h1,
 #h_btn003,
 #h_btn001,
 #submaincontainer dl {
+	/*display:none;*/
 }
 #submaincontainer{
 	width:81.25vw;
 }
 #submaincontainer #map1{
+	/*width:30.312vw;*/
 	width:81.25vw;
 	margin:0 auto 0 auto;
 }
@@ -81,6 +68,22 @@ h1,
 #PrintMap {
 	width:45%;
 }
+
+#submaincontainer #map1 img{
+	width:700px;
+	/*height:53.125vw;/*
+}
+
+#submaincontainer #map2{
+	width:30.312vw;
+	margin:0 auto 0 auto;
+}
+
+#submaincontainer #map2 img{
+	width:30.312vw;
+	height:13.5vw;
+}
+
 
 
 /*-------------------------------------------------------------------*/
@@ -96,6 +99,17 @@ html, body{
 
 .mr{
 	padding-right: 1.25vw;
+}
+
+#submaincontainer .ttl{
+	height:1.563vw;
+	margin:2.5vw 0px 0;
+	background:#000;
+	
+	color:#fff;
+	font-weight:bold;
+	padding:0.313vw 0px 0px 1.563vw;
+	font-size:0.875vw;
 }
 
 #submaincontainer .ttl img{
@@ -131,6 +145,12 @@ html, body{
 	background-color:#000;
 	line-height:160%;
 }
+#submaincontainer{
+	width:700px;
+	margin:0 auto 0 auto;
+	font-size:0.625vw;
+	color:#666;
+}
 #submaincontainer dl{
 	margin-top: 0;
 	margin-right: auto;
@@ -163,6 +183,7 @@ html, body{
 	clear: both;
 }
 #subfooter  #footmail{
+	/*width:15.625vw;*/
 	width:14.375vw;
 	height: 0.75vw;
 	position: absolute;
@@ -244,6 +265,7 @@ html, body{
 @media screen and (max-width: 1300px) {
 
 #submaincontainer #map1{
+	/*width:30.312vw;*/
 	width:100%;
 	margin:0 auto 0 auto;
 }
@@ -284,6 +306,9 @@ html, body{
 	width: 100%;
 	height: 65px;
 }
+#head h1{
+	/*width:100%;*/
+}
 #head .logo {
 	position:absolute;
 	width:186px;
@@ -313,10 +338,10 @@ html, body{
 	width:92%;
 }
 #submaincontainer .ttl{
-    width:100%;
+    width:60%;
     height: auto;
-    margin: 5% 0 10%;
-    font-size: 250%;
+    margin: 40px 0 40px 20px;
+    font-size: 30px;
 }
 #submaincontainer .zip{
 	font-size:22px;
