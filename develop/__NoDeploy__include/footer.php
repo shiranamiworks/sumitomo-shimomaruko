@@ -1,14 +1,14 @@
 <footer class="footer">
   <div class="entry">
     <div class="container">
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=entry"></script>
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=shuto&PROP_CD=shimomaruko"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=furukawabashi&LINK=entry"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=kansai&PROP_CD=furukawabashi"></script>
       <div class="entry-tel">
-        <p>お問い合わせは住友不動産<br class="sp">「リモート販売センター品川」</p>
-        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-112-507</span></a><br>
-        <a href="mailto:ct-shimomaruko@j.sumitomo-rd.co.jp" class="disabled">ct-shimomaruko@j.sumitomo-rd.co.jp</a>
+        <p>お問い合わせは住友不動産<br class="sp">「シティタワー古川橋販売センター」</p>
+        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-330-648</span></a><br>
+        <a href="mailto:ct-furukawabashi@j.sumitomo-rd.co.jp" class="disabled">ct-furukawabashi@j.sumitomo-rd.co.jp</a>
       </div>
-      <p class="entry-info">営業時間／10:00～18:00<br class="sp">（火・水曜定休（祝日除く）、年末年始は休業）</p>
+      <p class="entry-info">営業時間／平日 午前11時～午後7時／土・日・祝日 午前10時～午後6時<br class="sp">（火曜・水曜定休・年末年始は休業）</p>
     </div>
   </div><!-- / entry -->
 
@@ -29,9 +29,9 @@
         <li class="outline"><a href="javascript:outline()">物件概要</a></li>
         <!-- <li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li> -->
         <li class="blog">マンション情報ブログ</li>
-        <li class="faq"><a href="/shuto/shimomaruko/faq.cgi" target="_blank">FAQ</a></li>
+        <li class="faq"><a href="/kansai/furukawabashi/faq.cgi" target="_blank">FAQ</a></li>
         <li class="sitemap"><a href="<?= $page_settings["directory_pos"]  ?>sitemap.html">サイトマップ</a></li>
-        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=footer"></script>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=furukawabashi&LINK=footer"></script>
       </ul>
     </div>
   </nav><!-- footer-menu -->
@@ -39,20 +39,20 @@
   <div class="footer-recommend">
     <div class="container">
       <ul class="footer-recommend__menu f-min">
-        <li>大田区 マンション</li>
-        <li>大田区 新築マンション</li>
-        <li>シティテラス下丸子</li>
-        <li>東京都大田区</li>
-        <li>東急多摩川線</li>
-        <li>鵜の木駅</li>
+        <li>古川橋 分譲マンション</li>
+        <li>古川橋 新築マンション</li>
+        <li>シティタワー古川橋</li>
+        <li>大阪府門真市</li>
+        <li>京阪本線</li>
+        <li>古川橋駅</li>
         <li>新築分譲マンション</li>
         <li>住友不動産</li>
-        <li>すみふ下丸子</li>
+        <li>すみふ古川橋</li>
       </ul>
 
       <!-- おススメ物件 -->
       <p class="footer-recommend__ttl">おすすめ物件</p>
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=shimomaruko"></script>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=kansai&PROP_CD=furukawabashi"></script>
 			<!-- //おススメ物件 -->
     </div>
   </div>
@@ -108,7 +108,7 @@
   </div>
   <div class="footer-btn">
     <div class="float-btn">
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=float"></script>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=furukawabashi&LINK=float"></script>
     </div>
     <div class="fixed-btn">
       <a href="<?= $site_setting["tel_link"] ?>">
@@ -117,7 +117,7 @@
       <a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">
         <p><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_map.png" alt="現地案内図"><br>現地案内図</p>
       </a>
-      <a href="/shuto/shimomaruko/catalog.cgi" target="_blank" class="fixed-btn__mail">
+      <a href="/kansai/furukawabashi/catalog.cgi" target="_blank" class="fixed-btn__mail">
         <p><img src="./images/common/icn_mail.png" alt="資料請求"><br>資料請求</p>
       </a>
       <a href="javascript:openfraijo();" class="fixed-btn__none">
@@ -136,7 +136,7 @@
     </div><!-- fixed-btn -->
 
     <div id="spfraijo" class="sp">
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=sp-footer"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=furukawabashi&LINK=sp-footer"></script>
 		</div>
   </div>
 </footer>
@@ -149,7 +149,7 @@
 
 
 <!-- アクセス履歴タグ挿入 begin -->
-<img src="/bukken_access.cgi?AREA_CD=shuto&PROP_CD=shimomaruko" width="1" height="1" id="adtag">
+<img src="/bukken_access.cgi?AREA_CD=kansai&PROP_CD=furukawabashi" width="1" height="1" id="adtag">
 <!-- アクセス履歴タグ挿入 end -->
 
 <!-- Google Tag Manager begin -->
