@@ -282,9 +282,9 @@
         margin-bottom: 10px;
         border-bottom: 0.5px solid #231815;
       }
-      .others li{
+      .others li {
         width: 100%;
-        &.tb{
+        &.tb {
           display: none;
         }
       }
@@ -346,7 +346,7 @@
           width: 48%;
           margin-bottom: 20px;
           margin-right: 0;
-          .annotation{
+          .annotation {
             bottom: 5px;
             right: 5px;
           }
@@ -355,9 +355,9 @@
           margin-bottom: auto;
           margin-right: auto;
         }
-        .txt{
+        .txt {
           margin-top: 25px;
-          .info{
+          .info {
             font-size: 14px;
             line-height: 1.6;
           }
@@ -379,8 +379,8 @@
     } //intro
     .areas {
       margin-bottom: 60px;
-      .img00 .annotation{
-        top:5px;
+      .img00 .annotation {
+        top: 5px;
       }
       .caps {
         &.bottom {
@@ -404,13 +404,14 @@
         font-size: 18px;
         span {
           font-size: 13px;
+          display: inherit;
         }
       }
       .info {
         font-size: 16px;
         line-height: 2;
       }
-      .box.box02{
+      .box.box02 {
         margin-bottom: 20px;
       }
     } //areas
@@ -439,7 +440,7 @@
       .column02.imgs {
         li {
           width: 100%;
-          .img01{
+          .img01 {
             margin-bottom: 20px;
           }
         }
@@ -448,7 +449,7 @@
           display: flex;
         }
       }
-      .box{
+      .box {
         margin-bottom: 20px;
       }
     } //area02
@@ -473,41 +474,43 @@
       .lead {
         margin-bottom: 20px;
       }
-      .caps.bottom{
+      .caps.bottom {
         margin-bottom: 40px;
       }
-      .column03 li{
+      .column03 li {
         width: 100%;
-        .others{
+        .others {
           margin-bottom: 10px;
-          li{
+          li {
             display: inline-block;
             vertical-align: bottom;
           }
         }
-        .image{
-          width: 60%;
+        .image {
+          width: 100%;
           // float: left;
           margin-right: 2%;
           margin-bottom: 0;
         }
-        .txt{
+        .txt {
           clear: both;
           margin-top: 0;
         }
-        .mini{
-          margin-top: 0;
-          width: 36%;
-          &.tb{
+        .mini {
+          margin: 10px 0 0;
+          width: 100%;
+          &.tb {
             display: inline-block;
+            padding-bottom: 10px;
+            border-bottom: 1px dotted;
           }
         }
-        &:nth-child(2){
-          .mini{
+        &:nth-child(2) {
+          .mini {
             margin-right: 2%;
             margin-bottom: 0;
           }
-          .image{
+          .image {
             margin-right: auto;
           }
         }

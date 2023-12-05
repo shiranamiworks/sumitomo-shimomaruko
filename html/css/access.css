@@ -264,7 +264,7 @@
   margin-top: 20px;
 }
 #access .car .column03 .txt {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #access .car .tit01 {
   font-size: 27px;
@@ -391,7 +391,8 @@
     display: block;
     margin: auto;
   }
-  #access .network #wrap .scrollimage_leftbox, #access .network #wrap .scrollimage_rightbox {
+  #access .network #wrap .scrollimage_leftbox,
+  #access .network #wrap .scrollimage_rightbox {
     position: absolute;
     opacity: 0.2;
     top: 50%;

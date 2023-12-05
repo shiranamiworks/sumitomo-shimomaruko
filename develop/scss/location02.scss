@@ -248,7 +248,7 @@
       margin-bottom: 60px;
       .txt {
         margin-top: 20px;
-        &.mt{
+        &.mt {
           margin-top: 8.5%;
         }
       }
@@ -288,13 +288,14 @@
       border-bottom: 0.5px solid #000;
     }
     .annotation {
-      bottom: -15px;
+      bottom: -20px;
     }
-    .list02 .annotation,.list03 .annotation{
-      bottom: -30px;
+    .list02 .annotation,
+    .list03 .annotation {
+      bottom: -26px;
     }
     .tit-img {
-      margin-top: 40px;
+      margin-top: 70px;
       margin-bottom: 20px;
     }
     .column02 {
@@ -303,7 +304,7 @@
         display: inline-block;
         width: 50%;
         margin-right: 8%;
-        .lead{
+        .lead {
           font-size: 16px;
           margin-bottom: 0;
         }
@@ -313,18 +314,18 @@
         width: 40%;
         margin-right: auto;
       }
-      &.list02 li{
+      &.list02 li {
         width: 50%;
         margin-right: 3%;
-        &:last-child{
+        &:last-child {
           width: 45%;
           margin-right: auto;
         }
       }
-      &.list03 li{
+      &.list03 li {
         width: 50%;
         margin-right: 3%;
-        &:last-child{
+        &:last-child {
           width: 45%;
           margin-right: auto;
         }
@@ -386,7 +387,7 @@
       margin-bottom: 60px;
       .img00 {
         margin-bottom: 30px;
-        .annotation{
+        .annotation {
           bottom: -15px;
         }
       }
@@ -411,12 +412,12 @@
       }
     } //area01
     .area02 {
-      .img01{
+      .img01 {
         margin-bottom: 20px;
       }
-      .column02{
+      .column02 {
         margin-bottom: 0;
-        li{
+        li {
           margin-bottom: 0;
         }
       }
@@ -426,7 +427,7 @@
         span {
           font-size: 14px;
         }
-        &.mb20{
+        &.mb20 {
           margin-bottom: 10px;
         }
       }
@@ -451,7 +452,7 @@
         margin-bottom: 40px;
         .txt {
           margin-top: 10px;
-          &.mt{
+          &.mt {
             margin-top: 20px;
           }
         }
@@ -481,11 +482,12 @@
           margin-bottom: 20px;
         }
         li:last-child {
-          width: 100%;;
-        }
-        &.list02 li,&.list03 li{
           width: 100%;
-          &:last-child{
+        }
+        &.list02 li,
+        &.list03 li {
+          width: 100%;
+          &:last-child {
             width: 100%;
           }
         }
