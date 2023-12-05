@@ -236,7 +236,8 @@
           <li>
             <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-01.jpg">
+            <img src="./images/location01/area04-01.jpg" class="pc">
+            <img src="./images/location01/area04-01-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>
@@ -248,7 +249,8 @@
           <li>
           <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-02.jpg">
+            <img src="./images/location01/area04-02.jpg" class="pc">
+            <img src="./images/location01/area04-02-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>
@@ -260,7 +262,8 @@
           <li>
             <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-03.jpg">
+            <img src="./images/location01/area04-03.jpg" class="pc">
+            <img src="./images/location01/area04-03-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>

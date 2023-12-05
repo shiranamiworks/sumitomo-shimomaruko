@@ -192,6 +192,9 @@
           <img src="./images/access/air02.jpg" alt="">
           <p class="annotation white">image photo</p>
           </div>
+          <div class="image tb">
+          <img src="./images/access/air02-sp.svg" alt="">
+          </div>
         </li>
         <li>
           <div class="txt">
@@ -205,6 +208,9 @@
           <div class="image pc">
           <img src="./images/access/air03.jpg" alt="">
           <p class="annotation white">image photo</p>
+          </div>
+          <div class="image tb">
+          <img src="./images/access/air03-sp.svg" alt="">
           </div>
         </li>
         <li>
