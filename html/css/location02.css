@@ -276,13 +276,14 @@
   border-bottom: 0.5px solid #000;
 }
 .location02 .area04 .annotation {
-  bottom: -15px;
+  bottom: -20px;
 }
-.location02 .area04 .list02 .annotation, .location02 .area04 .list03 .annotation {
-  bottom: -30px;
+.location02 .area04 .list02 .annotation,
+.location02 .area04 .list03 .annotation {
+  bottom: -26px;
 }
 .location02 .area04 .tit-img {
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 20px;
 }
 .location02 .area04 .column02 li {
