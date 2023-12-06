@@ -455,8 +455,8 @@
   .location02 .area04 .column02.list02 li:last-child, .location02 .area04 .column02.list03 li:last-child {
     width: 100%;
   }
-  .location02 .area04 .list02 li:last-child {
-    margin-top: 50px;
+  .location02 .area04 .list02 .image.tb {
+    margin-top: 20px;
   }
   .location02 .area04 .list02 .annotation {
     line-height: 1.2;
