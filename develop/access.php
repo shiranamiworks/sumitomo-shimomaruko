@@ -9,7 +9,7 @@
   "keywords" => "アクセス,",
   "description" => "アクセスページ。",
   "add_stylesheet" => ["css/access.css"],
-  "add_script" =>  [],
+  "add_script" =>  ["js/access.js"],
   "canonical_page_id" => "access", 
   "logo_text" => "アクセス｜"
 );
@@ -119,10 +119,12 @@
 
 
 
-  <section class="sections network wrap clearfix">
+  <section class="sections network clearfix">
     <div class="bg">
+    <div class="wrap">
     <h3 class="text">1度の乗り換えで都内の人気エリアへ。<br class="pc">行動範囲が大きく広がる東急線ネットワーク。</h3>
     <p class="lead">東急多摩川線は「多摩川」駅で東急東横線に乗り換えが可能。自由が丘や代官山、中目黒などの人気のショッピングエリアへスムーズにアクセスできます。さらに「渋谷」駅で東京メトロ副都心線に乗り入れて、新宿三丁目や池袋など多彩な都心主要駅をつないでいます。</p>
+    </div>
     <!-- <div class="image map">
     <figure>
           <img src="./images/access/network00.png" alt="" class="sp-hide">
@@ -130,17 +132,14 @@
     </figure>
     <p class="annotation">路線図</p>
     </div> -->
-    <div class="map sp-hide">
-						<img src="images/access/network00.png" alt="路線図" />
-			</div>
-			<div class="sp">
-				<div id="scrollimagebox">
-					<div id="wrap">
-						<div class="box"><img src="images/access/network00.png" alt="路線図" class="scrollimage" /></div>
-					</div>
-					<div class="scrollimage_caption"><p><img src="images/access/icon_swipe.svg" alt="スライドで全体を表示できます" /></p></div>
-				</div>
+    <div class="image">
+      <div class="swipe-img right-start modify-starts">
+      <img src="images/access/network00.png" alt="路線図" />
       </div>
+    </div>
+    <div class="swipe sp">
+    <img src="images/access/icon_swipe.svg" alt="スライドで全体を表示できます" />
+    </div>
     </div>
     <ul class="clearfix">
       <li>

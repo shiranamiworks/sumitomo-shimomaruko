@@ -186,7 +186,7 @@
   font-size: 18px;
   line-height: 1.8;
 }
-#access .network .map {
+#access .network .image {
   padding-bottom: 20px;
 }
 #access .network li {
@@ -370,51 +370,6 @@
     font-size: 16px;
     line-height: 2;
   }
-  #access .network .image.map .annotation {
-    bottom: 5px;
-  }
-  #access .network #wrap {
-    min-width: inherit;
-    position: relative;
-    width: 96%;
-    height: 55vw;
-    max-width: 1280px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-  #access .network #wrap .box {
-    overflow-x: scroll;
-    overflow-y: hidden;
-  }
-  #access .network #wrap .box img {
-    max-width: 600px;
-    display: block;
-    margin: auto;
-  }
-  #access .network #wrap .scrollimage_leftbox,
-  #access .network #wrap .scrollimage_rightbox {
-    position: absolute;
-    opacity: 0.2;
-    top: 50%;
-    width: 7vw;
-    cursor: pointer;
-    z-index: 6;
-    transform: translateY(-50%);
-  }
-  #access .network #wrap .scrollimage_leftbox {
-    left: -1vw;
-  }
-  #access .network #wrap .scrollimage_rightbox {
-    right: -1vw;
-  }
-  #access .network #scrollimagebox .scrollimage_caption {
-    width: 15%;
-    max-width: 75px;
-    height: auto;
-    margin: 10px auto 20px;
-    pointer-events: none;
-    padding-bottom: 20px;
-  }
   #access .network li {
     display: inline-block;
     width: 50%;
@@ -422,6 +377,31 @@
   #access .network li .image {
     line-height: 0;
   }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  #access .swipe-img {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  #access .swipe-img img {
+    max-width: auto !important;
+    max-width: inherit !important;
+    width: 200% !important;
+  }
+  #access .swipe {
+    display: block;
+    text-align: center;
+    padding: 0 0 20px;
+  }
+  #access .swipe img {
+    max-width: 75px;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 768px) {
   #access .airport .text {
     text-align: left;
     font-size: 20px;

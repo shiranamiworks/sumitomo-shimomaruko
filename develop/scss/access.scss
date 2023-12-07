@@ -193,7 +193,7 @@
       font-size: 18px;
       line-height: 1.8;
     }
-    .map {
+    .image {
       padding-bottom: 20px;
     }
     li {
@@ -400,53 +400,6 @@
         font-size: 16px;
         line-height: 2;
       }
-      .image.map .annotation {
-        bottom: 5px;
-      }
-      #wrap {
-        min-width: inherit;
-        position: relative;
-        width: 96%;
-        height: 55vw;
-        max-width: 1280px;
-        overflow: hidden;
-        margin: 0 auto;
-        .box {
-          // position: absolute;
-          // top:0;
-          overflow-x: scroll;
-          overflow-y: hidden;
-          img {
-            max-width: 600px;
-            display: block;
-            margin: auto;
-          }
-        }
-        .scrollimage_leftbox,
-        .scrollimage_rightbox {
-          position: absolute;
-          opacity: 0.2;
-          top: 50%;
-          width: 7vw;
-          cursor: pointer;
-          z-index: 6;
-          transform: translateY(-50%);
-        }
-        .scrollimage_leftbox {
-          left: -1vw;
-        }
-        .scrollimage_rightbox {
-          right: -1vw;
-        }
-      }
-      #scrollimagebox .scrollimage_caption {
-        width: 15%;
-        max-width: 75px;
-        height: auto;
-        margin: 10px auto 20px;
-        pointer-events: none;
-        padding-bottom: 20px;
-      }
       li {
         display: inline-block;
         width: 50%;
@@ -455,6 +408,29 @@
         }
       }
     } //network
+    @media screen and (max-width: 768px) {
+      .swipe-img {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+      }
+      .swipe-img img {
+        max-width: auto !important;
+        max-width: inherit !important;
+        width: 200% !important;
+      }
+      .swipe {
+        display: block;
+        text-align: center;
+        padding: 0 0 20px;
+      }
+      .swipe img {
+        max-width: 75px;
+        width: 15%;
+        height: auto;
+        margin: auto;
+        pointer-events: none;
+      }
+    }
     .airport {
       .text {
         text-align: left;
