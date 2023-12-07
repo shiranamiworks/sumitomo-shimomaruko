@@ -493,8 +493,11 @@
         }
       } //column02
       .list02 {
-        li:last-child {
-          margin-top: 50px;
+        // li:last-child {
+        //   margin-top: 50px;
+        // }
+        .image.tb{
+          margin-top: 20px;
         }
         .annotation {
           line-height: 1.2;

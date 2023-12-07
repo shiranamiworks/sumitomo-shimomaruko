@@ -118,7 +118,7 @@
           </li>
         </ul>
       </div>
-      <p class="caps bottom tb">※「羽田空港第3ターミナル」駅まで&#9658;「下丸子」駅（※1）より東急多摩川線利用、「蒲田」駅／「京急蒲田」駅で京急空港線特急に乗り換え</p>
+      <p class="caps bottom tb">※「羽田空港第3ターミナル」駅まで&#9658;「下丸子」駅（※1）より東急多摩川線利用、「蒲田」駅／「京急蒲田」駅で京急空港線エアポート急行に乗換え</p>
     </div><!-- inner -->
   </section><!-- areas area01 -->
 
@@ -236,7 +236,8 @@
           <li>
             <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-01.jpg">
+            <img src="./images/location01/area04-01.jpg" class="pc">
+            <img src="./images/location01/area04-01-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>
@@ -248,7 +249,8 @@
           <li>
           <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-02.jpg">
+            <img src="./images/location01/area04-02.jpg" class="pc">
+            <img src="./images/location01/area04-02-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>
@@ -260,7 +262,8 @@
           <li>
             <ul class="others">
             <li class="image">
-            <img src="./images/location01/area04-03.jpg">
+            <img src="./images/location01/area04-03.jpg" class="pc">
+            <img src="./images/location01/area04-03-sp.jpg" class="tb">
             <p class="annotation white">image photo</p>
             </li>
             </ul>

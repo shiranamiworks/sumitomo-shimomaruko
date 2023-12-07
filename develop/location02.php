@@ -246,13 +246,17 @@
       </div>
       <ul class="column02 list02">
       <li>
-          <div class="image">
+          <div class="image pc">
           <img src="./images/location02/area04-02.png">
           <p class="annotation">出典：東京都建設局ホームページ「東京都都市公園等区市町村別面積：人口比率表（2022年4月版）」</p>
           </div>
         </li>
         <li>
           <p class="lead">平成23年から緑地の保全や都市公園の整備を進めてきた大田区。その結果、東京23区内で都市公園数が最も多い区になりました。「シティテラス下丸子」のまわりにも多くの公園があり、子どもから大人まで公園でのひとときを楽しんでいます。</p>
+          <div class="image tb">
+          <img src="./images/location02/area04-02.png">
+          <p class="annotation">出典：東京都建設局ホームページ「東京都都市公園等区市町村別面積：人口比率表（2022年4月版）」</p>
+          </div>
         </li>
       </ul>
       <div class="image tit-img">
