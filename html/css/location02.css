@@ -286,6 +286,9 @@
   margin-top: 70px;
   margin-bottom: 20px;
 }
+.location02 .area04 .tit-img.tit01 {
+  margin-top: 90px;
+}
 .location02 .area04 .column02 li {
   vertical-align: middle;
   display: inline-block;
@@ -312,10 +315,12 @@
 .location02 .area04 .column02.list03 li {
   width: 50%;
   margin-right: 3%;
+  margin-top: -10px;
 }
 .location02 .area04 .column02.list03 li:last-child {
   width: 45%;
   margin-right: auto;
+  margin-top: 0;
 }
 @media screen and (max-width: 768px) {
   .location02 sp {
@@ -462,7 +467,10 @@
     line-height: 1.2;
     bottom: -30px;
   }
-  .location02 .area04 .list03 .annotation {
+  .location02 .area04 .column02.list03 li {
+    margin-top: 0;
+  }
+  .location02 .area04 .column02.list03 .annotation {
     line-height: 1.2;
     bottom: -30px;
   }

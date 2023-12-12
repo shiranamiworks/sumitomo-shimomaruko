@@ -446,7 +446,10 @@
       }
       .column02 {
         li {
-          margin: 0 auto 20px;
+          margin: 0 auto 15px;
+          .image img{
+            height: 18px;
+          }
         }
         li:last-child {
           width: 100%;

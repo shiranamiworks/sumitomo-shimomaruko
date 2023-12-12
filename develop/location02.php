@@ -259,7 +259,7 @@
           </div>
         </li>
       </ul>
-      <div class="image tit-img">
+      <div class="image tit-img tit01">
         <img src="./images/location02/tit02.png" class="pc">
         <img src="./images/location02/tit02-sp.png" class="tb">
       </div>

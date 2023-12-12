@@ -61,7 +61,8 @@
 
   <section class="sections areas area01 clearfix">
     <div class="image img00">
-      <img src="./images/location01/area01-00.jpg">
+      <img src="./images/location01/area01-00.jpg" class="pc">
+      <img src="./images/location01/area01-00-sp.jpg" class="sp">
       <p class="annotation white">image photo</p>
     </div>
     <div class="inner">
@@ -126,7 +127,8 @@
 
   <section class="sections areas area02 clearfix">
     <div class="image img00">
-      <img src="./images/location01/area02-00.jpg">
+      <img src="./images/location01/area02-00.jpg" class="pc">
+      <img src="./images/location01/area02-00-sp.jpg" class="sp">
       <p class="annotation white">image photo</p>
     </div>
     <div class="inner">
@@ -175,7 +177,8 @@
 
   <section class="sections areas area03 clearfix">
     <div class="image img00">
-      <img src="./images/location01/area03-00.jpg">
+      <img src="./images/location01/area03-00.jpg" class="pc">
+      <img src="./images/location01/area03-00-sp.jpg" class="sp">
       <p class="annotation white">image photo</p>
     </div>
     <div class="inner">
@@ -222,7 +225,8 @@
 
   <section class="sections areas area04 clearfix">
     <div class="image img00">
-      <img src="./images/location01/area04-00.jpg">
+      <img src="./images/location01/area04-00.jpg" class="pc">
+      <img src="./images/location01/area04-00-sp.jpg" class="sp">
       <p class="annotation white">image photo</p>
     </div>
     <div class="inner">

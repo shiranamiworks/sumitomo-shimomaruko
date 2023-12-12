@@ -297,6 +297,9 @@
     .tit-img {
       margin-top: 70px;
       margin-bottom: 20px;
+      &.tit01{
+        margin-top: 90px;
+      }
     }
     .column02 {
       li {
@@ -325,9 +328,11 @@
       &.list03 li {
         width: 50%;
         margin-right: 3%;
+        margin-top: -10px;
         &:last-child {
           width: 45%;
           margin-right: auto;
+          margin-top: 0;
         }
       }
     } //column02
@@ -504,7 +509,10 @@
           bottom: -30px;
         }
       }
-      .list03 {
+      .column02.list03 {
+        li{
+          margin-top: 0;
+        }
         .annotation {
           line-height: 1.2;
           bottom: -30px;
