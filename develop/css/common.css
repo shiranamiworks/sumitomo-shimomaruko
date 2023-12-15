@@ -228,8 +228,8 @@ img#adtag {
     color:#000;
 }
 .bg_btn--gray{
-    background-color: #999;
-    color: #fff;
+    background-color: #999 !important; 
+    color:#777 !important;
 }
 
 /****************************************************************************************************************************************************************************************
@@ -246,7 +246,6 @@ img#adtag {
 
 .header-logo {
     flex: 1;
-    /*max-width: 395px;*/
     padding-right: 20px;
 }
 
@@ -257,21 +256,23 @@ img#adtag {
 .header-btn {
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 150px;
     height: 80px;
     text-align: center;
-    font-size: 1.3rem;
-    line-height: 6;
+    font-size: 1.6rem;
+    line-height: 1.2;
     letter-spacing: .05em;
     border: 1px solid #fff;
     border-left: none;
+    padding:3px;
 }
 a.header-btn.bg_btn {
     letter-spacing: -0.03em;
 }
 div.header-btn.bg_btn {
 	background-color: #999;
-    color: #fff;
+    color:#777 !important;
     letter-spacing: -0.03em;
 }
 
@@ -505,6 +506,7 @@ div.header-btn.bg_btn {
     border-bottom: 1px solid #ccc1af;
     color: #999;
 }
+}
 .header-menu nav>ul>li>a .f-en,
 .header-menu nav>ul>li>p .f-en {
     font-size: 2.6rem;
@@ -610,7 +612,6 @@ div.header-btn.bg_btn {
     height: 80px;
     margin-bottom: 6px;
     text-align: center;
-    /*padding: 10px 10px 10px 60px;*/
     font-size: 2rem;
     line-height: 1.2;
     letter-spacing: .1em;
@@ -705,8 +706,7 @@ div.header-btn.bg_btn {
 }
 
 .header-sns a {
-    display: none;
-    /* display: block; */
+    display: block;
     margin-left: 20px;
     line-height: 0;
 }
@@ -754,8 +754,7 @@ div.header-btn.bg_btn {
 @media screen and (max-width: 1200px) {
     .header-btn {
         width: 13vw;
-        font-size: 1.25vw;
-        line-height: 7;
+        font-size: 1.4166vw;
     }
     .header-menu nav>ul>li>a .f-en, 
     .header-menu nav>ul>li>p .f-en {
@@ -890,49 +889,45 @@ div.header-btn.bg_btn {
     .sp-menu.active {
         top: 0;
     }
+    .sp-menu.sp-toggle {
+    }
     .sp-menu nav ul {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        align-items: center;
         border-top: 1px solid #b99a31;
-        /*border-bottom: 1px solid #b99a31;*/
     }
     .sp-menu nav ul li {
         width: 50%;
+        height:14.8437vw;
         border-bottom: 1px solid #b99a31;
-        display: block;
-        font-size: 3.4666vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 3.75vw;
         font-weight: 300;
         letter-spacing: .05em;
-        /*line-height: 13.33vw;*/
         color:#c7c6c6;
 		line-height: 1.2;
-	    padding: 20px 0;
-    }
-/*
-    .sp-menu nav ul li:nth-child(2n+1) {
-        border-right: 1px solid #b99a31;
-        line-height: 1.2;
-    	padding: 20px 0;
-    }
-*/
-    .sp-menu nav ul li:nth-of-type(2n+1) {
-        border-right: 1px solid #b99a31;
-        line-height: 1.2;
-    	padding: 20px 0;
+	    padding: 20px 10px;
     }
 
-    .sp-menu nav ul li:last-child {
-        /*border-bottom: none;*/
-        line-height: 1.2;
-    	padding: 20px 0;
+    .sp-menu nav ul li:nth-of-type(2n+1) {
+        border-right: 1px solid #b99a31;
     }
+
+/*
+.sp-menu nav ul li:last-child {
+        border-bottom: none;
+    }
+*/
     .sp-menu nav ul li a {
         color:#000;
     }
     .sp-menu-sns {
         padding: 10vw 0;
-        display: none !important;
     }
     .sp-menu-sns a {
         display: block;
@@ -980,8 +975,9 @@ div.header-btn.bg_btn {
     letter-spacing: -0.01em;
     font-size:14px;
 }
-.footer-menu ul li.start {
-    border-left: none;
+
+.footer-menu ul li br {
+    display: none;
 }
 .footer-menu ul li a {
     color: #000;
@@ -1177,7 +1173,7 @@ div.header-btn.bg_btn {
     width: 48px;
     height: 150px;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     line-height: 1.3;
     letter-spacing: .05em;
     writing-mode: vertical-rl;
@@ -1248,17 +1244,17 @@ div.header-btn.bg_btn {
     }
     .footer-menu ul li {
         width: 50%;
-        padding: 20px 0;
+        padding: 20px 10px;
         border-bottom: 1px solid #f1e9dc;
         border-left: none;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 12px;
+        font-size: 3.75vw;
         letter-spacing: .05em;
+		line-height: 1.2;
         margin:0 0;
-
     }
 /*
     .footer-menu ul li:nth-child(2n+1) {
@@ -1274,6 +1270,9 @@ div.header-btn.bg_btn {
     .footer-menu ul li a {
 		text-decoration: none;
     }
+.footer-menu ul li br {
+    display: block;
+}
     .footer-recommend__slide {
         margin-top: 30px;
         margin: 30px 30px 0 30px;
@@ -1336,8 +1335,7 @@ div.header-btn.bg_btn {
         bottom: 0;
         display: flex;
         width: 100%;
-        z-index: 1001;
-        background: #fff;
+        z-index: 999;
     }
     .fixed-btn a,
     .fixed-btn div.fixed-btn__tel,
@@ -1365,11 +1363,6 @@ div.header-btn.bg_btn {
     .fixed-btn a.fixed-btn__btn003 {
         color: #fff;
         background-color: #9d7a41;
-    }
-    .fixed-btn a.fixed-btn__none {
-        color: #fff;
-        background-color: #999;
-        pointer-events: none;
     }
     .fixed-btn a.fixed-btn__mail {
         color: #fff;
@@ -1528,6 +1521,7 @@ div.header-btn.bg_btn {
     font-size: 2.8rem;
     color: #000;
     background-color: #fff;
+    line-height:1.2;
 }
 .entry-btn p.entry-btn-p {
     display: flex;
@@ -1539,6 +1533,7 @@ div.header-btn.bg_btn {
     font-size: 2.8rem;
     color: #999;
     background-color: #fff;
+    line-height:1.2;
 }
 .entry-btn--1 a {
     width: 100%;
