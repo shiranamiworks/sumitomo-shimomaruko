@@ -23,7 +23,7 @@
             	<div class="mapArea"><img src="images/map/map.jpg" alt="現地案内図" id="map1"></div>
 				<p class="zip">東京都大田区下丸子４丁目２３<span>※住居表示ではありません。</span></p>
 				<div id="btnArea">
-					<div id="GoogleMap"><a href="https://maps.app.goo.gl/mUfWGgeFfYVHMPBWA" target="_blank"><img src="images/map/btn_googlemap.jpg" alt="Google Map"></a></div>
+					<div id="GoogleMap"><a href="https://maps.app.goo.gl/3Fy4QGMmf7NwLq3U9" target="_blank"><img src="images/map/btn_googlemap.jpg" alt="Google Map"></a></div>
 					<div id="PrintMap"><a href="JavaScript:;" onclick="print_out(); return false;"><img src="images/map/btn_print.jpg" alt="印刷" class="pc"></a></div>
 				</div>
 
