@@ -145,10 +145,10 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <li><a href="javascript:outline();">物件概要</a></li>
             <li><p>マンション情報ブログ</p></li>
           </ul>
-          <div class="header-sns">
+          <!-- <div class="header-sns">
             <a href="https://twitter.com/shimomaruko" target="_blank"><img src="./images/common/icn_twitter.png" alt="Twitter"></a>
             <a href="https://www.instagram.com/shimomaruko" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -173,10 +173,10 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=sp-menu"></script>
       </ul>
     </nav>
-    <div class="sp-menu-sns d-flex justify-content-center align-items-center">
+    <!-- <div class="sp-menu-sns d-flex justify-content-center align-items-center">
       <a href="https://twitter.com/shimomaruko" target="_blank"><img src="./images/common/icn_twitter.png" alt="Twitter"></a>
        <a href="https://www.instagram.com/shimomaruko" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
-    </div>
+    </div> -->
   </div><!--//sp-menu -->
 </header>
 <!-- #header -->
