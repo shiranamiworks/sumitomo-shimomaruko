@@ -143,12 +143,12 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <li><a href="map.html" target="_blank">現地案内図</a></li>
             <li><a href="/shuto/shimomaruko/faq.cgi" target="_blank">FAQ</a></li>
             <li><a href="javascript:outline();">物件概要</a></li>
-            <li><p>マンション情報ブログ</p></li>
+            <li><a href="javascript:blog();">マンション情報ブログ</a></li>
           </ul>
-          <!-- <div class="header-sns">
-            <a href="https://twitter.com/shimomaruko" target="_blank"><img src="./images/common/icn_twitter.png" alt="Twitter"></a>
-            <a href="https://www.instagram.com/shimomaruko" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
-          </div> -->
+          <div class="header-sns">
+            <a href="https://x.com/Cte_shimomaruko" target="_blank"><img src="./images/common/icn_x.png" alt="X"></a>
+            <a href="https://www.instagram.com/cte_shimomaruko/" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
+          </div>
         </div>
       </div>
     </div>
@@ -168,15 +168,15 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
         <li><a href="javascript:outline();">物件概要</a></li>
-        <li><p href="javascript:blog();">マンション情報ブログ</p></li>
+        <li><a href="javascript:blog();">マンション情報ブログ</a></li>
         <li><a href="/shuto/shimomaruko/faq.cgi" target="_blank">FAQ</a></li>
         <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=shimomaruko&LINK=sp-menu"></script>
       </ul>
     </nav>
-    <!-- <div class="sp-menu-sns d-flex justify-content-center align-items-center">
-      <a href="https://twitter.com/shimomaruko" target="_blank"><img src="./images/common/icn_twitter.png" alt="Twitter"></a>
-       <a href="https://www.instagram.com/shimomaruko" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
-    </div> -->
+    <div class="sp-menu-sns d-flex justify-content-center align-items-center">
+      <a href="https://x.com/Cte_shimomaruko" target="_blank"><img src="./images/common/icn_x-black.png" alt="X"></a>
+      <a href="https://www.instagram.com/cte_shimomaruko/" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
+    </div>
   </div><!--//sp-menu -->
 </header>
 <!-- #header -->
