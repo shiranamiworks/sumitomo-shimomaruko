@@ -1,14 +1,13 @@
 $(function () {
-  // メイン画像のオプション
   $(".slider").slick({
-    autoplay: true, // 自動再生ON
-    arrows: false, // 矢印非表示
-    asNavFor: ".thumbnail", // サムネイルと同期
+    autoplay: true,
+    arrows: false,
+    asNavFor: ".thumbnail",
   });
   // サムネイルのオプション
   $(".thumbnail").slick({
-    slidesToShow: 3, // サムネイルの表示数
-    asNavFor: ".slider", // メイン画像と同期
-    focusOnSelect: true, // サムネイルクリックを有効化
+    slidesToShow: 3,
+    asNavFor: ".slider",
+    focusOnSelect: true,
   });
 });
