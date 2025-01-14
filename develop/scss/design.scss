@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+#adtag {
+  opacity: 0;
+}
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+.breadcrumb ul li a {
+  color: #000;
+}
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+#design {
+  main img {
+    max-width: 100%;
+  }
+  .image {
+    position: relative;
+    .annotation {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      text-align: right;
+      font-size: 10px;
+      &.white {
+        color: #fff;
+        text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+      }
+    }
+  }
+
+  main {
+    color: #fff;
+    background: #000;
+    font-family: "RyuminPro", serif;
+    line-height: 1;
+  }
+  sp {
+    display: none;
+  }
+  pc {
+    display: block;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .main-visual {
+    display: none;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+    border: none;
+    .image {
+      position: relative;
+      display: inline-block;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -217px;
+        left: 0;
+        right: 0;
+        width: 1px;
+        height: 220px;
+        margin: auto;
+        background-color: #000;
+      }
+    }
+  }
+  .sections {
+    .inner {
+      margin: 0 auto;
+      width: 84%;
+      max-width: 1200px;
+    }
+    .image {
+      position: relative;
+    }
+    .annotation {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      text-align: right;
+      font-size: 10px;
+      &.white {
+        color: #fff;
+        text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+      }
+    }
+  } //sections
+
+  .intro {
+    text-align: center;
+    padding: 0 0 0;
+    margin-bottom: 100px;
+    .tit {
+      font-size: 60px;
+      letter-spacing: 0.16em;
+      margin-bottom: 20px;
+    }
+    .txt01 {
+      font-size: 30px;
+      line-height: 1.8;
+      margin-bottom: 40px;
+    }
+    .txt02 {
+      font-size: 30px;
+      line-height: 1.8;
+      margin-bottom: 40px;
+    }
+    .lead {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .tab-inner {
+      margin-bottom: 80px;
+    }
+    .slick-slide {
+      position: relative;
+    }
+    .thumbnail .slick-track {
+      transform: unset !important;
+    }
+    .slick-list,
+    .slick-track {
+      justify-content: center;
+    }
+    .thumbnail-img {
+      opacity: 0.3;
+      transition: opacity 0.3s linear;
+      width: 20% !important;
+      margin: 20px 10px 0;
+    }
+    .thumbnail-img.slick-current {
+      opacity: 1;
+    }
+  } //intro
+  .landscape {
+    text-align: center;
+    margin: 0 auto 120px;
+    .tit {
+      font-size: 30px;
+      background: #ae9e4b;
+      padding: 10px 0;
+      color: #000;
+      letter-spacing: 0.16em;
+      margin-bottom: 50px;
+    }
+    .txt {
+      text-align: left;
+      font-size: 24px;
+      line-height: 1.8;
+      margin-bottom: 20px;
+      &.line {
+        border-bottom: 1px solid;
+      }
+    }
+    .lead {
+      text-align: left;
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 50px;
+    }
+    .img00 {
+      padding-bottom: 50px;
+    }
+    .img-txt {
+      margin-bottom: 100px;
+    }
+    .list {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 23%;
+        margin-right: 2%;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      .name {
+        text-align: left;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+    }
+  } //landscape
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  }
+  @media screen and (max-width: 768px) {
+    sp {
+      display: block;
+    }
+    pc {
+      display: none;
+    }
+
+    .sections {
+      .column02 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column02
+      .column03 {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          .txt img {
+            display: block;
+            height: 80px;
+            margin: auto;
+          }
+          .txt.h15 img {
+            display: block;
+            height: 95px;
+            margin: auto;
+          }
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+      } //column03
+    } //sections
+
+    .intro {
+      text-align: left;
+      .tit {
+        font-size: 22px;
+        margin-bottom: 20px;
+      }
+      .lead {
+        text-align: left;
+        font-size: 16px;
+        line-height: 2;
+        margin-bottom: 0;
+      }
+      .img01 {
+        margin-bottom: 40px;
+        figure {
+          width: 100%;
+        }
+        .leaflet-top {
+          bottom: 0;
+        }
+        .annotation {
+          bottom: 5%;
+          z-index: 1000;
+        }
+      }
+    } //intro
+
+    @media screen and (max-width: 768px) {
+      .swipe-img {
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+      }
+      .swipe-img img {
+        max-width: auto !important;
+        max-width: inherit !important;
+        width: 200% !important;
+      }
+      .swipe {
+        display: block;
+        text-align: center;
+        padding: 0 0 20px;
+      }
+      .swipe img {
+        max-width: 75px;
+        width: 15%;
+        height: auto;
+        margin: auto;
+        pointer-events: none;
+      }
+    }
+  } //sp
+  @media screen and (max-width: 550px) {
+  }
+  @media screen and (max-width: 480px) {
+  }
+  @media screen and (max-width: 420px) {
+  }
+  @media screen and (max-width: 360px) {
+  }
+}
