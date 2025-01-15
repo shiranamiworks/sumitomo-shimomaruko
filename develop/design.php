@@ -77,7 +77,7 @@
       <p class="txt">緑の潤いと開放感に満ちたランドスケープ</p>
       <p class="lead">総敷地面積８,200㎡超の広大な敷地に、各棟の見合いを避けるように住棟をゆったりとレイアウト。<br>プライバシー性や採光・通風などの居住性に配慮しています。</p>
       <div class="image img00">
-      <img src="./images/design/landscape00.png">
+      <img src="./images/design/landscape00.png"> <p class="annotation white">敷地配置イラスト</p>
       </div>
       <div class="image img-txt">
       <img src="./images/design/landscape-txt.svg" class="pc"> <img src="./images/design/landscape-txt-sp.svg" class="tb">

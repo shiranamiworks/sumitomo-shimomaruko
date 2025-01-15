@@ -210,8 +210,9 @@
   margin-right: 2%;
 }
 #public .common .list li:last-child {
-  width: 71%;
+  width: 66%;
   margin-right: auto;
+  float: right;
 }
 #public .common .list .mini {
   text-align: left;
