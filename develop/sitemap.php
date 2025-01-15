@@ -23,10 +23,8 @@
   <ul>
 	<li class="top"><a href="/shuto/shimomaruko/">シティテラス下丸子 トップ</a></li>
 	<li class="concept"><a href="concept.html">コンセプト</a></li>
-	<!--li class="design"><a href="design.html">デザイン</a></li-->
-	<li class="design">デザイン</li>
-	<!--li class="public"><a href="public.html">共用空間</a></li-->
-	<li class="public">共用空間</li>
+	<li class="design"><a href="design.html">デザイン</a></li>
+	<li class="public"><a href="public.html">共用空間</a></li>
 	<!--li class="private"><span>室内空間
 	（ <a href="private_01.html"></a> ／ <a href="private_02.html"></a> ）</span></li-->
 	<li class="private">室内空間</li>

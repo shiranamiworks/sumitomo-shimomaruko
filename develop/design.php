@@ -80,7 +80,7 @@
       <img src="./images/design/landscape00.png">
       </div>
       <div class="image img-txt">
-      <img src="./images/design/landscape-txt.svg">
+      <img src="./images/design/landscape-txt.svg" class="pc"> <img src="./images/design/landscape-txt-sp.svg" class="tb">
       </div>
       <p class="txt line">美しい景観を創出する植栽計画</p>
       <p class="lead">敷地内の各所に、豊富で多彩な木々を植樹。<br>常緑樹のクスノキやシマトネリコ、四季を奏でるイロハモミジなど、自然の趣を日常的にお楽しみいただけます。</p>
@@ -111,7 +111,7 @@
           <img src="./images/design/landscape04.jpg">
           <p class="annotation">参考写真</p>
           </div>
-          <p class="name">シマトネリコ</p>
+          <p class="name">ソヨゴ</p>
         </li>
     </div>
   </div>
