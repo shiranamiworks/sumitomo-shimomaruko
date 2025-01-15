@@ -224,57 +224,64 @@
   #design pc {
     display: none;
   }
-  #design .sections .column02 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  #design .sections .column02 li:last-child {
-    margin-bottom: auto;
-  }
-  #design .sections .column03 li {
-    display: block;
-    width: 100%;
-    margin-bottom: 40px;
-  }
-  #design .sections .column03 li .txt img {
-    display: block;
-    height: 80px;
-    margin: auto;
-  }
-  #design .sections .column03 li .txt.h15 img {
-    display: block;
-    height: 95px;
-    margin: auto;
-  }
-  #design .sections .column03 li:last-child {
-    margin-bottom: auto;
-  }
   #design .intro {
-    text-align: left;
+    text-align: center;
+    padding: 0 0 0;
+    margin-bottom: 60px;
   }
   #design .intro .tit {
+    font-size: 28px;
+  }
+  #design .intro .txt01 {
+    font-size: 18px;
+  }
+  #design .intro .txt02 {
+    text-align: left;
     font-size: 22px;
+    line-height: 1.8;
     margin-bottom: 20px;
   }
   #design .intro .lead {
     text-align: left;
     font-size: 16px;
-    line-height: 2;
-    margin-bottom: 0;
+    line-height: 1.8;
   }
-  #design .intro .img01 {
-    margin-bottom: 40px;
+  #design .intro .tab-inner {
+    margin-bottom: 50px;
   }
-  #design .intro .img01 figure {
-    width: 100%;
+  #design .intro .thumbnail-img {
+    width: 100% !important;
+    margin: 20px 5px 0;
   }
-  #design .intro .img01 .leaflet-top {
-    bottom: 0;
+  #design .landscape {
+    text-align: center;
+    margin: 0 auto 50px;
   }
-  #design .intro .img01 .annotation {
-    bottom: 5%;
-    z-index: 1000;
+  #design .landscape .tit {
+    margin-bottom: 30px;
+  }
+  #design .landscape .txt {
+    font-size: 22px;
+  }
+  #design .landscape .lead {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  #design .landscape .img00 {
+    padding-bottom: 30px;
+  }
+  #design .landscape .img-txt {
+    margin-bottom: 50px;
+  }
+  #design .landscape .list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
+  #design .landscape .list li:nth-child(2n) {
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 768px) and (max-width: 768px) {

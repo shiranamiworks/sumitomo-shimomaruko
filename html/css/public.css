@@ -1,0 +1,317 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+
+.breadcrumb ul li a {
+  color: #000;
+}
+
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+#public main img {
+  max-width: 100%;
+}
+#public .image {
+  position: relative;
+}
+#public .image .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+#public .image .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+#public main {
+  color: #fff;
+  background: #000;
+  font-family: "RyuminPro", serif;
+  line-height: 1;
+}
+#public sp {
+  display: none;
+}
+#public pc {
+  display: block;
+}
+#public .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+#public .main-visual {
+  display: none;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 50px;
+  border: none;
+}
+#public .main-visual .image {
+  position: relative;
+  display: inline-block;
+}
+#public .main-visual .image::after {
+  content: "";
+  position: absolute;
+  bottom: -217px;
+  left: 0;
+  right: 0;
+  width: 1px;
+  height: 220px;
+  margin: auto;
+  background-color: #000;
+}
+#public .sections .inner {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+#public .sections .image {
+  position: relative;
+}
+#public .sections .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+#public .sections .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+#public .sections {
+  text-align: center;
+  padding: 0 0 0;
+  margin-bottom: 120px;
+}
+#public .sections .tit {
+  font-size: 60px;
+  letter-spacing: 0.16em;
+  margin-bottom: 20px;
+}
+#public .sections .sub {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#public .sections .txt01 {
+  font-size: 30px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+#public .sections .txt02 {
+  text-align: left;
+  font-size: 27px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+#public .sections .lead {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.8;
+}
+#public .sections .img01 {
+  margin-bottom: 40px;
+}
+#public .sections .img02 {
+  margin-bottom: 60px;
+}
+#public .sec01 .tit,
+#public .sec02 .tit {
+  margin-bottom: 6px;
+}
+#public .sec01 .sub,
+#public .sec02 .sub {
+  letter-spacing: 0.16em;
+}
+#public .common {
+  text-align: center;
+  margin: 0 auto 120px;
+}
+#public .common .inner {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+#public .common .tit {
+  font-size: 30px;
+  background: #ae9e4b;
+  padding: 10px 0;
+  color: #000;
+  letter-spacing: 0.16em;
+  margin-bottom: 50px;
+}
+#public .common .name {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1.8;
+  letter-spacing: 0.16em;
+  margin: 10px 0;
+  border-bottom: 1px solid;
+  color: #ab9c4c;
+}
+#public .common .lead {
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+#public .common .list {
+  margin-top: 100px;
+}
+#public .common .list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 26%;
+  margin-right: 2%;
+}
+#public .common .list li:last-child {
+  width: 71%;
+  margin-right: auto;
+}
+#public .common .list .mini {
+  text-align: left;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  #public sp {
+    display: block;
+  }
+  #public pc {
+    display: none;
+  }
+  #public .sections {
+    text-align: center;
+    padding: 0 0 0;
+    margin-bottom: 60px;
+  }
+  #public .sections .tit {
+    font-size: 28px;
+    line-height: 1.6;
+  }
+  #public .sections .sub {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #public .sections .txt01 {
+    font-size: 18px;
+  }
+  #public .sections .txt02 {
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  #public .sections .lead {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  #public .sections .img01 {
+    margin-bottom: 40px;
+  }
+  #public .sections .img02 {
+    margin-bottom: 40px;
+  }
+  #public .common {
+    text-align: center;
+    margin: 0 auto 50px;
+  }
+  #public .common .tit {
+    margin-bottom: 30px;
+  }
+  #public .common .name {
+    font-size: 22px;
+  }
+  #public .common .list {
+    margin-top: 50px;
+  }
+  #public .common .list li {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #public .common .list li:last-child {
+    width: 100%;
+    margin: auto;
+  }
+  #public .common .list .lead {
+    margin-bottom: 0;
+  }
+  #public .common .list .mini {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  #public .swipe-img {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  #public .swipe-img img {
+    max-width: auto !important;
+    max-width: inherit !important;
+    width: 200% !important;
+  }
+  #public .swipe {
+    display: block;
+    text-align: center;
+    padding: 0 0 20px;
+  }
+  #public .swipe img {
+    max-width: 75px;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    pointer-events: none;
+  }
+}/*# sourceMappingURL=public.css.map */

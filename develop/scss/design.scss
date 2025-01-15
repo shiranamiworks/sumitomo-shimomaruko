@@ -233,65 +233,67 @@
       display: none;
     }
 
-    .sections {
-      .column02 {
-        li {
-          display: block;
-          width: 100%;
-          margin-bottom: 20px;
-        }
-        li:last-child {
-          margin-bottom: auto;
-        }
-      } //column02
-      .column03 {
-        li {
-          display: block;
-          width: 100%;
-          margin-bottom: 40px;
-          .txt img {
-            display: block;
-            height: 80px;
-            margin: auto;
-          }
-          .txt.h15 img {
-            display: block;
-            height: 95px;
-            margin: auto;
-          }
-        }
-        li:last-child {
-          margin-bottom: auto;
-        }
-      } //column03
-    } //sections
-
     .intro {
-      text-align: left;
+      text-align: center;
+      padding: 0 0 0;
+      margin-bottom: 60px;
       .tit {
+        font-size: 28px;
+      }
+      .txt01 {
+        font-size: 18px;
+      }
+      .txt02 {
+        text-align: left;
         font-size: 22px;
+        line-height: 1.8;
         margin-bottom: 20px;
       }
       .lead {
         text-align: left;
         font-size: 16px;
-        line-height: 2;
-        margin-bottom: 0;
+        line-height: 1.8;
       }
-      .img01 {
-        margin-bottom: 40px;
-        figure {
-          width: 100%;
-        }
-        .leaflet-top {
-          bottom: 0;
-        }
-        .annotation {
-          bottom: 5%;
-          z-index: 1000;
-        }
+      .tab-inner {
+        margin-bottom: 50px;
+      }
+      .thumbnail-img {
+        width: 100% !important;
+        margin: 20px 5px 0;
       }
     } //intro
+    .landscape {
+      text-align: center;
+      margin: 0 auto 50px;
+      .tit {
+        margin-bottom: 30px;
+      }
+      .txt {
+        font-size: 22px;
+      }
+      .lead {
+        font-size: 18px;
+        margin-bottom: 50px;
+      }
+      .img00 {
+        padding-bottom: 30px;
+      }
+      .img-txt {
+        margin-bottom: 50px;
+      }
+      .list {
+        li {
+          display: inline-block;
+          vertical-align: top;
+          width: 48%;
+          margin-right: 2%;
+          margin-bottom: 20px;
+        }
+        li:nth-child(2n) {
+          margin-right: auto;
+        }
+      }
+    } //landscape
 
     @media screen and (max-width: 768px) {
       .swipe-img {

@@ -36,7 +36,7 @@
   <section class="intro sections clearfix">
     <div class="inner">
       <p class="tit">FACADE DESIGN</p>
-      <p class="txt01">街を飾る壮麗なる景観、邸宅の美意識を物語る造形美。</p>
+      <p class="txt01">街を飾る壮麗なる景観、<br class="sp">邸宅の美意識を物語る造形美。</p>
       <div class="tab-inner">
         <div class="slider">
           <div class="slick-img">
