@@ -90,7 +90,7 @@
           <img src="./images/design/landscape01.jpg">
           <p class="annotation">参考写真</p>
           </div>
-          <p class="name">エゴノキ</p>
+          <p class="name">ソヨゴ</p>
         </li>
         <li>
           <div class="image">
@@ -111,7 +111,7 @@
           <img src="./images/design/landscape04.jpg">
           <p class="annotation">参考写真</p>
           </div>
-          <p class="name">ソヨゴ</p>
+          <p class="name">シマトネリコ</p>
         </li>
     </div>
   </div>
