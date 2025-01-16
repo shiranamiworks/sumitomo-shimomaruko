@@ -130,13 +130,14 @@
   margin-bottom: 100px;
 }
 #design .intro .tit {
-  font-size: 60px;
-  letter-spacing: 0.16em;
-  margin-bottom: 20px;
+  width: 70%;
+  max-width: 762px;
+  margin: 0 auto 20px;
 }
 #design .intro .txt01 {
   font-size: 30px;
   line-height: 1.8;
+  letter-spacing: 0.25rem;
   margin-bottom: 40px;
 }
 #design .intro .txt02 {
@@ -177,10 +178,16 @@
 #design .landscape .tit {
   font-size: 30px;
   background: #ae9e4b;
-  padding: 10px 0;
+  padding: 20px 0 15px;
   color: #000;
   letter-spacing: 0.16em;
   margin-bottom: 50px;
+}
+#design .landscape .tit span {
+  display: block;
+  width: 28%;
+  max-width: 358px;
+  margin: auto;
 }
 #design .landscape .txt {
   text-align: left;
@@ -231,6 +238,7 @@
   }
   #design .intro .tit {
     font-size: 28px;
+    width: 80%;
   }
   #design .intro .txt01 {
     font-size: 18px;
@@ -259,6 +267,9 @@
   }
   #design .landscape .tit {
     margin-bottom: 30px;
+  }
+  #design .landscape .tit span {
+    width: 60%;
   }
   #design .landscape .txt {
     font-size: 22px;

@@ -130,9 +130,11 @@
     padding: 0 0 0;
     margin-bottom: 120px;
     .tit {
+      width: 75%;
+      max-width: 862px;
       font-size: 60px;
       letter-spacing: 0.16em;
-      margin-bottom: 20px;
+      margin: 0 auto 20px;
     }
     .sub {
       font-size: 40px;
@@ -141,6 +143,7 @@
     .txt01 {
       font-size: 30px;
       line-height: 1.8;
+      letter-spacing: .25rem;
       margin-bottom: 40px;
     }
     .txt02 {
@@ -164,10 +167,23 @@
   .sec01,
   .sec02 {
     .tit {
-      margin-bottom: 6px;
+      margin-bottom: 26px;
     }
     .sub {
       letter-spacing: 0.16em;
+    }
+  }
+  .sec01 {
+    .tit {
+      width: 90%;
+      max-width: 1055px;
+      margin-bottom: 6px;
+    }
+  }
+  .sec02 {
+    .tit {
+      width: 70%;
+      max-width: 777px;
     }
   }
   .common {
@@ -181,10 +197,16 @@
     .tit {
       font-size: 30px;
       background: #ae9e4b;
-      padding: 10px 0;
+      padding: 20px 0 15px;
       color: #000;
       letter-spacing: 0.16em;
       margin-bottom: 50px;
+      span{
+        display: block;
+        width: 40%;
+        max-width: 525px;
+        margin: auto;
+      }
     }
     .name {
       text-align: left;
@@ -240,8 +262,15 @@
       padding: 0 0 0;
       margin-bottom: 60px;
       .tit {
+        width: 90%;
         font-size: 28px;
         line-height: 1.6;
+      }
+      &.sec01 .tit{
+        width: 100%;
+      }
+      &.sec02 .tit{
+        width: 75%;
       }
       .sub {
         font-size: 22px;
@@ -273,6 +302,9 @@
       margin: 0 auto 50px;
       .tit {
         margin-bottom: 30px;
+        span{
+          width: 75%;
+        }
       }
       .name {
         font-size: 22px;

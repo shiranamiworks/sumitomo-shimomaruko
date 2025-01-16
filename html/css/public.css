@@ -130,9 +130,11 @@
   margin-bottom: 120px;
 }
 #public .sections .tit {
+  width: 75%;
+  max-width: 862px;
   font-size: 60px;
   letter-spacing: 0.16em;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
 }
 #public .sections .sub {
   font-size: 40px;
@@ -141,6 +143,7 @@
 #public .sections .txt01 {
   font-size: 30px;
   line-height: 1.8;
+  letter-spacing: 0.25rem;
   margin-bottom: 40px;
 }
 #public .sections .txt02 {
@@ -162,11 +165,20 @@
 }
 #public .sec01 .tit,
 #public .sec02 .tit {
-  margin-bottom: 6px;
+  margin-bottom: 26px;
 }
 #public .sec01 .sub,
 #public .sec02 .sub {
   letter-spacing: 0.16em;
+}
+#public .sec01 .tit {
+  width: 90%;
+  max-width: 1055px;
+  margin-bottom: 6px;
+}
+#public .sec02 .tit {
+  width: 70%;
+  max-width: 777px;
 }
 #public .common {
   text-align: center;
@@ -180,10 +192,16 @@
 #public .common .tit {
   font-size: 30px;
   background: #ae9e4b;
-  padding: 10px 0;
+  padding: 20px 0 15px;
   color: #000;
   letter-spacing: 0.16em;
   margin-bottom: 50px;
+}
+#public .common .tit span {
+  display: block;
+  width: 40%;
+  max-width: 525px;
+  margin: auto;
 }
 #public .common .name {
   text-align: left;
@@ -233,8 +251,15 @@
     margin-bottom: 60px;
   }
   #public .sections .tit {
+    width: 90%;
     font-size: 28px;
     line-height: 1.6;
+  }
+  #public .sections.sec01 .tit {
+    width: 100%;
+  }
+  #public .sections.sec02 .tit {
+    width: 75%;
   }
   #public .sections .sub {
     font-size: 22px;
@@ -266,6 +291,9 @@
   }
   #public .common .tit {
     margin-bottom: 30px;
+  }
+  #public .common .tit span {
+    width: 75%;
   }
   #public .common .name {
     font-size: 22px;
