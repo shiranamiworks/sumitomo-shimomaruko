@@ -82,14 +82,13 @@
     font-family: "Noto Sans JP", sans-serif;
   }
   .main-visual {
-    display: none;
     position: relative;
     display: inline-block;
     padding-bottom: 50px;
     border: none;
     .image {
+      display: none;
       position: relative;
-      display: inline-block;
       &::after {
         content: "";
         position: absolute;
@@ -128,7 +127,7 @@
   .sections {
     text-align: center;
     padding: 0 0 0;
-    margin-bottom: 120px;
+    margin-bottom: 180px;
     .tit {
       width: 75%;
       max-width: 862px;
@@ -148,7 +147,7 @@
     }
     .txt02 {
       text-align: left;
-      font-size: 27px;
+      font-size: 36px;
       line-height: 1.8;
       margin-bottom: 40px;
     }
@@ -230,8 +229,9 @@
         vertical-align: top;
         width: 26%;
         margin-right: 2%;
+        float: left;
       }
-      li:last-child {
+      li:nth-child(2){
         width: 66%;
         margin-right: auto;
         float: right;
@@ -260,7 +260,7 @@
     .sections {
       text-align: center;
       padding: 0 0 0;
-      margin-bottom: 60px;
+      margin-bottom: 90px;
       .tit {
         width: 90%;
         font-size: 28px;
@@ -277,11 +277,12 @@
         margin-bottom: 20px;
       }
       .txt01 {
-        font-size: 18px;
+        font-size: 22px;
+        letter-spacing: 0;
       }
       .txt02 {
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.8;
         margin-bottom: 20px;
       }
@@ -317,7 +318,7 @@
           width: 100%;
           margin-bottom: 20px;
         }
-        li:last-child {
+        li:nth-child(2) {
           width: 100%;
           margin: auto;
         }

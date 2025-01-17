@@ -82,14 +82,13 @@
     font-family: "Noto Sans JP", sans-serif;
   }
   .main-visual {
-    display: none;
     position: relative;
     display: inline-block;
     padding-bottom: 50px;
     border: none;
     .image {
+      display: none;
       position: relative;
-      display: inline-block;
       &::after {
         content: "";
         position: absolute;
@@ -141,7 +140,7 @@
       margin-bottom: 40px;
     }
     .txt02 {
-      font-size: 30px;
+      font-size: 36px;
       line-height: 1.8;
       margin-bottom: 40px;
     }
@@ -165,7 +164,7 @@
     .thumbnail-img {
       opacity: 0.3;
       transition: opacity 0.3s linear;
-      width: 20% !important;
+      width: 12% !important;
       margin: 20px 10px 0;
     }
     .thumbnail-img.slick-current {
@@ -249,11 +248,12 @@
         width: 80%;
       }
       .txt01 {
-        font-size: 18px;
+        font-size: 22px;
+        letter-spacing: 0;
       }
       .txt02 {
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
         line-height: 1.8;
         margin-bottom: 20px;
       }
@@ -280,10 +280,10 @@
         }
       }
       .txt {
-        font-size: 22px;
+        font-size: 20px;
       }
       .lead {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 50px;
       }
       .img00 {

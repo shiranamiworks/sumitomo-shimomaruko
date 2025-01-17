@@ -84,15 +84,14 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 #public .main-visual {
-  display: none;
   position: relative;
   display: inline-block;
   padding-bottom: 50px;
   border: none;
 }
 #public .main-visual .image {
+  display: none;
   position: relative;
-  display: inline-block;
 }
 #public .main-visual .image::after {
   content: "";
@@ -127,7 +126,7 @@
 #public .sections {
   text-align: center;
   padding: 0 0 0;
-  margin-bottom: 120px;
+  margin-bottom: 180px;
 }
 #public .sections .tit {
   width: 75%;
@@ -148,7 +147,7 @@
 }
 #public .sections .txt02 {
   text-align: left;
-  font-size: 27px;
+  font-size: 36px;
   line-height: 1.8;
   margin-bottom: 40px;
 }
@@ -226,8 +225,9 @@
   vertical-align: top;
   width: 26%;
   margin-right: 2%;
+  float: left;
 }
-#public .common .list li:last-child {
+#public .common .list li:nth-child(2) {
   width: 66%;
   margin-right: auto;
   float: right;
@@ -248,7 +248,7 @@
   #public .sections {
     text-align: center;
     padding: 0 0 0;
-    margin-bottom: 60px;
+    margin-bottom: 90px;
   }
   #public .sections .tit {
     width: 90%;
@@ -266,11 +266,12 @@
     margin-bottom: 20px;
   }
   #public .sections .txt01 {
-    font-size: 18px;
+    font-size: 22px;
+    letter-spacing: 0;
   }
   #public .sections .txt02 {
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.8;
     margin-bottom: 20px;
   }
@@ -307,7 +308,7 @@
     width: 100%;
     margin-bottom: 20px;
   }
-  #public .common .list li:last-child {
+  #public .common .list li:nth-child(2) {
     width: 100%;
     margin: auto;
   }
