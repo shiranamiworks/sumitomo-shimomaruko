@@ -168,12 +168,12 @@
 }
 #public .sec01 .sub,
 #public .sec02 .sub {
-  letter-spacing: 0.16em;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
 }
 #public .sec01 .tit {
   width: 90%;
   max-width: 1055px;
-  margin-bottom: 6px;
 }
 #public .sec02 .tit {
   width: 70%;
@@ -253,7 +253,8 @@
   #public .sections .tit {
     width: 90%;
     font-size: 28px;
-    line-height: 1.6;
+    line-height: 1.2;
+    margin-bottom: 13px;
   }
   #public .sections.sec01 .tit {
     width: 100%;
@@ -262,7 +263,7 @@
     width: 75%;
   }
   #public .sections .sub {
-    font-size: 22px;
+    font-size: 2rem;
     margin-bottom: 20px;
   }
   #public .sections .txt01 {

@@ -56,7 +56,7 @@
 
   <section class="sec01 sections clearfix">
     <div class="inner">
-      <p class="tit"><img src="./images/public/title02.svg"></p>
+      <p class="tit"><img src="./images/public/title02.svg"><span class="sub">（エアーズコート）</span></p>
       <p class="txt01">二層吹抜の開放的な<br class="sp">グランドエントランスホール</p>
     </div>
       <div class="image img01">
@@ -77,7 +77,7 @@
 
   <section class="sec02 sections clearfix">
     <div class="inner">
-      <p class="tit"><img src="./images/public/title03.svg"></p>
+      <p class="tit"><img src="./images/public/title03.svg"><span class="sub">（ブリーズコート）</span></p>
       <p class="txt01">気品ある佇まいの<br class="sp">エントランスホール</p>
     </div>
       <div class="image img01">
