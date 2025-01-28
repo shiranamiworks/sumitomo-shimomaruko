@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+
+.breadcrumb ul li a {
+  color: #000;
+}
+
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+.image {
+  position: relative;
+}
+.image .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+.image .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+
+.structure-link {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "RyuminPro", serif;
+}
+
+.structure-link a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding: 10px 2.5vw;
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  border-left: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+}
+
+.structure-link a.current {
+  color: #fff;
+  background-color: #1c2c5a;
+}
+
+.structure-link--2 a {
+  width: 50%;
+}
+
+.structure-link--3 a {
+  width: 33.33%;
+}
+
+.structure-link--4 a {
+  width: 25%;
+}
+
+.structure-link--5 a {
+  width: 20%;
+}
+
+.structure-link a::before {
+  content: "\f105";
+  position: absolute;
+  left: calc(2.5vw - 15px);
+  top: 50%;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  color: #808081;
+  transform: translateY(-50%);
+}
+
+.structure-link a.current::before {
+  color: #fff;
+}
+
+.structure-link a:after {
+  content: "";
+  position: absolute;
+  display: block;
+  position: absolute;
+  left: calc(2.5vw - 19px);
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  border-right: 3px solid #808081;
+  border-bottom: 3px solid #808081;
+  width: 8px;
+  height: 8px;
+}
+
+.structure-link a.current:after {
+  border-color: #fff;
+}
+
+.structure-link a::before {
+  display: none;
+}
+
+.caption {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .structure-link a {
+    font-size: 1.28vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .structure-link a {
+    padding: 10px 25px;
+    font-size: 1.75vw;
+  }
+  .structure-link--4 a {
+    width: 50%;
+  }
+  .structure-link--5 a {
+    width: 33.33%;
+  }
+  .structure-link a::before {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 639px) {
+  .structure-link a {
+    width: 100% !important;
+    height: 13.33vw;
+    font-size: 4vw;
+  }
+  .structure-link a::before {
+    left: 6vw;
+  }
+  .structure-link a:after {
+    left: 6vw;
+  }
+  .caption {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=structure.css.map */

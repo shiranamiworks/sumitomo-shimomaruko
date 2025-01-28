@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment04 main img {
+  max-width: 100%;
+}
+.equipment04 .img {
+  position: relative;
+}
+.equipment04 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment04 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment04 sup {
+  vertical-align: text-top;
+}
+.equipment04 .sections {
+  line-height: 1;
+}
+.equipment04 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment04 .sections .image {
+  position: relative;
+  text-align: center;
+}
+.equipment04 .sections .annotation {
+  bottom: -20px;
+  font-size: 12px;
+  text-align: right;
+}
+.equipment04 .sections .tit {
+  font-size: 42px;
+  letter-spacing: 0.12em;
+  color: #b9a277;
+  text-align: center;
+  padding: 10px 0 10px 16px;
+  margin-bottom: 30px;
+}
+.equipment04 .sections .tit:before, .equipment04 .sections .tit:after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #b9a277;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.equipment04 .sections .tit:before, .equipment04 .sections .tit:after {
+  margin-left: 15px;
+}
+.equipment04 .sections .tit-img {
+  font-size: 24px;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  font-family: "Noto Sans JP";
+}
+.equipment04 .sections .tit-img span {
+  font-size: 14px;
+}
+.equipment04 .sections .lead {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.equipment04 .sections .lead span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.equipment04 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment04 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment04 .sec01 {
+  margin-top: 40px;
+}
+.equipment04 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+  margin-bottom: 60px;
+}
+.equipment04 .sec01 .lists li.full {
+  width: 100%;
+}
+.equipment04 .sec01 .lists li:nth-child(2n) {
+  margin-right: auto;
+}
+.equipment04 .sec01 .lists li:nth-child(2n) .image img {
+  width: 80%;
+  display: block;
+  margin: 30px auto;
+}
+.equipment04 .sec01 .list02 li {
+  width: 48%;
+}
+.equipment04 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment04 .sections .inner {
+    width: 84%;
+  }
+  .equipment04 .sections .tit {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .equipment04 .sections .tit:before, .equipment04 .sections .tit:after {
+    content: none;
+  }
+  .equipment04 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment04 .sections .text {
+    font-size: 17px;
+  }
+  .equipment04 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment04 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment04 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment04 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment04 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=equipment04.css.map */

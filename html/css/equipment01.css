@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment01 main img {
+  max-width: 100%;
+}
+.equipment01 .img {
+  position: relative;
+}
+.equipment01 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment01 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment01 sup {
+  vertical-align: text-top;
+}
+.equipment01 .sections {
+  line-height: 1;
+}
+.equipment01 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment01 .sections .image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.equipment01 .sections .image.img-sub {
+  width: 60%;
+  margin-bottom: 0;
+}
+.equipment01 .sections .annotation {
+  font-size: 12px;
+  text-align: right;
+}
+.equipment01 .sections .annotation.bt {
+  bottom: -20px;
+}
+.equipment01 .sections .annotation.bt0 {
+  bottom: 0;
+}
+.equipment01 .sections .tit {
+  font-size: 42px;
+  letter-spacing: 0.12em;
+  color: #b9a277;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.equipment01 .sections .tit:before, .equipment01 .sections .tit:after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #b9a277;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.equipment01 .sections .tit:before, .equipment01 .sections .tit:after {
+  margin-left: 15px;
+}
+.equipment01 .sections .tit-img {
+  font-size: 22px;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  font-family: "Noto Sans JP";
+}
+.equipment01 .sections .tit-img span {
+  font-size: 14px;
+}
+.equipment01 .sections .tit-img span.mini {
+  font-size: 18px;
+}
+.equipment01 .sections .lead {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.equipment01 .sections .lead span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.equipment01 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment01 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment01 .sec01 {
+  margin-top: 40px;
+}
+.equipment01 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment01 .sec01 .lists li:last-child {
+  margin-right: auto;
+}
+.equipment01 .sec01 .list01 {
+  margin-bottom: 60px;
+}
+.equipment01 .sec01 .list02 {
+  margin-top: -36px;
+  margin-bottom: 60px;
+}
+.equipment01 .sec01 .list02 li {
+  vertical-align: bottom;
+}
+.equipment01 .sec01 .list03 {
+  margin-bottom: 60px;
+}
+.equipment01 .sec01 .list04 {
+  margin-bottom: 40px;
+}
+.equipment01 .sec01 .list04 .img-sub {
+  width: 60%;
+  margin: 0;
+}
+.equipment01 .sec01 .list05 {
+  padding-bottom: 60px;
+}
+.equipment01 .sec01 .list05 li:nth-child(3) {
+  margin-right: auto;
+}
+.equipment01 .sec02 {
+  margin-bottom: 60px;
+}
+.equipment01 .sec02 .lists {
+  margin-bottom: 60px;
+}
+.equipment01 .sec02 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment01 .sec02 .lists li.full {
+  width: 100%;
+  margin-bottom: 0;
+}
+.equipment01 .sec02 .lists li:last-child {
+  margin-right: auto;
+}
+.equipment01 .sec02 .list02 {
+  padding-bottom: 60px;
+}
+.equipment01 .sec02 .list02 li {
+  vertical-align: top;
+}
+.equipment01 .sec02 .list04 {
+  padding-bottom: 60px;
+}
+.equipment01 .sec02 .list04 li {
+  vertical-align: top;
+}
+.equipment01 .sec02 .list05 li:nth-child(3n) {
+  margin-right: auto;
+}
+.equipment01 .sec02 .list05 li:last-child {
+  margin-top: 50px;
+}
+.equipment01 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment01 .sections .inner {
+    width: 84%;
+  }
+  .equipment01 .sections .tit {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .equipment01 .sections .tit:before, .equipment01 .sections .tit:after {
+    content: none;
+  }
+  .equipment01 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment01 .sections .text {
+    font-size: 17px;
+  }
+  .equipment01 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment01 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment01 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment01 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment01 .sec01 .list01 {
+    margin-bottom: 0;
+  }
+  .equipment01 .sec01 .list03 {
+    margin: auto;
+  }
+  .equipment01 .sec01 .list03 .img-sub {
+    width: 70%;
+    margin: 0;
+  }
+  .equipment01 .sec01 .list05 {
+    padding-bottom: 0;
+  }
+  .equipment01 .sec01 .list05 li:last-child {
+    margin-top: 40px;
+  }
+  .equipment01 .sec02 {
+    margin-bottom: 20px;
+  }
+  .equipment01 .sec02 .lists {
+    margin-bottom: 0;
+  }
+  .equipment01 .sec02 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment01 .sec02 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment01 .sec02 .list02 {
+    padding-bottom: 0;
+  }
+  .equipment01 .sec02 .list03 .img13 {
+    width: 50%;
+    margin: auto;
+  }
+  .equipment01 .sec02 .list04 {
+    padding-bottom: 0;
+  }
+  .equipment01 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=equipment01.css.map */

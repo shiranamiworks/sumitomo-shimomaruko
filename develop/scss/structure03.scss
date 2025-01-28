@@ -1,0 +1,366 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.structure03 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+    }
+    .annotation {
+      font-size: 10px;
+      text-align: right;
+      &.bt {
+        bottom: -20px;
+      }
+    }
+    .tit01 {
+      font-size: 21px;
+      letter-spacing: 0.12em;
+      background: #b9a277;
+      color: #fff;
+      padding: 6px 0 6px 16px;
+      margin-bottom: 30px;
+    }
+    .tit {
+      font-size: 42px;
+      letter-spacing: 0.12em;
+      color: #b9a277;
+      margin-bottom: 60px;
+      text-align: center;
+      &:before,
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #b9a277;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+      &:before,
+      &:after {
+        margin-left: 15px;
+      }
+    }
+    .tit-img {
+      font-size: 22px;
+      line-height: 1;
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+      font-family: "Noto Sans JP";
+      span {
+        font-size: 14px;
+        &.mini {
+          font-size: 18px;
+        }
+      }
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        display: block;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .image {
+      position: relative;
+    }
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+    .list01 {
+      margin-bottom: 40px;
+      li {
+        width: 100%;
+        margin-bottom: 40px;
+        .text {
+          width: 50%;
+          float: left;
+        }
+        .image {
+          width: 48%;
+          float: right;
+          margin-top: 30px;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+        .lead img {
+          display: block;
+          max-width: 124px;
+          margin-top: 10px;
+        }
+        // .image{
+        //   width: 40%;
+        // }
+      }
+      .annotation {
+        bottom: -15px;
+        font-size: 12px;
+      }
+    }
+    .list02 {
+      margin-bottom: 40px;
+      li {
+        width: 48%;
+        margin-right: 2%;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      .img01 {
+        margin: auto;
+      }
+      .lead-box {
+        display: flex;
+        .img01 {
+          width: 40%;
+          margin: auto;
+        }
+        .lead {
+          width: 58%;
+          float: left;
+        }
+      }
+    }
+    .list03 {
+      padding-bottom: 40px;
+      li {
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      .annotation {
+        bottom: -15px;
+        font-size: 12px;
+      }
+    }
+    .list04 {
+      margin-bottom: 40px;
+      li {
+        width: 32%;
+        margin-right: 1%;
+      }
+      li:last-child {
+        margin: auto;
+      }
+      .img01 {
+        width: 60%;
+        margin: auto;
+      }
+      .lead-box {
+        display: flex;
+        .img01 {
+          width: 20%;
+          margin-left: 2%;
+        }
+        .lead {
+          width: 78%;
+          float: left;
+        }
+      }
+      .annotation {
+        bottom: -15px;
+        font-size: 12px;
+        right: 0;
+      }
+    }
+  } //sec01
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 30px;
+        margin-bottom: 30px;
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        margin-bottom: 20px;
+        li {
+          display: block;
+        }
+      }
+      .list01 {
+        li {
+          width: 100%;
+          margin-right: auto;
+          margin-bottom: 30px;
+          .text,
+          .image {
+            width: 100%;
+          }
+          .image {
+            margin-bottom: 30px;
+          }
+        }
+        li:last-child {
+          margin-right: auto;
+          .text,
+          .image {
+            width: 100%;
+          }
+        }
+        .lead-box {
+          display: block;
+          .img01 {
+            width: 100%;
+            margin: auto;
+          }
+          .lead {
+            width: 100%;
+            float: none;
+          }
+        }
+        .annotation {
+          font-size: 10px;
+        }
+      }
+      .list02 {
+        li {
+          width: 100%;
+          margin-right: auto;
+          margin-bottom: 30px;
+        }
+        li:nth-child(3n) {
+          margin-right: auto;
+        }
+        li:last-child {
+          margin-right: auto;
+        }
+        .lead-box {
+          display: block;
+          .img01 {
+            width: 100%;
+            margin: auto;
+          }
+          .lead {
+            width: 100%;
+            float: none;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .list03 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        li {
+          width: 100%;
+          margin-right: auto;
+          padding-bottom: 40px;
+        }
+        li:last-child {
+          padding-bottom: 0px;
+        }
+        li.none {
+          display: none;
+        }
+        .annotation {
+          font-size: 10px;
+        }
+      }
+      .list04 {
+        li {
+          width: 100%;
+          margin-right: auto;
+          margin-bottom: 30px;
+        }
+        li:last-child {
+          margin-bottom: auto;
+        }
+        .lead-box {
+          display: block;
+          .img01 {
+            width: 100%;
+            margin: auto;
+          }
+          .lead {
+            width: 100%;
+            float: none;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    } //sec01
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

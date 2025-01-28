@@ -1,0 +1,388 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment05 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .annotation {
+      font-size: 12px;
+      text-align: right;
+      &.bt {
+        bottom: -20px;
+      }
+      &.mr-35 {
+        margin-right: -35px;
+      }
+    }
+    .tit {
+      font-size: 42px;
+      letter-spacing: 0.12em;
+      color: #b9a277;
+      text-align: center;
+      padding: 10px 0 10px 16px;
+      margin-bottom: 30px;
+      line-height: 1.6;
+      &:before,
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #b9a277;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+      &:before,
+      &:after {
+        margin-left: 15px;
+      }
+    }
+    .tit-img {
+      font-size: 22px;
+      line-height: 1;
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+      font-family: "Noto Sans JP";
+      span {
+        font-size: 14px;
+      }
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        display: block;
+        font-size: 12px;
+        letter-spacing: 0;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        margin-bottom: 60px;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      margin-top: 0;
+      margin-bottom: 60px;
+      li {
+        vertical-align: bottom;
+      }
+    }
+    .list03 {
+      margin-bottom: 60px;
+    }
+  } //sec01
+
+  .sec02 {
+    // margin-bottom: 60px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        margin-bottom: 60px;
+        &.double {
+          width: 66%;
+        }
+        &.full {
+          width: 100%;
+        }
+        &.mr0 {
+          margin-right: auto;
+        }
+        &.mr100 {
+          margin-right: 100px;
+        }
+        &.mb0 {
+          margin-bottom: auto;
+        }
+        &.pc {
+          vertical-align: bottom;
+          margin-bottom: 0;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list01 {
+      .lead-box {
+        display: flex;
+        .lead {
+          width: 50%;
+          float: left;
+        }
+        .image {
+          width: 50%;
+          margin: auto;
+        }
+      }
+    }
+    .list02 {
+      .full {
+        .lead {
+          width: 60%;
+          float: left;
+        }
+        .image {
+          width: 38%;
+          float: right;
+          margin-bottom: 0;
+        }
+      }
+      .half {
+        display: inline-block;
+        width: 48%;
+        margin-bottom: 10px;
+        &.pc {
+          vertical-align: bottom;
+        }
+        .image {
+          max-width: 300px;
+          margin: auto;
+        }
+        &:nth-child(3),
+        :nth-child(5) {
+          margin-right: auto;
+        }
+        .image {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  } //sec02
+
+  .sec03 {
+    //margin-bottom: 60px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        margin-bottom: 60px;
+        .image.right {
+          width: 48%;
+          float: right;
+        }
+        .lead.left {
+          width: 48%;
+          float: left;
+          margin-bottom: 10px;
+        }
+        &.double {
+          width: 66%;
+        }
+        &.full {
+          display: block;
+          width: 100%;
+          margin: auto;
+        }
+        &:last-child {
+          margin: auto;
+        }
+      }
+    }
+    .mini {
+      text-align: left;
+      font-size: 14px;
+      line-height: 1.4;
+      margin-top: 10px;
+    }
+    .list01 {
+      margin-bottom: 60px;
+    }
+  } //sec03
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+    .sec01 {
+    } //sec01
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 1.4;
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list03 {
+        margin-bottom: 40px;
+      }
+    } //sec01
+    .sec02 {
+      //margin-bottom: 20px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px !important;
+          &.double {
+            width: 100%;
+            .image {
+              width: 100%;
+              margin-bottom: 40px;
+            }
+          }
+          &.pc {
+            display: none;
+          }
+        }
+        li:last-child {
+          width: 100%;
+          margin-bottom: 0;
+        }
+      }
+      .list01 {
+        .lead-box {
+          display: block;
+          .lead {
+            width: 100%;
+            float: none;
+            margin-bottom: 20px;
+          }
+          .image {
+            width: 100%;
+            margin: auto;
+          }
+        }
+      }
+      .list02 {
+        .full .lead,
+        .full .image {
+          width: 100%;
+        }
+        .full .image {
+          margin-bottom: 40px;
+        }
+        .half {
+          width: 100%;
+          .image {
+            margin-bottom: 20px;
+          }
+          &.pc {
+            display: none;
+          }
+        }
+      }
+    } //sec02
+
+    .sec03 {
+      .lists li {
+        width: 100%;
+        .lead {
+          width: 100%;
+        }
+        .image.right {
+          width: 100%;
+          float: none;
+        }
+        .lead.left {
+          width: 100%;
+          float: none;
+          margin-bottom: 10px;
+        }
+        &.double {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+      }
+      .list01 {
+        margin-bottom: 40px;
+      }
+    } //sec03
+
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

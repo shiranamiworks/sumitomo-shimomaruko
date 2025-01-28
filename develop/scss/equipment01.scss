@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment01 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+      margin-bottom: 20px;
+      &.img-sub {
+        width: 60%;
+        margin-bottom: 0;
+      }
+    }
+    .annotation {
+      font-size: 12px;
+      text-align: right;
+      &.bt {
+        bottom: -20px;
+      }
+      &.bt0 {
+        bottom: 0;
+      }
+    }
+    .tit {
+      font-size: 42px;
+      letter-spacing: 0.12em;
+      color: #b9a277;
+      margin-bottom: 60px;
+      text-align: center;
+      &:before,
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #b9a277;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+      &:before,
+      &:after {
+        margin-left: 15px;
+      }
+    }
+    .tit-img {
+      font-size: 22px;
+      line-height: 1;
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+      font-family: "Noto Sans JP";
+      span {
+        font-size: 14px;
+        &.mini {
+          font-size: 18px;
+        }
+      }
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        display: block;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list01 {
+      margin-bottom: 60px;
+    }
+    .list02 {
+      margin-top: -36px;
+      margin-bottom: 60px;
+      li {
+        vertical-align: bottom;
+      }
+    }
+    .list03 {
+      margin-bottom: 60px;
+    }
+    .list04 {
+      margin-bottom: 40px;
+      .img-sub {
+        width: 60%;
+        margin: 0;
+      }
+    }
+    .list05 {
+      padding-bottom: 60px;
+      li:nth-child(3) {
+        margin-right: auto;
+      }
+      li:last-child {
+        //margin-top: 60px;
+      }
+    }
+  } //sec01
+  .sec02 {
+    margin-bottom: 60px;
+    .lists {
+      margin-bottom: 60px;
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        &.full {
+          width: 100%;
+          margin-bottom: 0;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+    }
+    .list02 {
+      padding-bottom: 60px;
+      li {
+        vertical-align: top;
+      }
+    }
+    .list04 {
+      padding-bottom: 60px;
+      li {
+        vertical-align: top;
+      }
+    }
+    .list05 {
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+      li:last-child {
+        margin-top: 50px;
+      }
+    }
+  } //sec02
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+    .sec01 {
+    } //sec01
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 30px;
+        margin-bottom: 30px;
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list01 {
+        margin-bottom: 0;
+      }
+      .list03 {
+        margin: auto;
+        .img-sub {
+          width: 70%;
+          margin: 0;
+        }
+      }
+      .list05 {
+        padding-bottom: 0;
+        li:last-child {
+          margin-top: 40px;
+        }
+      }
+    } //sec01
+    .sec02 {
+      margin-bottom: 20px;
+      .lists {
+        margin-bottom: 0;
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        li:last-child {
+          width: 100%;
+        }
+      }
+      .list02 {
+        padding-bottom: 0;
+      }
+      .list03 {
+        .img13 {
+          width: 50%;
+          margin: auto;
+        }
+      }
+      .list04 {
+        padding-bottom: 0;
+      }
+    } //sec02
+    main {
+      padding-bottom: 50px;
+    }
+  } //sp
+}

@@ -1,0 +1,313 @@
+@charset "utf-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+@import "inc/mixin.scss";
+@import "inc/functions.scss";
+@import "inc/param.scss";
+
+.equipment02 {
+  main img {
+    max-width: 100%;
+  }
+  .img {
+    position: relative;
+  }
+  main {
+    font-family: "RyuminPro", serif;
+  }
+  .page-annotation {
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  sup {
+    vertical-align: text-top;
+  }
+  .sections {
+    line-height: 1;
+    .inner {
+      margin: 0 auto;
+      width: 70%;
+      max-width: 1030px;
+    }
+    .image {
+      position: relative;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .annotation {
+      bottom: -20px;
+      font-size: 12px;
+      text-align: right;
+    }
+    .tit {
+      font-size: 42px;
+      letter-spacing: 0.12em;
+      color: #b9a277;
+      padding: 10px 0 10px 16px;
+      margin-bottom: 30px;
+      text-align: center;
+      line-height: 1.4;
+      &:before,
+      &:after {
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        background-color: #b9a277;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+      &:before,
+      &:after {
+        margin-left: 15px;
+      }
+    }
+    .tit-img {
+      font-size: 22px;
+      line-height: 1;
+      padding-bottom: 10px;
+      border-bottom: 1px solid;
+      margin-bottom: 10px;
+      font-family: "Noto Sans JP";
+      span {
+        font-size: 14px;
+      }
+    }
+    .lead {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      span {
+        display: block;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-top: 10px;
+      }
+    }
+    .text {
+      font-size: 19px;
+      line-height: 1.6;
+    }
+    .caps {
+      font-size: 12px;
+      line-height: 1.2;
+    }
+  } //sections
+  .sec01 {
+    margin-top: 40px;
+    .lists {
+      &.list00,
+      &.list01 {
+        margin-bottom: 60px;
+      }
+      li {
+        display: inline-block;
+        vertical-align: top;
+        width: 31%;
+        margin-right: 2%;
+        &.double {
+          width: 66%;
+        }
+        &.full {
+          width: 100%;
+          margin-bottom: 60px;
+        }
+      }
+      li:last-child {
+        margin-right: auto;
+      }
+      .size {
+        width: 70%;
+        margin: 0 auto 30px;
+        .annotation {
+          bottom: 0;
+        }
+      }
+    }
+    .list00 {
+      .text {
+        width: 55%;
+        float: left;
+        .text01 {
+          font-size: 14px;
+        }
+      }
+      .image {
+        width: 40%;
+        float: right;
+      }
+    }
+    .list02 {
+      margin-bottom: 60px;
+    }
+    .list03 {
+      margin-bottom: 60px;
+      li.double {
+        .image {
+          width: 35%;
+          display: inline-block;
+          vertical-align: top;
+          &.img-sub {
+            width: 50%;
+            margin-left: 5%;
+            .annotation {
+              bottom: -30px;
+            }
+          }
+          &.tb {
+            display: none;
+          }
+        }
+      }
+    }
+    .list04 {
+      li {
+        vertical-align: bottom;
+        .image {
+          width: 70%;
+          float: left;
+          margin-bottom: 0;
+          &.img02 {
+            width: 27%;
+            float: right;
+          }
+        }
+      }
+    }
+    .list08 {
+      li {
+        margin-bottom: 60px;
+      }
+      li:nth-child(3n) {
+        margin-right: auto;
+      }
+    }
+  } //sec01
+
+  main {
+    padding-bottom: 50px;
+  }
+
+  @media screen and (max-width: 1300px) {
+  }
+  @media screen and (max-width: 1024px) {
+    .sec01 {
+    } //sec01
+  } //tb
+  @media screen and (max-width: 768px) {
+    .sections {
+      .inner {
+        width: 84%;
+      }
+      .tit {
+        font-size: 30px;
+        margin-bottom: 30px;
+        &:before,
+        &:after {
+          content: none;
+        }
+      }
+      .lead {
+        span {
+          font-size: 13px;
+        }
+      }
+      .text01 {
+        font-size: 13px;
+        line-height: 1.2;
+      }
+      .text {
+        font-size: 17px;
+      }
+      .caps {
+        font-size: 13px;
+      }
+    } //sections
+    .sec01 {
+      margin-top: 40px;
+      .lists {
+        li {
+          display: block;
+          width: 100%;
+          margin-bottom: 40px;
+          &.double {
+            width: 100%;
+            .lead {
+              margin-bottom: 30px;
+            }
+          }
+          &.full {
+            width: 100%;
+            margin-bottom: 40px;
+          }
+        }
+      }
+      .list00 {
+        .text {
+          display: block;
+          width: 100%;
+          .text01 {
+            font-size: 14px;
+            line-height: 1.4;
+            width: 100%;
+            float: none;
+            margin-bottom: 10px;
+          }
+        }
+        .image {
+          width: 100%;
+          margin: 0 auto 40px;
+        }
+      }
+      .list03 {
+        margin-bottom: 40px;
+        li.double .image {
+          display: block;
+          width: 60%;
+          margin: 0 auto 30px;
+          &.img-sub {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 40px;
+          }
+          &.pc {
+            display: none;
+          }
+          &.tb {
+            display: block;
+          }
+        }
+        li.double {
+          margin-bottom: 80px;
+        }
+      }
+      .list04 {
+        margin-bottom: 0;
+        li .image {
+          width: 100%;
+          margin-bottom: 30px;
+          &.img02 {
+            width: 100%;
+          }
+        }
+      }
+    } //sec01
+    main {
+      padding-bottom: 50px;
+    }
+    .sec01 .list08 {
+      li:first-child {
+        .image {
+          display: block;
+          width: 70%;
+          margin: 0 auto 20px;
+          &.img-sub {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 60px;
+          }
+        }
+      }
+    }
+  } //sp
+}

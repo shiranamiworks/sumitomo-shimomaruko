@@ -116,10 +116,10 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <p><span class="f-en">PLAN</span><br>間取り</p>
           </li>
           <li>
-            <p><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
+          <a href="<?= $page_settings["directory_pos"]  ?>equipment01.html"><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</a>
           </li>
           <li>
-            <p><span class="f-en">STRUCTURE・SAFETY</span><br>構造・防災</p>
+          <a href="<?= $page_settings["directory_pos"]  ?>structure01.html"><span class="f-en">STRUCTURE・SAFETY</span><br>構造・防災</a>
           </li>
           <li class="has-child">
             <p class="active"><span class="f-en">LOCATION</span><br>ロケーション</p>
@@ -161,8 +161,8 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="<?= $page_settings["directory_pos"]  ?>public.html">共用空間</a></li>
         <li>室内空間</li>
         <li>間取り</li>
-        <li>設備・仕様</li>
-        <li>構造・防災</li>
+        <li><a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">設備・仕様</a></li>
+        <li><a href="<?= $page_settings["directory_pos"]  ?>structure01.html">構造・防災</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>

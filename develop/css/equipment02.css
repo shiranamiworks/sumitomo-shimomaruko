@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.equipment02 main img {
+  max-width: 100%;
+}
+.equipment02 .img {
+  position: relative;
+}
+.equipment02 main {
+  font-family: "RyuminPro", serif;
+}
+.equipment02 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.equipment02 sup {
+  vertical-align: text-top;
+}
+.equipment02 .sections {
+  line-height: 1;
+}
+.equipment02 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.equipment02 .sections .image {
+  position: relative;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.equipment02 .sections .annotation {
+  bottom: -20px;
+  font-size: 12px;
+  text-align: right;
+}
+.equipment02 .sections .tit {
+  font-size: 42px;
+  letter-spacing: 0.12em;
+  color: #b9a277;
+  padding: 10px 0 10px 16px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.4;
+}
+.equipment02 .sections .tit:before, .equipment02 .sections .tit:after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #b9a277;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.equipment02 .sections .tit:before, .equipment02 .sections .tit:after {
+  margin-left: 15px;
+}
+.equipment02 .sections .tit-img {
+  font-size: 22px;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  font-family: "Noto Sans JP";
+}
+.equipment02 .sections .tit-img span {
+  font-size: 14px;
+}
+.equipment02 .sections .lead {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.equipment02 .sections .lead span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.equipment02 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.equipment02 .sections .caps {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.equipment02 .sec01 {
+  margin-top: 40px;
+}
+.equipment02 .sec01 .lists.list00, .equipment02 .sec01 .lists.list01 {
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  margin-right: 2%;
+}
+.equipment02 .sec01 .lists li.double {
+  width: 66%;
+}
+.equipment02 .sec01 .lists li.full {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .lists li:last-child {
+  margin-right: auto;
+}
+.equipment02 .sec01 .lists .size {
+  width: 70%;
+  margin: 0 auto 30px;
+}
+.equipment02 .sec01 .lists .size .annotation {
+  bottom: 0;
+}
+.equipment02 .sec01 .list00 .text {
+  width: 55%;
+  float: left;
+}
+.equipment02 .sec01 .list00 .text .text01 {
+  font-size: 14px;
+}
+.equipment02 .sec01 .list00 .image {
+  width: 40%;
+  float: right;
+}
+.equipment02 .sec01 .list02 {
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .list03 {
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .list03 li.double .image {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+.equipment02 .sec01 .list03 li.double .image.img-sub {
+  width: 50%;
+  margin-left: 5%;
+}
+.equipment02 .sec01 .list03 li.double .image.img-sub .annotation {
+  bottom: -30px;
+}
+.equipment02 .sec01 .list03 li.double .image.tb {
+  display: none;
+}
+.equipment02 .sec01 .list04 li {
+  vertical-align: bottom;
+}
+.equipment02 .sec01 .list04 li .image {
+  width: 70%;
+  float: left;
+  margin-bottom: 0;
+}
+.equipment02 .sec01 .list04 li .image.img02 {
+  width: 27%;
+  float: right;
+}
+.equipment02 .sec01 .list08 li {
+  margin-bottom: 60px;
+}
+.equipment02 .sec01 .list08 li:nth-child(3n) {
+  margin-right: auto;
+}
+.equipment02 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .equipment02 .sections .inner {
+    width: 84%;
+  }
+  .equipment02 .sections .tit {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .equipment02 .sections .tit:before, .equipment02 .sections .tit:after {
+    content: none;
+  }
+  .equipment02 .sections .lead span {
+    font-size: 13px;
+  }
+  .equipment02 .sections .text01 {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+  .equipment02 .sections .text {
+    font-size: 17px;
+  }
+  .equipment02 .sections .caps {
+    font-size: 13px;
+  }
+  .equipment02 .sec01 {
+    margin-top: 40px;
+  }
+  .equipment02 .sec01 .lists li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .lists li.double {
+    width: 100%;
+  }
+  .equipment02 .sec01 .lists li.double .lead {
+    margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .lists li.full {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list00 .text {
+    display: block;
+    width: 100%;
+  }
+  .equipment02 .sec01 .list00 .text .text01 {
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .equipment02 .sec01 .list00 .image {
+    width: 100%;
+    margin: 0 auto 40px;
+  }
+  .equipment02 .sec01 .list03 {
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list03 li.double .image {
+    display: block;
+    width: 60%;
+    margin: 0 auto 30px;
+  }
+  .equipment02 .sec01 .list03 li.double .image.img-sub {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .equipment02 .sec01 .list03 li.double .image.pc {
+    display: none;
+  }
+  .equipment02 .sec01 .list03 li.double .image.tb {
+    display: block;
+  }
+  .equipment02 .sec01 .list03 li.double {
+    margin-bottom: 80px;
+  }
+  .equipment02 .sec01 .list04 {
+    margin-bottom: 0;
+  }
+  .equipment02 .sec01 .list04 li .image {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .equipment02 .sec01 .list04 li .image.img02 {
+    width: 100%;
+  }
+  .equipment02 main {
+    padding-bottom: 50px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image {
+    display: block;
+    width: 70%;
+    margin: 0 auto 20px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image.img-sub {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 60px;
+  }
+}/*# sourceMappingURL=equipment02.css.map */

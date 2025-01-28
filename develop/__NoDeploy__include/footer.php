@@ -21,8 +21,8 @@
         <li class="public"><a href="<?= $page_settings["directory_pos"]  ?>public.html">共用空間</a></li>
         <li class="private">室内空間</li>
         <li class="roomplan">間取り</li>
-        <li class="equipment">設備・仕様</li>
-        <li class="structure">構造・防災</li>
+        <li class="equipment"><a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">設備・仕様</a></li>
+        <li class="structure"><a href="<?= $page_settings["directory_pos"]  ?>structure01.html">構造・防災</a></li>
         <li class="location"><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
         <li class="access"><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li class="start map"><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>

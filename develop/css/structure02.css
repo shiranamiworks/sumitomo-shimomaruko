@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+.structure02 main img {
+  max-width: 100%;
+}
+.structure02 .img {
+  position: relative;
+}
+.structure02 main {
+  font-family: "RyuminPro", serif;
+}
+.structure02 .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.structure02 sup {
+  vertical-align: text-top;
+}
+.structure02 .sections {
+  line-height: 1;
+}
+.structure02 .sections .inner {
+  margin: 0 auto;
+  width: 70%;
+  max-width: 1030px;
+}
+.structure02 .sections .image {
+  position: relative;
+  text-align: center;
+}
+.structure02 .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+.structure02 .sections .annotation.bt {
+  bottom: 0;
+}
+.structure02 .sections .annotation02 {
+  right: 37%;
+}
+.structure02 .sections .tit {
+  font-size: 42px;
+  letter-spacing: 0.12em;
+  color: #b9a277;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.structure02 .sections .tit:before, .structure02 .sections .tit:after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: #b9a277;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.structure02 .sections .tit:before, .structure02 .sections .tit:after {
+  margin-left: 15px;
+}
+.structure02 .sections .tit-img {
+  font-size: 22px;
+  line-height: 1;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  font-family: "Noto Sans JP";
+}
+.structure02 .sections .tit-img span {
+  font-size: 14px;
+}
+.structure02 .sections .tit-img span.mini {
+  font-size: 18px;
+}
+.structure02 .sections .lead {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.structure02 .sections .lead span {
+  display: block;
+  font-size: 12px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.structure02 .sections .text {
+  font-size: 19px;
+  line-height: 1.6;
+}
+.structure02 .sections .caps {
+  font-size: 15px;
+  line-height: 1.2;
+}
+.structure02 .sec01 {
+  margin-top: 40px;
+}
+.structure02 .sec01 .image {
+  position: relative;
+  margin-bottom: 10px;
+}
+.structure02 .sec01 .lists li {
+  display: inline-block;
+  vertical-align: top;
+}
+.structure02 .sec01 .list01 {
+  margin-bottom: 40px;
+}
+.structure02 .sec01 .list01 li {
+  width: 65%;
+  margin-right: 2%;
+}
+.structure02 .sec01 .list01 li:last-child {
+  width: 32%;
+  margin-right: auto;
+}
+.structure02 .sec01 .list01 .img01 {
+  width: 90%;
+  margin: auto;
+}
+.structure02 .sec01 .list02 li {
+  width: 32%;
+  margin-right: 1%;
+  margin-bottom: 30px;
+}
+.structure02 .sec01 .list02 li:nth-child(3n) {
+  margin-right: auto;
+}
+.structure02 .sec01 .list02 li:last-child {
+  margin-right: auto;
+}
+.structure02 .sec01 .list03 li {
+  width: 32%;
+  margin-right: 1%;
+  padding-bottom: 40px;
+}
+.structure02 .sec01 .list03 li:last-child {
+  margin-right: auto;
+}
+.structure02 .sec01 .list03 .annotation {
+  bottom: -20px;
+}
+.structure02 .sec01 .list04 {
+  padding-bottom: 60px;
+}
+.structure02 .sec01 .list04 li {
+  width: 32%;
+  margin-right: 1%;
+}
+.structure02 .sec01 .list04 li:last-child {
+  margin-right: auto;
+}
+.structure02 .sec01 .list04 .annotation {
+  bottom: -15px;
+  font-size: 12px;
+}
+.structure02 .sec01 .list05 {
+  margin-bottom: 40px;
+}
+.structure02 .sec01 .list05 li {
+  width: 32%;
+  margin-right: 1%;
+}
+.structure02 .sec01 .list05 li.bottom {
+  vertical-align: bottom;
+}
+.structure02 .sec01 .list05 li:last-child {
+  margin-right: auto;
+}
+.structure02 .sec01 .list05 .mr0 {
+  margin-right: auto;
+}
+.structure02 .sec01 .list05 .ml34 {
+  margin-left: 34%;
+}
+.structure02 main {
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  .structure02 .sections .inner {
+    width: 84%;
+  }
+  .structure02 .sections .tit {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .structure02 .sections .tit:before, .structure02 .sections .tit:after {
+    content: none;
+  }
+  .structure02 .sections .lead span {
+    font-size: 13px;
+  }
+  .structure02 .sections .text {
+    font-size: 17px;
+  }
+  .structure02 .sections .caps {
+    font-size: 13px;
+  }
+  .structure02 .sec01 {
+    margin-top: 40px;
+  }
+  .structure02 .sec01 .lists li {
+    display: block;
+  }
+  .structure02 .sec01 .list01 {
+    margin-bottom: 40px;
+  }
+  .structure02 .sec01 .list01 li {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .structure02 .sec01 .list01 li:last-child {
+    width: 100%;
+  }
+  .structure02 .sec01 .list01 .img01 {
+    width: 100%;
+    margin: auto;
+  }
+  .structure02 .sec01 .list02 li {
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  .structure02 .sec01 .list02 li:nth-child(3n) {
+    margin-right: auto;
+  }
+  .structure02 .sec01 .list02 li:last-child {
+    margin-right: auto;
+  }
+  .structure02 .sec01 .list03 li {
+    width: 100%;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+  .structure02 .sec01 .list03 .annotation {
+    bottom: -15px;
+  }
+  .structure02 .sec01 .list05 {
+    margin-bottom: 40px;
+  }
+  .structure02 .sec01 .list05 li {
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+  .structure02 .sec01 .list05 li:last-child {
+    margin-bottom: auto;
+  }
+  .structure02 .sec01 .list05 .img06 {
+    width: 100%;
+    margin: auto;
+  }
+  .structure02 main {
+    padding-bottom: 50px;
+  }
+}/*# sourceMappingURL=structure02.css.map */
