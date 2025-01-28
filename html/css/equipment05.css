@@ -16,6 +16,7 @@
 }
 .equipment05 sup {
   vertical-align: text-top;
+  font-size: 70%;
 }
 .equipment05 .sections {
   line-height: 1;
@@ -233,6 +234,9 @@
   }
   .equipment05 .sections .tit:before, .equipment05 .sections .tit:after {
     content: none;
+  }
+  .equipment05 .sections .lead {
+    margin-bottom: 20px;
   }
   .equipment05 .sections .lead span {
     font-size: 13px;

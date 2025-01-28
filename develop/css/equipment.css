@@ -65,6 +65,10 @@
   color: #fff;
   text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
 }
+.image .annotation.left {
+  left: 10px;
+  right: auto;
+}
 
 .equipment-link {
   display: flex;

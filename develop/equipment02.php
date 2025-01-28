@@ -37,11 +37,6 @@
   </div>
 
 
-  <header class="main-visual clearfix">
-    <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/equipment01/mv.jpg" alt="" class="pc"><img src="./images/equipment01/mv-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
-  </header><!-- main-visual -->
-
 
   <section class="sections sec01 clearfix">
     <div class="wrap">
@@ -50,7 +45,7 @@
         <li class="full">
         <p class="tit-img">エコジョーズ</p>
           <div class="text">
-            <p class="lead">環境と優しく、優れた経済性を発揮する東京ガスの高効率ガス給湯器「エコジョーズ」を採用。キッチン、バスルーム、パウダールームへのスムーズな給湯はもちろん、床暖房や浴室暖房乾燥機までをトータルにサポートします。</p>
+            <p class="lead">環境に優しく、優れた経済性を発揮する東京ガスの高効率ガス給湯器「エコジョーズ」を採用。キッチン、バスルーム、パウダールームへのスムーズな給湯はもちろん、床暖房や浴室暖房乾燥機までをトータルにサポートします。</p>
             <div class="lead-box">
              <p class="text01">※1 FT4215ARSAW6Qの場合（スタンダードの一例）※2 FT4220・FT4222シリーズの場合（エコジョーズの一例）<br>※1※2はJIS S 2109で定める測定方法により算定 ただし※1～2ともご使用状況により熱効率は異なります。<br>※3 試算条件：ガス使用量は季節に応じて変化するため、家庭用の平均的な月別使用量比率に従って年間ガス使用量を各月に割り付けたうえで試算。居間の暖房はガス温水床暖房と電気エアコンを併用、居間以外の暖房及び冷房は電気エアコン使用、浴室暖房乾燥機使用（衣類乾燥週2回/年、浴室暖房週7回/冬期）。機器の運転状況等により削減量は異なります。機器の運転状況により熱源機の熱効率は変動するため、熱効率を一定にしたうえで試算。CO2排出係数はガス2.29kg-CO2/㎡（東京ガスデータ）</p>
             </div>
@@ -139,21 +134,22 @@
           <p class="tit-img">複層ガラス</p>
           <p class="lead">開口部には、2枚のガラスの間に空気層を設けることによって、高い断熱性を発揮し省エネルギー効果も認められている複層ガラスを採用。ガラス面の結露の発生も抑えられます。<br><span>※詳細は係員にお尋ねください。</span></p>
           <div class="image">
-            <img src="./images/equipment02/img13.png" alt="" class="">
+            <img src="./images/equipment02/img13.jpg" alt="" class="">
+            <p class="annotation gothic">（概念図）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">外壁</p>
           <p class="lead">外壁のコンクリート厚は、約150㎜～約200㎜を確保し、タイル貼仕上げとしてコンクリートの中性化を抑制し耐久性を高めています。さらに室内側には断熱材を吹き付けて、省エネにも配慮しています。<br><span>※一部使用が異なるところがあります。</span></p>
           <div class="image">
-            <img src="./images/equipment02/img14.png" alt="" class="">
+            <img src="./images/equipment02/img14.jpg" alt="" class="">
           </div>
         </li>
         <li>
           <p class="tit-img">太陽光発電システム</p>
           <p class="lead">自然エネルギーを有効に活用した太陽光発電システムを屋上に設置。マンションの共用部で使用する電力の一部を賄う事ができます。</p>
-          <div class="image">
-            <img src="./images/equipment02/img15.png" alt="" class="">
+          <div class="image pt50">
+            <img src="./images/equipment02/img15.jpg" alt="" class="">
           </div>
         </li>
         <li>

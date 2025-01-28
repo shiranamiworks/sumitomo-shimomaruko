@@ -37,12 +37,6 @@
   </div>
 
 
-  <header class="main-visual clearfix">
-    <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/equipment01/mv.jpg" alt="" class="pc"><img src="./images/equipment01/mv-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
-  </header><!-- main-visual -->
-
-
   <section class="sections sec01 clearfix">
     <div class="wrap">
       <h2 class="tit">Universal Design</h2>
@@ -51,36 +45,38 @@
           <p class="tit-img">フラットフロア</p>
           <div class="image pc">
             <img src="./images/equipment05/img01.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真1）</span></p>
+            <p class="annotation gothic">（参考写真1）</p>
           </div>
-          <p class="lead">つまずいて転倒するなど住戸内での思わぬ事故を防ぐために、住戸内の床段差を極力なくしたフラットフロアを実現しました。<br><span>※玄関、バスルーム、バルコニー、ルーフバルコニー、テラスの出入口を除く。</span></p>
+          <p class="lead">つまずいて転倒するなど住戸内での思わぬ事故を防ぐために、住戸内の床段差を極力なくしたフラットフロアを実現しました。<br><span>※玄関、バスルーム、バルコニー、ルーフバルコニー、テラスの出入口を除く。</p>
           <div class="image tb">
             <img src="./images/equipment05/img01.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真1）</span></p>
+            <p class="annotation gothic">（参考写真1）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">低床型ユニットバス</p>
           <div class="image pc">
             <img src="./images/equipment05/img02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真1）</span></p>
+            <p class="annotation gothic">（参考写真1）</p>
           </div>
-          <p class="lead">浴槽へのまたぎ高を約450㎜に抑え、出入口の段差も極力解消した、低床設計のユニットバスを採用しました。さらに、壁には手すりを設置した、人にやさしい仕様です。</span></p>
+          <p class="lead">浴槽へのまたぎ高を約450㎜に抑え、出入口の段差も極力解消した、低床設計のユニットバスを採用しました。さらに、壁には手すりを設置した、人にやさしい仕様です。</p>
           <div class="image tb">
             <img src="./images/equipment05/img02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真1）</span></p>
+            <p class="annotation gothic">（参考写真1）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">ハンズフリーキー</p>
           <div class="image pc">
             <img src="./images/equipment05/img03.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</span></p>
+            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation left gothic">（概念図）</p>
           </div>
           <p class="lead">主なオートロックドアには、鍵をカバンやポケットに入れたままで解錠可能な、ハンズフリーキーを採用。<br><span>※周辺通行時の意図しない解錠・誤作動防止のため、設置箇所により認証方法・検知範囲が異なります。また、検知範囲には限度があり、構造上、動線がカバーされていない箇所もあります。</span></p>
           <div class="image tb">
             <img src="./images/equipment05/img03.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</span></p>
+            <p class="annotation gothic">（参考写真2）</p>
+            <p class="annotation left gothic">（概念図）</p>
           </div>
         </li>
       </ul>
@@ -150,7 +146,7 @@
           <p class="lead">留守中に届いた荷物を、24時間いつでも受け取ることができる他、宅配物の発送やクリーニングの依頼が行えます。宅配物発送料金・クリーニング料金はクレジットカードで決済することも可能。また、留守中に届いた荷物は住戸内のインターホン親機で着荷表示により確認できます。</p>
           <div class="image tb">
             <img src="./images/equipment05/img18.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真2）</span></p>
+            <p class="annotation gothic">（参考写真2）</p>
           </div>
         </li>
         <li>
@@ -167,6 +163,7 @@
           <p class="tit-img tb">電気自動車充電設備</p>
           <div class="image pc">
             <img src="./images/equipment05/img09.jpg" alt="" class="">
+            <p class="annotation gothic">（イメージイラスト）</p>
           </div>
           <p class="lead">駐車場内には、電気自動車・プラグインハイブリッド車の充電に対応した設備を設置し、エコカーをより身近なものとする環境を整えました。<br><span>※本設備のご利用は有料となります。詳しくは係員にお尋ねください。<br>※本イラストはイメージであり、実際のものとは異なります。</span></p>
           <div class="image tb">
@@ -181,7 +178,7 @@
           <p class="tit-img">二重床・二重天井</p>
           <p class="lead">住戸内を二重床・二重天井とすることで、配管・配線のコンクリートスラブへの打込みを減らし、将来のリフォームやメンテナンスへの対応に配慮しています。<br><span>※玄関、シューズインクロゼット、パイプスペース、バスルームの床を除く。</span></p>
         </li>
-        <li>
+        <li class="mr0">
           <p class="tit-img">テラス</p>
           <p class="lead">１階住戸には、タイルを張ったテラスのあるプランをご用意しました。戸建て感覚を演出し、住まいに憩いと広がりを与えます。</p>
         </li>
@@ -189,15 +186,15 @@
           <p class="tit-img">ペット足洗い場</p>
           <p class="lead">散歩で汚れたペットの足を清潔に保つペット専用の足洗い場を設けました。</p>
         </li>
-        <li class="mr0">
+        <li>
           <p class="tit-img">防水コンセント</p>
           <p class="lead">ルーフバルコニー、テラスのお掃除などにご利用いただける、防水コンセントを備えました。</p>
         </li>
-        <li>
+        <li class="mr0"> 
           <p class="tit-img">ミニシンク</p>
-          <p class="lead">ルーフバルコニー、テラスにミニシンクを備えました。ガーデニングやお掃除など、便利に活用できます。</p>
+          <p class="lead">バルコニー、テラスにミニシンクを備えました。ガーデニングやお掃除など、便利に活用できます。</p>
         </li>
-        <li>
+        <li class="full">
           <p class="tit-img">プチリフォーム便</p>
           <p class="lead">住宅設備機器の「古くなった」や「故障した」をパッと交換。また、住宅設備機器の交換だけでなく、床や壁のちょっとしたキズや網戸交換など「お部屋のちょっと困った」にもサッと対応します。住友不動産建物サービス㈱の提携業者によるリーズナブルで安心の対応を致します。<br><span>※本サービスは有料となります。<br>※ご依頼内容によってご料金が異なります。<br>※詳細は係員にお尋ねください。</span></p>
         </li>
@@ -227,7 +224,7 @@
           <p class="lead left">住友不動産では、「お客様センター」・「アフターサービスセンター」を開設し、原則お引渡し後2年間にわたり、お客様センターにて24時間365日体制（水曜・日曜・祝日・年末年始・お盆休暇および17時40分以降は受付のみ）で、アフターサービス業務規準に基づき、お客様へのアフターサービスに対応しています。お部屋のお引渡し後、3ヵ月・1年・2年を目途に定期点検を実施し、ご指摘事項および不具合箇所の補修をします。また、漏水などの緊急事態にも、お客様センターにて受付対応をします。<br class="pc">［お客様センター：0120-093-155］</span></p>
           <div class="image right">
             <img src="./images/equipment05/img16.jpg" alt="" class="">
-            <p class="annotation gothic bt">概念図</span></p>
+            <p class="annotation gothic">概念図</span></p>
           </div>
         </li>
       </ul>
