@@ -70,7 +70,7 @@
       }
     }
     .tit-img {
-      font-size: 22px;
+      font-size: 2rem;
       line-height: 1;
       padding-bottom: 10px;
       border-bottom: 1px solid;
@@ -81,6 +81,9 @@
         &.mini {
           font-size: 18px;
         }
+      }
+      &.pt22{
+        padding-top: 22px;
       }
     }
     .lead {
@@ -193,6 +196,12 @@
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
+    .sections .tit-img{
+      font-size: 1.6rem;
+      &.pt22{
+        padding-top: 17px;
+      }
+    }
     .sec01 {
     } //sec01
   } //tb
@@ -207,6 +216,12 @@
         &:before,
         &:after {
           content: none;
+        }
+      }
+      .tit-img{
+        font-size: 22px;
+        &.pt22{
+          padding-top: 0;
         }
       }
       .lead {

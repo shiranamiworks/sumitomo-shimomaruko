@@ -110,6 +110,11 @@
 .equipment03 main {
   padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .equipment03 .sections .tit-img {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .equipment03 .sections .inner {
     width: 84%;
@@ -120,6 +125,9 @@
   }
   .equipment03 .sections .tit:before, .equipment03 .sections .tit:after {
     content: none;
+  }
+  .equipment03 .sections .tit-img {
+    font-size: 22px;
   }
   .equipment03 .sections .lead span {
     font-size: 13px;

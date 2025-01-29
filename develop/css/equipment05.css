@@ -223,6 +223,11 @@
 .equipment05 main {
   padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .equipment05 .sections .tit-img {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .equipment05 .sections .inner {
     width: 84%;
@@ -234,6 +239,9 @@
   }
   .equipment05 .sections .tit:before, .equipment05 .sections .tit:after {
     content: none;
+  }
+  .equipment05 .sections .tit-img {
+    font-size: 22px;
   }
   .equipment05 .sections .lead {
     margin-bottom: 20px;

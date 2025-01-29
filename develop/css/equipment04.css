@@ -55,7 +55,7 @@
   margin-left: 15px;
 }
 .equipment04 .sections .tit-img {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   padding-bottom: 10px;
   border-bottom: 1px solid;
@@ -111,6 +111,11 @@
 .equipment04 main {
   padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .equipment04 .sections .tit-img {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .equipment04 .sections .inner {
     width: 84%;
@@ -121,6 +126,9 @@
   }
   .equipment04 .sections .tit:before, .equipment04 .sections .tit:after {
     content: none;
+  }
+  .equipment04 .sections .tit-img {
+    font-size: 22px;
   }
   .equipment04 .sections .lead span {
     font-size: 13px;

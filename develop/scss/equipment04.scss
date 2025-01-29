@@ -61,7 +61,7 @@
       }
     }
     .tit-img {
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1;
       padding-bottom: 10px;
       border-bottom: 1px solid;
@@ -127,8 +127,9 @@
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
-    .sec01 {
-    } //sec01
+    .sections .tit-img{
+      font-size: 1.6rem;
+    }
   } //tb
   @media screen and (max-width: 768px) {
     .sections {
@@ -142,6 +143,9 @@
         &:after {
           content: none;
         }
+      }
+      .tit-img{
+        font-size: 22px;
       }
       .lead {
         span {

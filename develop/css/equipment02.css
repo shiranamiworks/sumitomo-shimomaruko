@@ -170,6 +170,11 @@
 .equipment02 main {
   padding-bottom: 50px;
 }
+@media screen and (max-width: 1024px) {
+  .equipment02 .sections .tit-img {
+    font-size: 1.6rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .equipment02 .sections .inner {
     width: 84%;
@@ -180,6 +185,9 @@
   }
   .equipment02 .sections .tit:before, .equipment02 .sections .tit:after {
     content: none;
+  }
+  .equipment02 .sections .tit-img {
+    font-size: 22px;
   }
   .equipment02 .sections .lead span {
     font-size: 13px;
@@ -271,5 +279,8 @@
     width: 100%;
     margin-left: 0;
     margin-bottom: 60px;
+  }
+  .equipment02 .sec01 .list08 li:first-child .image.pc {
+    display: none;
   }
 }/*# sourceMappingURL=equipment02.css.map */

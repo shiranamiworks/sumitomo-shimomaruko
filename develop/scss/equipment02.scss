@@ -193,8 +193,9 @@
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
-    .sec01 {
-    } //sec01
+    .sections .tit-img{
+      font-size: 1.6rem;
+    }
   } //tb
   @media screen and (max-width: 768px) {
     .sections {
@@ -208,6 +209,9 @@
         &:after {
           content: none;
         }
+      }
+      .tit-img{
+        font-size: 22px;
       }
       .lead {
         span {
@@ -307,6 +311,9 @@
             width: 100%;
             margin-left: 0;
             margin-bottom: 60px;
+          }
+          &.pc{
+            display: none;
           }
         }
       }

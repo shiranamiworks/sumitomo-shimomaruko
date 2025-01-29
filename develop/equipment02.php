@@ -132,24 +132,35 @@
       <ul class="lists list08">
       <li>
           <p class="tit-img">複層ガラス</p>
+          <div class="image pc">
+            <img src="./images/equipment02/img13.jpg" alt="" class="">
+            <p class="annotation gothic">（概念図）</p>
+          </div>
           <p class="lead">開口部には、2枚のガラスの間に空気層を設けることによって、高い断熱性を発揮し省エネルギー効果も認められている複層ガラスを採用。ガラス面の結露の発生も抑えられます。<br><span>※詳細は係員にお尋ねください。</span></p>
-          <div class="image">
+          <div class="image tb">
             <img src="./images/equipment02/img13.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">外壁</p>
+          <div class="image pc">
+            <img src="./images/equipment02/img14.jpg" alt="" class="">
+            <p class="annotation gothic">（概念図）</p>
+          </div>
           <p class="lead">外壁のコンクリート厚は、約150㎜～約200㎜を確保し、タイル貼仕上げとしてコンクリートの中性化を抑制し耐久性を高めています。さらに室内側には断熱材を吹き付けて、省エネにも配慮しています。<br><span>※一部使用が異なるところがあります。</span></p>
-          <div class="image">
+          <div class="image tb">
             <img src="./images/equipment02/img14.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">太陽光発電システム</p>
+          <div class="image pc">
+            <img src="./images/equipment02/img15.jpg" alt="" class="">
+          </div>
           <p class="lead">自然エネルギーを有効に活用した太陽光発電システムを屋上に設置。マンションの共用部で使用する電力の一部を賄う事ができます。</p>
-          <div class="image pt50">
+          <div class="image tb">
             <img src="./images/equipment02/img15.jpg" alt="" class="">
           </div>
         </li>
