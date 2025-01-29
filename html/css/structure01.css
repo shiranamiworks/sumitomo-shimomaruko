@@ -36,6 +36,9 @@
 .structure01 .sections .annotation.bt {
   bottom: -20px;
 }
+.structure01 .sections .annotation.bt0 {
+  bottom: 0;
+}
 .structure01 .sections .tit {
   font-size: 42px;
   letter-spacing: 0.12em;
@@ -87,6 +90,7 @@
 .structure01 .sections .caps {
   font-size: 12px;
   line-height: 1.6;
+  margin-bottom: 20px;
 }
 .structure01 .sec01 {
   margin-top: 40px;
@@ -197,11 +201,11 @@
   margin: 0 auto 20px;
 }
 .structure01 .sec02 .img09 {
-  width: 60%;
+  width: 80%;
   margin: 0 auto 20px;
 }
 .structure01 .sec02 .img10 {
-  width: 60%;
+  width: 80%;
   margin: 0 auto 20px;
 }
 .structure01 .sec02 .img11 {

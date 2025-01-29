@@ -39,6 +39,9 @@
       &.bt {
         bottom: -20px;
       }
+      &.bt0 {
+        bottom: 0;
+      }
     }
     .tit {
       font-size: 42px;
@@ -93,6 +96,7 @@
     .caps {
       font-size: 12px;
       line-height: 1.6;
+      margin-bottom: 20px;
     }
   } //sections
   .sec01 {
@@ -209,11 +213,11 @@
       margin: 0 auto 20px;
     }
     .img09 {
-      width: 60%;
+      width: 80%;
       margin: 0 auto 20px;
     }
     .img10 {
-      width: 60%;
+      width: 80%;
       margin: 0 auto 20px;
     }
     .img11 {

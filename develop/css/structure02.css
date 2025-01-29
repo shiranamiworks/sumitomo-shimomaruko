@@ -15,6 +15,7 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 .structure02 sup {
+  font-size: 70%;
   vertical-align: text-top;
 }
 .structure02 .sections {
@@ -34,7 +35,7 @@
   text-align: right;
 }
 .structure02 .sections .annotation.bt {
-  bottom: 0;
+  bottom: -15px;
 }
 .structure02 .sections .annotation02 {
   right: 37%;
@@ -133,11 +134,11 @@
   margin-right: 1%;
   padding-bottom: 40px;
 }
-.structure02 .sec01 .list03 li:last-child {
+.structure02 .sec01 .list03 li:nth-child(3n) {
   margin-right: auto;
 }
-.structure02 .sec01 .list03 .annotation {
-  bottom: -20px;
+.structure02 .sec01 .list03 li:last-child {
+  margin-right: auto;
 }
 .structure02 .sec01 .list04 {
   padding-bottom: 60px;

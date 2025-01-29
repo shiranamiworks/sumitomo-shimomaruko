@@ -58,21 +58,21 @@
       <ul class="lists list01">
       <li>
           <p class="tit-img">エコ機能付き給湯リモコン</p>
-          <div class="image size pc">
+          <div class="image pc">
             <img src="./images/equipment02/img02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真）</p>
+            <p class="annotation gothic">（参考写真2）</p>
           </div>
           <p class="lead">キッチンとバスルームの給湯リモコンには「エコ運転機能」を搭載。画面メニューから「エコ」をタッチするだけで給湯量が自動調整でき、省エネ・節約に効果的です。また、TES熱源機（エコジョーズ）で使用した一日のガス・お湯の量、使用料金の目安、CO2の排出量を表示する「エネルック機能」も付いています。<br><span>※「エコ運転機能」を利用して2ヶ所以上でお湯を使うと湯細りする可能性があります。</span></p>
           <div class="image size tb">
             <img src="./images/equipment02/img02.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真）</p>
+            <p class="annotation gothic">（参考写真2）</p>
           </div>
         </li>
         <li>
           <p class="tit-img">TES温水式床暖房</p>
           <div class="image pc">
             <img src="./images/equipment02/img05.jpg" alt="" class="">
-            <p class="annotation gothic">（参考写真）</p>
+            <p class="annotation gothic">（参考写真2）</p>
           </div>
           <p class="lead">リビング・ダイニング・隣接洋室には、東京ガスの温水床暖房を採用。温水を利用して足元から心地よく室内を暖め、理想的といわれる『頭寒足熱』を実現する暖房システムです。</p>
           <div class="image tb">
@@ -143,6 +143,7 @@
           <p class="lead">外壁のコンクリート厚は、約150㎜～約200㎜を確保し、タイル貼仕上げとしてコンクリートの中性化を抑制し耐久性を高めています。さらに室内側には断熱材を吹き付けて、省エネにも配慮しています。<br><span>※一部使用が異なるところがあります。</span></p>
           <div class="image">
             <img src="./images/equipment02/img14.jpg" alt="" class="">
+            <p class="annotation gothic">（概念図）</p>
           </div>
         </li>
         <li>
@@ -158,15 +159,11 @@
         </li>
         <li>
           <p class="tit-img">ホルムアルデヒド対策</p>
-          <p class="lead">建材や内装材などの素材（建築基準法上の特定建材）には、ＪＩＳやＪＡＳによって定められたホルムアルデヒドの発散量が少ないものを採用。健康的な住まいを追求しています。</p>
+          <p class="lead">建材や内装材などの素材（建築基準法上の特定建材）には、JISやJASによって定められたホルムアルデヒドの発散量が少ないものを採用。健康的な住まいを追求しています。</p>
         </li>
         <li>
           <p class="tit-img">LED照明</p>
           <p class="lead">住戸内のダウンライトにはLED照明を採用。従来の白熱灯に比べ寿命が長持ちし、消費電力量が削減されます。</p>
-        </li>
-        <li>
-          <p class="tit-img">節水シャワーヘッド</p>
-          <p class="lead">シャワーヘッドに付いたボタンを押すだけで、吐水・止水を繰り返すことができ大変便利です。また、スプレー式（節水）のシャワーヘッドなので従来品と比較すると最大約48％＜㈱LIXIL比＞節水効果もあります。</p>
         </li>
       </ul>
     </div>

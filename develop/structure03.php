@@ -34,10 +34,6 @@
     <a href="structure03.html" class="current"><p>セキュリティ</p></a>
   </div>
 
-  <header class="main-visual clearfix">
-    <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-   <div class="image"><img src="./images/structure03/mv.jpg" alt="" class="pc"><img src="./images/structure03/mv-sp.jpg" alt="" class="tb"><p class="annotation white">image photo</p></div>
-  </header><!-- main-visual -->
 
   <section class="sections sec01 clearfix">
     <div class="wrap">
