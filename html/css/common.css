@@ -56,6 +56,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'COM4F_RG';
+    src: url('../font/COM4F_RG.TTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
     font-size: 62.5%;
 }

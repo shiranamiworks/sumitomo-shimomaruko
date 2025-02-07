@@ -51,7 +51,7 @@
             </div>
           </div>
           <div class="image">
-            <img src="./images/equipment02/img01.jpg" alt="" class=""><p class="annotation gothic">（参考写真2）</p>
+            <img src="./images/equipment02/img01.jpg" alt="" class=""><p class="annotation  bt gothic">（参考写真2）</p>
           </div>
         </li>
       </ul>

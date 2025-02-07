@@ -46,6 +46,7 @@
             <img src="./images/structure02/img01.png" alt="" class="">
             <p class="annotation gothic bt">（概念図）</span></p>
           </div>
+          <p class="lead"><span>初期微動を感知することにより、より迅速な対応を可能とします。</span></p>
         </li>
         <li>
           <p class="tit-img">防災備品</p>
@@ -69,7 +70,7 @@
         </li>
         <li>
           <p class="tit-img">災害時の給水対策</p>
-          <p class="lead">1階共用部の共用トイレ、管理員用、コミュニティルーム（集会室）、外構散水栓、ペット足洗い場等）へは水道本管から給水ポンプを経由せずに給水しているので、万一の停電で給水ポンプが停止しても、水を使うことができます。<br><span>※被災の状況により水が使えない場合があります。</span></p>
+          <p class="lead">1階共用部の共用トイレ、管理員用トイレ、共用水栓（ゴミ置場、コミュニティルーム（集会室）、外構散水栓、ペット足洗い場等）へは水道本管から給水ポンプを経由せずに給水しているので、万一の停電で給水ポンプが停止しても、水を使うことができます。<br><span>※被災の状況により水が使えない場合があります。</span></p>
         </li>
         <li>
           <p class="tit-img">防災リュック</p>
@@ -126,25 +127,25 @@
           </div>
         </li>
         <li>
-          <p class="tit-img">耐震ドア枠</p>
+          <p class="tit-img">対震ドア枠</p>
           <div class="image img06">
             <img src="./images/structure02/img06.png" alt="" class="pc">
-            <p class="annotation gothic bt pc">（概念図）</span></p>
+            <p class="annotation gothic bt-5 pc">（概念図）</p>
           </div>
           <p class="lead">万一の地震時に、玄関扉の枠が歪んでも、枠と扉の隙間を大きく設けることにより、扉の開放を容易にできるように配慮した対震ドア枠を採用しました。</p>
           <div class="image img06">
             <img src="./images/structure02/img06.png" alt="" class="tb">
-            <p class="annotation gothic bt tb">（概念図）</span></p>
+            <p class="annotation gothic bt tb">（概念図）</p>
           </div>
         </li>
         <li class="mr0">
           <p class="tit-img">家具固定用下地補強</p>
           <div class="image">
-          <img src="./images/structure02/img07.png" alt="" class="pc"><p class="annotation gothic bt pc">（概念図）</span></p>
+          <img src="./images/structure02/img07.png" alt="" class="pc"><p class="annotation gothic bt15 right pc">（概念図）</p><p class="annotation gothic bt15 left pc">（概念図）</p>
           </div>
           <p class="lead">万一の地震時による家具転倒予防として、キッチンの一部の間仕切壁などに家具固定用下地補強を施しました。壁面の一部分にある下地補強に家具を固定することで家具が倒れにくくなり、住まう方の安全に配慮された仕様です。<br><span>※住戸タイプにより設置箇所は異なります。詳細は係員にお尋ねください。<br>※取付金具は別途お客様のご負担となります。</span></p>
           <div class="image">
-          <img src="./images/structure02/img07-sp.png" alt="" class="tb"><p class="annotation gothic bt tb">（概念図）</span></p>
+          <img src="./images/structure02/img07-sp.png" alt="" class="tb"><p class="annotation gothic bt right tb">（概念図）</p><p class="annotation gothic bt left tb">（概念図）</p>
           </div>
         </li>
       </ul>

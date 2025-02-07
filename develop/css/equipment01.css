@@ -111,6 +111,19 @@
 .equipment01 .sec01 .lists li:last-child {
   margin-right: auto;
 }
+.equipment01 .sec01 .lists.list05-01 li {
+  width: 48%;
+  margin-bottom: 60px;
+}
+.equipment01 .sec01 .lists.list05-01 li:nth-child(2n) {
+  margin-right: auto;
+}
+.equipment01 .sec01 .lists.list05-01 li:nth-child(3) {
+  margin-right: 2%;
+}
+.equipment01 .sec01 .lists.list05-01 li:last-child {
+  width: 48%;
+}
 .equipment01 .sec01 .list01 {
   margin-bottom: 60px;
 }
@@ -136,6 +149,9 @@
 }
 .equipment01 .sec01 .list05 li:nth-child(3) {
   margin-right: auto;
+}
+.equipment01 .sec01 .list05 li:last-child {
+  width: 66%;
 }
 .equipment01 .sec02 {
   margin-bottom: 60px;
@@ -220,6 +236,9 @@
     margin-bottom: 40px;
   }
   .equipment01 .sec01 .lists li:last-child {
+    width: 100%;
+  }
+  .equipment01 .sec01 .lists.lists.list05-01 li {
     width: 100%;
   }
   .equipment01 .sec01 .list01 {

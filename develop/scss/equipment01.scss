@@ -114,9 +114,23 @@
         vertical-align: top;
         width: 31%;
         margin-right: 2%;
+
       }
       li:last-child {
         margin-right: auto;
+      }
+      &.list05-01 li{
+        width: 48%;
+        margin-bottom: 60px;
+        &:nth-child(2n){
+          margin-right: auto;
+        }
+        &:nth-child(3){
+          margin-right: 2%;
+        }
+        &:last-child{
+          width: 48%;
+        }
       }
     }
     .list01 {
@@ -145,7 +159,7 @@
         margin-right: auto;
       }
       li:last-child {
-        //margin-top: 60px;
+        width: 66%;
       }
     }
   } //sec01
@@ -245,6 +259,9 @@
           margin-bottom: 40px;
         }
         li:last-child {
+          width: 100%;
+        }
+        &.lists.list05-01 li{
           width: 100%;
         }
       }

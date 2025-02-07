@@ -47,7 +47,6 @@
           </div>
           <div class="image img01">
             <img src="./images/structure03/img04.png" alt="" class="">
-            <p class="annotation gothic bt">ÅiäTîOê}Åj</p>
           </div>
         </li>
         <li>

@@ -40,6 +40,21 @@
       &.bt {
         bottom: -15px;
       }
+      &.bt-5
+      {
+        bottom: -5px;
+      }
+      &.bt15
+      {
+        bottom: 15%;
+      }
+      &.right{
+        right: 0;
+      }
+      &.left{
+        left: 35%;
+        right: auto;
+      }
     }
     .annotation02 {
       right: 37%;
@@ -237,7 +252,7 @@
         }
         .img01 {
           width: 100%;
-          margin: auto;
+          margin: 0 auto 20px;
         }
       }
       .list02 {
@@ -258,9 +273,6 @@
           width: 100%;
           margin-right: auto;
           padding-bottom: 30px;
-        }
-        .annotation {
-          bottom: -15px;
         }
       }
       .list05 {

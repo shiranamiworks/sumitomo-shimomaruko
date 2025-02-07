@@ -76,6 +76,19 @@
   line-height: 1.6;
   margin-top: 10px;
 }
+.equipment04 .sections .lead span.bg_bl {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 1px 4px;
+  margin-top: 0;
+}
+.equipment04 .sections .lead span.box {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
 .equipment04 .sections .text {
   font-size: 19px;
   line-height: 1.6;

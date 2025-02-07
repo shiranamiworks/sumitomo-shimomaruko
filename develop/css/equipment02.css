@@ -37,6 +37,9 @@
   font-size: 12px;
   text-align: right;
 }
+.equipment02 .sections .annotation.bt {
+  bottom: -7%;
+}
 .equipment02 .sections .tit {
   font-size: 42px;
   letter-spacing: 0.12em;

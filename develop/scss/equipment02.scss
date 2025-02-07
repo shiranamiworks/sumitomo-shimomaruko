@@ -40,6 +40,9 @@
     .annotation {
       font-size: 12px;
       text-align: right;
+      &.bt{
+        bottom: -7%;
+      }
     }
     .tit {
       font-size: 42px;
