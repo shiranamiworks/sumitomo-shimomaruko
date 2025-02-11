@@ -31,7 +31,7 @@
 	<!--li class="plan"><a href="/tokai/higashibetsuin/list.php" target="_blank">間取り</a></li-->
 	<li class="plan">間取り</li>
 	<li class="equipment"><span>設備・仕様<br />
-	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">サニタリー</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適仕様</a> ）</span></li>
+	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">健康・エコ・省エネ</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適仕様</a> ）</span></li>
 	<li class="structure"><span>構造・防災
 	（ <a href="structure01.html">基本構造</a> ／ <a href="structure02.html">セキュリティ</a> ／ <a href="structure03.html">防災対策</a> ）</span></li>
 	<li class="location"><span>ロケーション<br />

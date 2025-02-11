@@ -138,9 +138,12 @@
   margin-bottom: 60px;
 }
 .equipment02 .sec01 .list03 li.double .image {
-  width: 35%;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
+}
+.equipment02 .sec01 .list03 li.double .image .annotation {
+  bottom: -15px;
 }
 .equipment02 .sec01 .list03 li.double .image.img-sub {
   width: 50%;

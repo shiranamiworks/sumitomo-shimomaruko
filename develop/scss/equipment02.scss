@@ -149,9 +149,12 @@
       margin-bottom: 60px;
       li.double {
         .image {
-          width: 35%;
+          width: 30%;
           display: inline-block;
           vertical-align: top;
+          .annotation {
+            bottom: -15px;
+          }
           &.img-sub {
             width: 50%;
             margin-left: 5%;

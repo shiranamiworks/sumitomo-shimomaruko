@@ -113,19 +113,19 @@
         <li class="double">
           <p class="tit-img">節湯水栓</p>
           <div class="image pc">
-            <img src="./images/equipment02/img12.png" alt="" class="">
+            <img src="./images/equipment02/img12.png" alt="" class=""><p class="annotation"><span class="gothic">（概念図）</span></p>
           </div>
           <div class="image img-sub pc">
             <img src="./images/equipment02/img12-02.png" alt="" class="">
-            <p class="annotation"><span class="gothic">（概念図）</span><br>※【条件】給水圧：0.1MPa 給湯圧：0.1MPa レバー中央（水）位置での値</p>
+            <p class="annotation"><span class="gothic">（概念図）</span><br>※【条件】給水圧：0.1MPa 給湯圧：0.1MPa<br>レバー中央（水）位置での値</p>
           </div>
           <p class="lead">キッチン・パウダールームなどの水栓で湯水を使用する際、必要以上の流量で湯水を使用すると、水の消費量だけでなく、給湯のためのエネルギー消費量も増大します。水と湯水の境目にある切替ポイントでスマートにエコを意識し、効率的に無駄な湯水を省くことのできる節湯水栓を採用しています。</p>
           <div class="image tb">
-            <img src="./images/equipment02/img12.png" alt="" class="">
+            <img src="./images/equipment02/img12.png" alt="" class=""><p class="annotation"><span class="gothic">（概念図）</span></p>
           </div>
           <div class="image img-sub tb">
             <img src="./images/equipment02/img12-02.png" alt="" class="">
-            <p class="annotation"><span class="gothic">（概念図）</span><br>※【条件】給水圧：0.1MPa 給湯圧：0.1MPa レバー中央（水）位置での値</p>
+            <p class="annotation"><span class="gothic">（概念図）</span><br>※【条件】給水圧：0.1MPa 給湯圧：0.1MPa<br>レバー中央（水）位置での値</p>
           </div>
         </li>
       </ul>
