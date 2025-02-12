@@ -51,6 +51,10 @@
       &.right{
         right: 0;
       }
+      &.left0{
+        left: 0;
+        right: auto;
+      }
       &.left{
         left: 35%;
         right: auto;
@@ -233,6 +237,9 @@
       .caps {
         font-size: 13px;
       }
+      .annotation.bt.left0{
+        bottom: -30px;
+      }
     } //sections
     .sec01 {
       margin-top: 40px;
@@ -245,7 +252,7 @@
         margin-bottom: 40px;
         li {
           width: 100%;
-          margin-bottom: 40px;
+          margin-bottom: 60px;
         }
         li:last-child {
           width: 100%;

@@ -46,6 +46,10 @@
 .structure02 .sections .annotation.right {
   right: 0;
 }
+.structure02 .sections .annotation.left0 {
+  left: 0;
+  right: auto;
+}
 .structure02 .sections .annotation.left {
   left: 35%;
   right: auto;
@@ -209,6 +213,9 @@
   .structure02 .sections .caps {
     font-size: 13px;
   }
+  .structure02 .sections .annotation.bt.left0 {
+    bottom: -30px;
+  }
   .structure02 .sec01 {
     margin-top: 40px;
   }
@@ -220,7 +227,7 @@
   }
   .structure02 .sec01 .list01 li {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
   .structure02 .sec01 .list01 li:last-child {
     width: 100%;
