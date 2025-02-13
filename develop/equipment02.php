@@ -104,7 +104,7 @@
             <img src="./images/equipment02/img09.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
-          <p class="lead">開口部には省エネ効果に優れたLow-Eガラスを採用。ガラスの表面にコーティングされた日射熱の反射性を高める特殊金属膜（Low-E膜）と断熱性を高める空気層により、冷暖房両方の負荷を軽減します。<br><span>※詳細は係員にお尋ねください。</span></p>
+          <p class="lead">一部住戸の開口部には省エネ効果に優れたLow-Eガラスを採用。ガラスの表面にコーティングされた日射熱の反射性を高める特殊金属膜（Low-E膜）と断熱性を高める空気層により、冷暖房両方の負荷を軽減します。<br><span>※詳細は係員にお尋ねください。</span></p>
           <div class="image size tb">
             <img src="./images/equipment02/img09.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
