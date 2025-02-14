@@ -69,7 +69,7 @@
           </div>
         </li>
         <li>
-          <p class="tit-img">TES温水式床暖房</p>
+          <p class="tit-img">TES温水床暖房</p>
           <div class="image pc">
             <img src="./images/equipment02/img05.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真2）</p>
