@@ -163,7 +163,7 @@
       <h2 class="tit">Sanitary</h2>
       <ul class="lists list00 clearfix">
         <li class="full">
-          <p class="tit-img">オートバスシステム<br><span>（リモコン通話機能付）</span></p>
+          <p class="tit-img">オートバスシステム<span>（リモコン通話機能付）</span></p>
           <div class="image pc">
             <img src="./images/equipment01/img18.png" alt="" class="pc">
             <p class="annotation gothic bt-5">（概念図）</span></p>
@@ -177,7 +177,7 @@
       </ul>
       <ul class="lists list01 clearfix">
         <li>
-          <p class="tit-img pt22">プッシュ式排水栓</p>
+          <p class="tit-img">プッシュ式排水栓</p>
           <div class="image pc">
             <img src="./images/equipment01/img16.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真1）</p>
@@ -189,7 +189,7 @@
           </div>
         </li>
         <li>
-          <p class="tit-img pt22">ミュージックリモコン</p>
+          <p class="tit-img">ミュージックリモコン</p>
           <div class="image pc">
             <img src="./images/equipment01/img17.png" alt="" class="">
             <p class="annotation gothic">（参考写真2）</p>
@@ -201,7 +201,7 @@
           </div>
         </li>
         <li>
-          <p class="tit-img">三面鏡洗面化粧台<br><span>（手元照明付）</span></p>
+          <p class="tit-img">三面鏡洗面化粧台<span>（手元照明付）</span></p>
           <div class="image pc">
             <img src="./images/equipment01/img09.jpg" alt="" class="">
             <p class="annotation gothic">（参考写真1）</p>
