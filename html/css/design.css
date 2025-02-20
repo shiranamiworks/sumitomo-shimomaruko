@@ -212,8 +212,7 @@
 #design .landscape .list li {
   display: inline-block;
   vertical-align: top;
-  width: 23%;
-  margin-right: 2%;
+  width: 24%;
 }
 #design .landscape .list li:last-child {
   margin-right: auto;
