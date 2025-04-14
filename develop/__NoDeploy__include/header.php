@@ -113,7 +113,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         </ul>
         <ul>
           <li>
-            <p><span class="f-en">PLAN</span><br>間取り</p>
+            <a href="https://www.sumitomo-rd-mansion.jp/shuto/shimomaruko/list.php" target="_blank"><span class="f-en">PLAN</span><br>間取り</a>
           </li>
           <li class="has-child">
           <p class="active"><span class="f-en">EQUIPMENT ・QUALITY</span><br>設備・仕様</p>
@@ -172,7 +172,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
         <li><a href="<?= $page_settings["directory_pos"]  ?>design.html">デザイン</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>public.html">共用空間</a></li>
         <li>室内空間</li>
-        <li>間取り</li>
+        <li><a href="https://www.sumitomo-rd-mansion.jp/shuto/shimomaruko/list.php" target="_blank">間取り</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>equipment01.html">設備・仕様</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>structure01.html">構造・防災</a></li>
         <li><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>

@@ -212,6 +212,14 @@
   width: 70%;
   margin: 0 auto 20px;
 }
+.structure01 .annotation-area {
+  border-bottom: 2px solid;
+}
+.structure01 .mark {
+  max-width: 900px;
+  width: 90%;
+  margin: 50px auto 100px;
+}
 .structure01 main {
   padding-bottom: 50px;
 }
@@ -383,6 +391,9 @@
   .structure01 .sec02 .img11 {
     width: 80%;
     margin: 0 auto 20px;
+  }
+  .structure01 .mark {
+    margin: 50px auto;
   }
   .structure01 main {
     padding-bottom: 50px;

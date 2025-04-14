@@ -207,8 +207,10 @@
 
 
 
-  <div class="annotation-area">
-  <p class="page-annotation js-scroll wrap clearfix">※設備・仕様はタイプにより異なります。</p></div>
+  <div class="annotation-area wrap">
+  <p class="page-annotation js-scroll clearfix">※設備・仕様はタイプにより異なります。</p></div>
+
+  <div class="mark"><img src="./images/structure01/label.png" alt="" class=""></div>
 </main>
 
 <div class="structure-link structure-link--3">

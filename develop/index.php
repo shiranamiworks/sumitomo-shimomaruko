@@ -90,12 +90,13 @@
               <h3>‹¤—p‹óŠÔ</h3>
              </div>
         </a>
-         <div class="ComingSoon">
-          <div class="contents-link__ttl">
-             <p class="f-en">Coming Soon</p>
-          </div>
-         </div>
-        </div>
+        <a href="https://www.sumitomo-rd-mansion.jp/shuto/shimomaruko/list.php" target="_blank">
+        <figure><img src="./images/top/img_plan.jpg" alt="ƒvƒ‰ƒ“"></figure>
+            <div class="contents-link__ttl">
+              <p class="f-en">PLAN</p>
+              <h3>ŠÔŽæ‚è</h3>
+             </div>
+        </a>
     </div>
   </section><!-- / CONTENTS -->
 
