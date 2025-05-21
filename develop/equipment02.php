@@ -142,7 +142,7 @@
             <p class="annotation gothic">（概念図）</p>
           </div>
         </li>
-        <li>
+        <!-- <li>
           <p class="tit-img">外壁</p>
           <div class="image pc">
             <img src="./images/equipment02/img14.jpg" alt="" class="">
@@ -153,7 +153,7 @@
             <img src="./images/equipment02/img14.jpg" alt="" class="">
             <p class="annotation gothic">（概念図）</p>
           </div>
-        </li>
+        </li> -->
         <li>
           <p class="tit-img">太陽光発電システム</p>
           <div class="image pc">
